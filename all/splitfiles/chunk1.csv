@@ -1,9 +1,11 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='ItelVision3Plus' type='button' value='ItelVision3Plus' onclick='ItelVision3Plus()'>Itel Vision 3 Plus</button>!4/64 GB!25999!$. 84
-<button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!27499!$. 89
-<button id='ItelP40' type='button' value='ItelP40' onclick='ItelP40()'>Itel P40</button>!4/64 GB!27999!$. 91
-<button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!28499!$. 92
-<button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 96
-<button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 97
-<button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB!35999!$. 117
-<button id='ItelS23' type='button' value='ItelS23' onclick='ItelS23()'>Itel S23</button>!8/128 GB!35999!$. 117
+<button id='RedmiPad' type='button' value='RedmiPad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!62999!$. 205
+<button id='Xiaomi11Lite5GNE' type='button' value='Xiaomi11Lite5GNE' onclick='Xiaomi11Lite5GNE()'>Xiaomi 11 Lite 5G NE</button>!8/128 GB8/256 GB!69999!$. 228
+<button id='XiaomiPad5' type='button' value='XiaomiPad5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 228
+<button id='Xiaomi11T' type='button' value='Xiaomi11T' onclick='Xiaomi11T()'>Xiaomi 11T</button>!8/128 GB8/256 GB!74999!$. 244
+<button id='RedmiNote12Pro' type='button' value='RedmiNote12Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 293
+<button id='XiaomiPad6' type='button' value='XiaomiPad6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 325
+<button id='Xiaomi11TPro' type='button' value='Xiaomi11TPro' onclick='Xiaomi11TPro()'>Xiaomi 11T Pro</button>!8/256 GB12/256 GB!109999!$. 358
+<button id='PocoX5Pro' type='button' value='PocoX5Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 358
+<button id='Xiaomi12' type='button' value='Xiaomi12' onclick='Xiaomi12()'>Xiaomi 12</button>!12/256 GB!179999!$. 586
+<button id='Xiaomi12Pro' type='button' value='Xiaomi12Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 680

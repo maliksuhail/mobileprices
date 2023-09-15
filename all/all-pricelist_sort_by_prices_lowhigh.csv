@@ -1,29 +1,31 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='ItelA26' type='button' value='ItelA26' onclick='ItelA26()'>Itel A26</button>!2/32 GB!12999!$. 42
-<button id='ItelA48' type='button' value='ItelA48' onclick='ItelA48()'>Itel A48</button>!2/32 GB!13499!$. 43
-<button id='ItelVision2s' type='button' value='ItelVision2s' onclick='ItelVision2s()'>Itel Vision 2s</button>!2/32 GB!14999!$. 48
-<button id='ItelVision2Plus' type='button' value='ItelVision2Plus' onclick='ItelVision2Plus()'>Itel Vision 2 Plus</button>!2/32 GB3/64 GB!15999!$. 52
 <button id='SparxS3' type='button' value='SparxS3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!15999!$. 52
-<button id='ItelVision1Pro' type='button' value='ItelVision1Pro' onclick='ItelVision1Pro()'>Itel Vision 1 Pro</button>!3/32 GB!16499!$. 53
-<button id='ItelA49Play' type='button' value='ItelA49Play' onclick='ItelA49Play()'>Itel A49 Play</button>!2/32 GB!16999!$. 55
 <button id='SparxS6' type='button' value='SparxS6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!17499!$. 57
-<button id='ItelVision2' type='button' value='ItelVision2' onclick='ItelVision2()'>Itel Vision 2</button>!3/64 GB!17999!$. 58
-<button id='ItelA23Pro' type='button' value='ItelA23Pro' onclick='ItelA23Pro()'>Itel A23 Pro</button>!1/8 GB!18499!$. 60
 <button id='SparxS9' type='button' value='SparxS9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!18999!$. 61
-<button id='ItelA49' type='button' value='ItelA49' onclick='ItelA49()'>Itel A49</button>!2/32 GB!19999!$. 65
-<button id='ItelA27' type='button' value='ItelA27' onclick='ItelA27()'>Itel A27</button>!2/32 GB!19999!$. 65
 <button id='SparxNeo5' type='button' value='SparxNeo5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB!21499!$. 70
-<button id='ItelP17Pro' type='button' value='ItelP17Pro' onclick='ItelP17Pro()'>Itel P17 Pro</button>!2/32 GB!23999!$. 78
+<button id='RedmiA1Plus' type='button' value='RedmiA1Plus' onclick='RedmiA1Plus()'>Redmi A1 Plus</button>!2/32 GB3/32 GB!23999!$. 78
 <button id='SparxNeo6' type='button' value='SparxNeo6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB!24499!$. 79
-<button id='ItelA60s' type='button' value='ItelA60s' onclick='ItelA60s()'>Itel A60s</button>!8/128 GB!24999!$. 81
-<button id='ItelVision3' type='button' value='ItelVision3' onclick='ItelVision3()'>Itel Vision 3</button>!2/32 GB3/64 GB!24999!$. 81
-<button id='ItelA47' type='button' value='ItelA47' onclick='ItelA47()'>Itel A47</button>!2/32 GB!25999!$. 84
+<button id='RedmiA2Plus' type='button' value='RedmiA2Plus' onclick='RedmiA2Plus()'>Redmi A2 Plus</button>!3/64 GB!24999!$. 81
 <button id='SparxNeo7' type='button' value='SparxNeo7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 84
-<button id='ItelVision3Plus' type='button' value='ItelVision3Plus' onclick='ItelVision3Plus()'>Itel Vision 3 Plus</button>!4/64 GB!25999!$. 84
 <button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!27499!$. 89
-<button id='ItelP40' type='button' value='ItelP40' onclick='ItelP40()'>Itel P40</button>!4/64 GB!27999!$. 91
 <button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!28499!$. 92
 <button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 96
 <button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 97
+<button id='Redmi12C' type='button' value='Redmi12C' onclick='Redmi12C()'>Redmi 12C</button>!4/128 GB!33999!$. 110
 <button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB!35999!$. 117
-<button id='ItelS23' type='button' value='ItelS23' onclick='ItelS23()'>Itel S23</button>!8/128 GB!35999!$. 117
+<button id='Redmi10C' type='button' value='Redmi10C' onclick='Redmi10C()'>Redmi 10C</button>!4/64 GB4/128 GB!38499!$. 125
+<button id='RedmiNote11' type='button' value='RedmiNote11' onclick='RedmiNote11()'>Redmi Note 11</button>!4/64 GB4/128 GB6/128 GB!38999!$. 127
+<button id='Redmi10A' type='button' value='Redmi10A' onclick='Redmi10A()'>Redmi 10A</button>!3/64 GB4/128 GB!38999!$. 127
+<button id='PocoM4Pro4G' type='button' value='PocoM4Pro4G' onclick='PocoM4Pro4G()'>Poco M4 Pro 4G</button>!6/128 GB8/256 GB!44999!$. 146
+<button id='PocoM4Pro5G' type='button' value='PocoM4Pro5G' onclick='PocoM4Pro5G()'>Poco M4 Pro 5G</button>!4/64 GB6/128 GB!46999!$. 153
+<button id='RedmiNote12' type='button' value='RedmiNote12' onclick='RedmiNote12()'>Redmi Note 12</button>!6/128 GB8/128 GB!54999!$. 179
+<button id='RedmiPad' type='button' value='RedmiPad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!62999!$. 205
+<button id='Xiaomi11Lite5GNE' type='button' value='Xiaomi11Lite5GNE' onclick='Xiaomi11Lite5GNE()'>Xiaomi 11 Lite 5G NE</button>!8/128 GB8/256 GB!69999!$. 228
+<button id='XiaomiPad5' type='button' value='XiaomiPad5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 228
+<button id='Xiaomi11T' type='button' value='Xiaomi11T' onclick='Xiaomi11T()'>Xiaomi 11T</button>!8/128 GB8/256 GB!74999!$. 244
+<button id='RedmiNote12Pro' type='button' value='RedmiNote12Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 293
+<button id='XiaomiPad6' type='button' value='XiaomiPad6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 325
+<button id='Xiaomi11TPro' type='button' value='Xiaomi11TPro' onclick='Xiaomi11TPro()'>Xiaomi 11T Pro</button>!8/256 GB12/256 GB!109999!$. 358
+<button id='PocoX5Pro' type='button' value='PocoX5Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 358
+<button id='Xiaomi12' type='button' value='Xiaomi12' onclick='Xiaomi12()'>Xiaomi 12</button>!12/256 GB!179999!$. 586
+<button id='Xiaomi12Pro' type='button' value='Xiaomi12Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 680
