@@ -1,11 +1,11 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='RedmiPad' type='button' value='RedmiPad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!62999!$. 205
-<button id='Xiaomi11Lite5GNE' type='button' value='Xiaomi11Lite5GNE' onclick='Xiaomi11Lite5GNE()'>Xiaomi 11 Lite 5G NE</button>!8/128 GB8/256 GB!69999!$. 228
-<button id='XiaomiPad5' type='button' value='XiaomiPad5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 228
-<button id='Xiaomi11T' type='button' value='Xiaomi11T' onclick='Xiaomi11T()'>Xiaomi 11T</button>!8/128 GB8/256 GB!74999!$. 244
-<button id='RedmiNote12Pro' type='button' value='RedmiNote12Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 293
-<button id='XiaomiPad6' type='button' value='XiaomiPad6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 325
-<button id='Xiaomi11TPro' type='button' value='Xiaomi11TPro' onclick='Xiaomi11TPro()'>Xiaomi 11T Pro</button>!8/256 GB12/256 GB!109999!$. 358
-<button id='PocoX5Pro' type='button' value='PocoX5Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 358
-<button id='Xiaomi12' type='button' value='Xiaomi12' onclick='Xiaomi12()'>Xiaomi 12</button>!12/256 GB!179999!$. 586
-<button id='Xiaomi12Pro' type='button' value='Xiaomi12Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 680
+<button id='InfinixHot30' type='button' value='InfinixHot30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB!39999!$. 136
+<button id='InfinixHot20i' type='button' value='InfinixHot20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB!43999!$. 150
+<button id='InfinixHot12' type='button' value='InfinixHot12' onclick='InfinixHot12()'>Infinix Hot 12</button>!6/128 GB!44999!$. 154
+<button id='InfinixZero5G' type='button' value='InfinixZero5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
+<button id='InfinixNote30' type='button' value='InfinixNote30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999!$. 184
+<button id='InfinixNote12' type='button' value='InfinixNote12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999!$. 202
+<button id='InfinixNote12G96' type='button' value='InfinixNote12G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999!$. 219
+<button id='InfinixNote12VIP' type='button' value='InfinixNote12VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB!64999!$. 222
+<button id='InfinixNote30Pro' type='button' value='InfinixNote30Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
+<button id='InfinixZero20' type='button' value='InfinixZero20' onclick='InfinixZero20()'>Infinix Zero 20</button>!8/256 GB!79999!$. 273

@@ -1,31 +1,31 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='Xiaomi12Pro' type='button' value='Xiaomi12Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 680
-<button id='Xiaomi12' type='button' value='Xiaomi12' onclick='Xiaomi12()'>Xiaomi 12</button>!12/256 GB!179999!$. 586
-<button id='PocoX5Pro' type='button' value='PocoX5Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 358
-<button id='Xiaomi11TPro' type='button' value='Xiaomi11TPro' onclick='Xiaomi11TPro()'>Xiaomi 11T Pro</button>!8/256 GB12/256 GB!109999!$. 358
-<button id='XiaomiPad6' type='button' value='XiaomiPad6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 325
-<button id='RedmiNote12Pro' type='button' value='RedmiNote12Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 293
-<button id='Xiaomi11T' type='button' value='Xiaomi11T' onclick='Xiaomi11T()'>Xiaomi 11T</button>!8/128 GB8/256 GB!74999!$. 244
-<button id='Xiaomi11Lite5GNE' type='button' value='Xiaomi11Lite5GNE' onclick='Xiaomi11Lite5GNE()'>Xiaomi 11 Lite 5G NE</button>!8/128 GB8/256 GB!69999!$. 228
-<button id='XiaomiPad5' type='button' value='XiaomiPad5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 228
-<button id='RedmiPad' type='button' value='RedmiPad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!62999!$. 205
-<button id='RedmiNote12' type='button' value='RedmiNote12' onclick='RedmiNote12()'>Redmi Note 12</button>!6/128 GB8/128 GB!54999!$. 179
-<button id='PocoM4Pro5G' type='button' value='PocoM4Pro5G' onclick='PocoM4Pro5G()'>Poco M4 Pro 5G</button>!4/64 GB6/128 GB!46999!$. 153
-<button id='PocoM4Pro4G' type='button' value='PocoM4Pro4G' onclick='PocoM4Pro4G()'>Poco M4 Pro 4G</button>!6/128 GB8/256 GB!44999!$. 146
-<button id='RedmiNote11' type='button' value='RedmiNote11' onclick='RedmiNote11()'>Redmi Note 11</button>!4/64 GB4/128 GB6/128 GB!38999!$. 127
-<button id='Redmi10A' type='button' value='Redmi10A' onclick='Redmi10A()'>Redmi 10A</button>!3/64 GB4/128 GB!38999!$. 127
-<button id='Redmi10C' type='button' value='Redmi10C' onclick='Redmi10C()'>Redmi 10C</button>!4/64 GB4/128 GB!38499!$. 125
-<button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB!35999!$. 117
-<button id='Redmi12C' type='button' value='Redmi12C' onclick='Redmi12C()'>Redmi 12C</button>!4/128 GB!33999!$. 110
-<button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 97
-<button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 96
-<button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!28499!$. 92
-<button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!27499!$. 89
-<button id='SparxNeo7' type='button' value='SparxNeo7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 84
-<button id='RedmiA2Plus' type='button' value='RedmiA2Plus' onclick='RedmiA2Plus()'>Redmi A2 Plus</button>!3/64 GB!24999!$. 81
-<button id='SparxNeo6' type='button' value='SparxNeo6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB!24499!$. 79
-<button id='RedmiA1Plus' type='button' value='RedmiA1Plus' onclick='RedmiA1Plus()'>Redmi A1 Plus</button>!2/32 GB3/32 GB!23999!$. 78
-<button id='SparxNeo5' type='button' value='SparxNeo5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB!21499!$. 70
-<button id='SparxS9' type='button' value='SparxS9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!18999!$. 61
-<button id='SparxS6' type='button' value='SparxS6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!17499!$. 57
-<button id='SparxS3' type='button' value='SparxS3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!15999!$. 52
+<button id='InfinixZero20' type='button' value='InfinixZero20' onclick='InfinixZero20()'>Infinix Zero 20</button>!8/256 GB!79999!$. 273
+<button id='InfinixNote30Pro' type='button' value='InfinixNote30Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
+<button id='InfinixNote12VIP' type='button' value='InfinixNote12VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB!64999!$. 222
+<button id='InfinixNote12G96' type='button' value='InfinixNote12G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999!$. 219
+<button id='InfinixNote12' type='button' value='InfinixNote12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999!$. 202
+<button id='InfinixNote30' type='button' value='InfinixNote30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999!$. 184
+<button id='InfinixZero5G' type='button' value='InfinixZero5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
+<button id='InfinixHot12' type='button' value='InfinixHot12' onclick='InfinixHot12()'>Infinix Hot 12</button>!6/128 GB!44999!$. 154
+<button id='InfinixHot20i' type='button' value='InfinixHot20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB!43999!$. 150
+<button id='InfinixHot30' type='button' value='InfinixHot30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB!39999!$. 136
+<button id='InfinixHot11Play' type='button' value='InfinixHot11Play' onclick='InfinixHot11Play()'>Infinix Hot 11 Play</button>!4/64 GB4/128 GB!39999!$. 136
+<button id='InfinixHot12i' type='button' value='InfinixHot12i' onclick='InfinixHot12i()'>Infinix Hot 12i</button>!4/64 GB!39999!$. 136
+<button id='InfinixHot12Play' type='button' value='InfinixHot12Play' onclick='InfinixHot12Play()'>Infinix Hot 12 Play</button>!4/64 GB4/128 GB!36999!$. 126
+<button id='InfinixHot30i' type='button' value='InfinixHot30i' onclick='InfinixHot30i()'>Infinix Hot 30i</button>!4/128 GB!36299!$. 124
+<button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!35999!$. 123
+<button id='InfinixNote11Pro' type='button' value='InfinixNote11Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB!34999!$. 119
+<button id='InfinixSmart6Plus' type='button' value='InfinixSmart6Plus' onclick='InfinixSmart6Plus()'>Infinix Smart 6 Plus</button>!3/64 GB!34499!$. 118
+<button id='InfinixHot30Play' type='button' value='InfinixHot30Play' onclick='InfinixHot30Play()'>Infinix Hot 30 Play</button>!4/64 GB8/128 GB!31999!$. 109
+<button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 102
+<button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 101
+<button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!28499!$. 97
+<button id='InfinixSmart7' type='button' value='InfinixSmart7' onclick='InfinixSmart7()'>Infinix Smart 7</button>!4/64 GB!27999!$. 95
+<button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!27499!$. 94
+<button id='SparxNeo7' type='button' value='SparxNeo7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 89
+<button id='SparxNeo6' type='button' value='SparxNeo6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB!24499!$. 83
+<button id='InfinixSmart7HD' type='button' value='InfinixSmart7HD' onclick='InfinixSmart7HD()'>Infinix Smart 7 HD</button>!2/64 GB!23999!$. 82
+<button id='SparxNeo5' type='button' value='SparxNeo5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB!21499!$. 73
+<button id='SparxS9' type='button' value='SparxS9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!18999!$. 65
+<button id='SparxS6' type='button' value='SparxS6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!17499!$. 59
+<button id='SparxS3' type='button' value='SparxS3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!15999!$. 54

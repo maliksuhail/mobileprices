@@ -1,3 +1,6 @@
+xiaomi_pricelist_16-09-2023_out.png
+Redmi_Note_12S_specs.jpg
+Redmi_12_specs.jpg
 Poco_X5_Pro_specs.jpg
 Redmi_A2_Plus_specs.jpg
 Xiaomi_Pad_6_specs.jpg
@@ -14,6 +17,4 @@ Poco_M4_Pro_4G_specs.jpg
 Redmi_Note_11_specs.jpg
 Xiaomi_Pad_5_specs.jpg
 Poco_M4_Pro_5G_specs.jpg
-Xiaomi_11T_specs.jpg
-Xiaomi_11T_Pro_specs.jpg
 Xiaomi_11_Lite_5G_NE_specs.jpg
