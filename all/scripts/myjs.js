@@ -88,3 +88,63 @@ function InfinixNote11Pro(){myImage=document.getElementById('my-image');document
 document.getElementById('mydiv').style.display='none';
 function hidediv(){document.getElementById('mydiv').style.display='none';}
 function InfinixHot11Play(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/infinix/Infinix_Hot_11_Play_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA17(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A17_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA17K(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A17K_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA57(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A57_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoF21Pro5G(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_F21_Pro_5G_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoF21Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_F21_Pro_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA96(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A96_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA16e(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A16e_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA76(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A76_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA16K(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A16K_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA95(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A95_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoReno6Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_Reno_6_Pro_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoReno6(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_Reno_6_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA16(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A16_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoF19(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_F19_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA54(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A54_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoF19Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_F19_Pro_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA15s(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A15s_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoA15(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_A15_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoReno5Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_Reno_5_Pro_specs.jpg';}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function OppoReno5(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/oppo/Oppo_Reno_5_specs.jpg';}
