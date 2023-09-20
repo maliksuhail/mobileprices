@@ -88,3 +88,54 @@ function InfinixNote11Pro(){myImage=document.getElementById('my-image');document
 document.getElementById('mydiv').style.display='none';
 function hidediv(){document.getElementById('mydiv').style.display='none';}
 function InfinixHot11Play(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/infinix/Infinix_Hot_11_Play_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA60s(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A60s_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA49Play(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A49_Play_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelP40(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_P40_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelS23(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_S23_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelP17Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_P17_Pro_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision3Plus(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_3_Plus_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA49(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A49_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA27(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A27_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision2s(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_2s_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision3(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_3_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA47(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A47_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA23Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A23_Pro_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision2Plus(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_2_Plus_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA48(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A48_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelA26(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_A26_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision2(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_2_specs.jpg';window.scrollTo(0,0);}
+document.getElementById('mydiv').style.display='none';
+function hidediv(){document.getElementById('mydiv').style.display='none';}
+function ItelVision1Pro(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';document.getElementById('mydiv').style.display='flex';document.getElementById('mydiv').style.justifyContent='center';document.getElementById('mydiv').style.alignItems='center';myImage.style.width='720px';myImage.style.height='440px';myImage.src='https://maliksuhail.github.io/mobileprices/itel/Itel_Vision_1_Pro_specs.jpg';window.scrollTo(0,0);}
