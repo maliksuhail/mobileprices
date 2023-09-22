@@ -6,7 +6,7 @@
 <style type="text/css">
 </style>
 <table id="T_ab62a">
-  <caption>Updated on: 22-09-2023 number 4</caption>
+  <caption>Updated on: 22-09-2023 number 5</caption>
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
@@ -150,6 +150,11 @@
       <td id="T_ab62a_row18_col2" class="data row18 col2" >599999</td>
       <td id="T_ab62a_row18_col3" class="data row18 col3" >$. 2054</td>
     </tr>
+    <tr>
+      <td id="my" onclick="hide()" style="display: none;">
+        <img id="my-image" class="cl" src="https://maliksuhail.github.io/mobileprices/samsung/Samsung_Galaxy_A03_specs.jpg" style="width: 100%; height: auto;" />
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -210,7 +215,10 @@ function hidediv(){document.getElementById('mydiv').style.display='none';}
 function SamsungTabS6Lite(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';myImage.style.width='100%';myImage.style.height='auto';myImage.src='https://maliksuhail.github.io/mobileprices/samsung/Samsung_Galaxy_Tab_S6_Lite_specs.jpg';window.scrollTo(0,0);}
 document.getElementById('mydiv').style.display='none';
 function hidediv(){document.getElementById('mydiv').style.display='none';}
-function SamsungA03(){myImage=document.getElementById('my-image');document.getElementById('mydiv').style.display='block';myImage.style.width='100%';myImage.style.height='auto';myImage.src='https://maliksuhail.github.io/mobileprices/samsung/Samsung_Galaxy_A03_specs.jpg';window.scrollTo(0,0);
-
+function SamsungA03(){
+document.getElementById('my').style.display='block';
+}
+function hide(){
+  document.getElementById('my').style.display='none';
 }
 </script>
