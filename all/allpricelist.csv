@@ -2,9 +2,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232
 <button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
 <button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB!33999!$. 116
-<button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232
-<button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
-<button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB!33999!$. 116
 <button id='SamsungA34' type='button' value='SamsungA34' onclick='SamsungA34()'>Samsung A34</button>!8/128 GB!138999!$. 476
 <button id='SamsungA24' type='button' value='SamsungA24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB!72999!$. 249
 <button id='SamsungA54' type='button' value='SamsungA54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB!140999!$. 482

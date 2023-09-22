@@ -1,9 +1,6 @@
 <button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB! Rs. 359,999  PKR!$. 1232
 <button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB! Rs. 599,999  PKR!$. 2054
 <button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB! Rs. 33,999  PKR!$. 116
-<button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB! Rs. 359,999  PKR!$. 1232
-<button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB! Rs. 599,999  PKR!$. 2054
-<button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB! Rs. 33,999  PKR!$. 116
 <button id='SamsungA34' type='button' value='SamsungA34' onclick='SamsungA34()'>Samsung A34</button>!8/128 GB! Rs. 138,999  PKR!$. 476
 <button id='SamsungA24' type='button' value='SamsungA24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB! Rs. 72,999  PKR!$. 249
 <button id='SamsungA54' type='button' value='SamsungA54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB! Rs. 140,999  PKR!$. 482
