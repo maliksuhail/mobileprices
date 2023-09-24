@@ -1,20 +1,21 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='SparxS3' type='button' value='SparxS3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!14999!$. 51
+<button id='SparxS6' type='button' value='SparxS6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!16499!$. 56
+<button id='SparxS9' type='button' value='SparxS9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!16999!$. 58
+<button id='SparxNeo5' type='button' value='SparxNeo5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB!21499!$. 73
+<button id='InfinixSmart7HD' type='button' value='InfinixSmart7HD' onclick='InfinixSmart7HD()'>Infinix Smart 7 HD</button>!2/64 GB!21999!$. 75
+<button id='SparxNeo6' type='button' value='SparxNeo6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB!21999!$. 75
+<button id='InfinixSmart7' type='button' value='InfinixSmart7' onclick='InfinixSmart7()'>Infinix Smart 7</button>!4/64 GB!25999!$. 89
+<button id='SparxNeo7' type='button' value='SparxNeo7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 89
+<button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!26499!$. 90
+<button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!26499!$. 90
+<button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 101
 <button id='SamsungA03' type='button' value='SamsungA03' onclick='SamsungA03()'>Samsung A03</button>!3/32 GB4/64 GB!29999!$. 102
+<button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 102
+<button id='InfinixHot30Play' type='button' value='InfinixHot30Play' onclick='InfinixHot30Play()'>Infinix Hot 30 Play</button>!4/64 GB8/128 GB!31999!$. 109
 <button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB!33999!$. 116
-<button id='SamsungA04' type='button' value='SamsungA04' onclick='SamsungA04()'>Samsung A04</button>!3/32 GB4/64 GB!37499!$. 128
-<button id='SamsungA04s' type='button' value='SamsungA04s' onclick='SamsungA04s()'>Samsung A04s</button>!4/64 GB4/128 GB!44999!$. 154
-<button id='SamsungA14' type='button' value='SamsungA14' onclick='SamsungA14()'>Samsung A14</button>!4/128 GB6/128 GB!62999!$. 215
-<button id='SamsungTabS6Lite' type='button' value='SamsungTabS6Lite' onclick='SamsungTabS6Lite()'>Samsung Tab S6 Lite</button>!4/64 GB4/128 GB!69999!$. 239
-<button id='SamsungA24' type='button' value='SamsungA24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB!72999!$. 249
-<button id='SamsungA23' type='button' value='SamsungA23' onclick='SamsungA23()'>Samsung A23</button>!6/128 GB!78499!$. 268
-<button id='SamsungA335G' type='button' value='SamsungA335G' onclick='SamsungA335G()'>Samsung A33 5G</button>!8/128 GB!112499!$. 385
-<button id='SamsungA535G' type='button' value='SamsungA535G' onclick='SamsungA535G()'>Samsung A53 5G</button>!8/128 GB!133999!$. 458
-<button id='SamsungA34' type='button' value='SamsungA34' onclick='SamsungA34()'>Samsung A34</button>!8/128 GB!138999!$. 476
-<button id='SamsungA54' type='button' value='SamsungA54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB!140999!$. 482
-<button id='SamsungA735G' type='button' value='SamsungA735G' onclick='SamsungA735G()'>Samsung A73 5G</button>!8/256 GB!170499!$. 583
-<button id='SamsungZFlip4' type='button' value='SamsungZFlip4' onclick='SamsungZFlip4()'>Samsung Z Flip 4</button>!8/256 GB8/512 GB!332999!$. 1140
-<button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232
-<button id='SamsungS23' type='button' value='SamsungS23' onclick='SamsungS23()'>Samsung S23</button>!8/256 GB!399999!$. 1369
-<button id='SamsungZFold4' type='button' value='SamsungZFold4' onclick='SamsungZFold4()'>Samsung Z Fold4</button>!12/256 GB12/512 GB!539999!$. 1849
-<button id='SamsungS23Ultra' type='button' value='SamsungS23Ultra' onclick='SamsungS23Ultra()'>Samsung S23 Ultra</button>!12/512 GB!559999!$. 1917
-<button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
+<button id='InfinixSmart6Plus' type='button' value='InfinixSmart6Plus' onclick='InfinixSmart6Plus()'>Infinix Smart 6 Plus</button>!3/64 GB!34499!$. 118
+<button id='InfinixNote11Pro' type='button' value='InfinixNote11Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB!34999!$. 119
+<button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!35999!$. 123
+<button id='InfinixHot30i' type='button' value='InfinixHot30i' onclick='InfinixHot30i()'>Infinix Hot 30i</button>!4/128 GB!36299!$. 124
+<button id='InfinixHot12Play' type='button' value='InfinixHot12Play' onclick='InfinixHot12Play()'>Infinix Hot 12 Play</button>!4/64 GB4/128 GB!36999!$. 126
