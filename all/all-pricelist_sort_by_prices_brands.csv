@@ -18,33 +18,23 @@ Mobile!Storage/RAM!PKR!USD
 <button id='InfinixSmart7HD' type='button' value='InfinixSmart7HD' onclick='InfinixSmart7HD()'>Infinix Smart 7 HD</button>!2/64 GB!21999!$. 75
 <button id='InfinixZero20' type='button' value='InfinixZero20' onclick='InfinixZero20()'>Infinix Zero 20</button>!8/256 GB!79999!$. 273
 <button id='InfinixZero5G' type='button' value='InfinixZero5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
-<button id='SamsungA03' type='button' value='SamsungA03' onclick='SamsungA03()'>Samsung A03</button>!3/32 GB4/64 GB!29999!$. 102
-<button id='SamsungA04' type='button' value='SamsungA04' onclick='SamsungA04()'>Samsung A04</button>!3/32 GB4/64 GB!37499!$. 128
-<button id='SamsungA04e' type='button' value='SamsungA04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB!33999!$. 116
-<button id='SamsungA04s' type='button' value='SamsungA04s' onclick='SamsungA04s()'>Samsung A04s</button>!4/64 GB4/128 GB!44999!$. 154
-<button id='SamsungA14' type='button' value='SamsungA14' onclick='SamsungA14()'>Samsung A14</button>!4/128 GB6/128 GB!62999!$. 215
-<button id='SamsungA23' type='button' value='SamsungA23' onclick='SamsungA23()'>Samsung A23</button>!6/128 GB!78499!$. 268
-<button id='SamsungA24' type='button' value='SamsungA24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB!72999!$. 249
-<button id='SamsungA335G' type='button' value='SamsungA335G' onclick='SamsungA335G()'>Samsung A33 5G</button>!8/128 GB!112499!$. 385
-<button id='SamsungA34' type='button' value='SamsungA34' onclick='SamsungA34()'>Samsung A34</button>!8/128 GB!138999!$. 476
-<button id='SamsungA535G' type='button' value='SamsungA535G' onclick='SamsungA535G()'>Samsung A53 5G</button>!8/128 GB!133999!$. 458
-<button id='SamsungA54' type='button' value='SamsungA54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB!140999!$. 482
-<button id='SamsungA735G' type='button' value='SamsungA735G' onclick='SamsungA735G()'>Samsung A73 5G</button>!8/256 GB!170499!$. 583
-<button id='SamsungS23' type='button' value='SamsungS23' onclick='SamsungS23()'>Samsung S23</button>!8/256 GB!399999!$. 1369
-<button id='SamsungS23Ultra' type='button' value='SamsungS23Ultra' onclick='SamsungS23Ultra()'>Samsung S23 Ultra</button>!12/512 GB!559999!$. 1917
-<button id='SamsungTabS6Lite' type='button' value='SamsungTabS6Lite' onclick='SamsungTabS6Lite()'>Samsung Tab S6 Lite</button>!4/64 GB4/128 GB!69999!$. 239
-<button id='SamsungZFlip4' type='button' value='SamsungZFlip4' onclick='SamsungZFlip4()'>Samsung Z Flip 4</button>!8/256 GB8/512 GB!332999!$. 1140
-<button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232
-<button id='SamsungZFold4' type='button' value='SamsungZFold4' onclick='SamsungZFold4()'>Samsung Z Fold4</button>!12/256 GB12/512 GB!539999!$. 1849
-<button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
-<button id='SparxNeo5' type='button' value='SparxNeo5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB!21499!$. 73
-<button id='SparxNeo6' type='button' value='SparxNeo6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB!21999!$. 75
-<button id='SparxNeo7' type='button' value='SparxNeo7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 89
-<button id='SparxNeo7Plus' type='button' value='SparxNeo7Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!26499!$. 90
-<button id='SparxNeo7Pro' type='button' value='SparxNeo7Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!26499!$. 90
-<button id='SparxNeo7Ultra' type='button' value='SparxNeo7Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!35999!$. 123
-<button id='SparxNeo8' type='button' value='SparxNeo8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 101
-<button id='SparxNeoX' type='button' value='SparxNeoX' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 102
-<button id='SparxS3' type='button' value='SparxS3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!14999!$. 51
-<button id='SparxS6' type='button' value='SparxS6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!16499!$. 56
-<button id='SparxS9' type='button' value='SparxS9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!16999!$. 58
+<button id='TecnoCamon18P' type='button' value='TecnoCamon18P' onclick='TecnoCamon18P()'>Tecno Camon 18P</button>!8/128 GB!35999!$. 123
+<button id='TecnoCamon18Premier' type='button' value='TecnoCamon18Premier' onclick='TecnoCamon18Premier()'>Tecno Camon 18 Premier</button>!8/256 GB!74999!$. 256
+<button id='TecnoCamon18T' type='button' value='TecnoCamon18T' onclick='TecnoCamon18T()'>Tecno Camon 18T</button>!4/128 GB!29999!$. 102
+<button id='TecnoCamon19Neo' type='button' value='TecnoCamon19Neo' onclick='TecnoCamon19Neo()'>Tecno Camon 19 Neo</button>!6/128 GB!44999!$. 154
+<button id='TecnoCamon19Pro' type='button' value='TecnoCamon19Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999!$. 171
+<button id='TecnoCamon19ProMondrian' type='button' value='TecnoCamon19ProMondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB!51999!$. 178
+<button id='TecnoCamon20' type='button' value='TecnoCamon20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!53999!$. 184
+<button id='TecnoCamon20Premier' type='button' value='TecnoCamon20Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB!124999!$. 428
+<button id='TecnoCamon20Pro' type='button' value='TecnoCamon20Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB!60999!$. 208
+<button id='TecnoPop5LTE' type='button' value='TecnoPop5LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB!24999!$. 85
+<button id='TecnoPop7' type='button' value='TecnoPop7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB!23999!$. 82
+<button id='TecnoPovaNeo' type='button' value='TecnoPovaNeo' onclick='TecnoPovaNeo()'>Tecno Pova Neo</button>!4/64 GB!34999!$. 119
+<button id='TecnoPovaNeo2' type='button' value='TecnoPovaNeo2' onclick='TecnoPovaNeo2()'>Tecno Pova Neo 2</button>!4/64 GB4/128 GB!44999!$. 154
+<button id='TecnoSpark10' type='button' value='TecnoSpark10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB!34999!$. 119
+<button id='TecnoSpark10C' type='button' value='TecnoSpark10C' onclick='TecnoSpark10C()'>Tecno Spark 10C</button>!4/128 GB!30999!$. 106
+<button id='TecnoSpark10Pro' type='button' value='TecnoSpark10Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB!39999!$. 136
+<button id='TecnoSpark8C' type='button' value='TecnoSpark8C' onclick='TecnoSpark8C()'>Tecno Spark 8C</button>!2/64 GB3/64 GB4/128 GB!21999!$. 75
+<button id='TecnoSpark8Pro' type='button' value='TecnoSpark8Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB!43999!$. 150
+<button id='TecnoSpark9T' type='button' value='TecnoSpark9T' onclick='TecnoSpark9T()'>Tecno Spark 9T</button>!4/64 GB!39999!$. 136
+<button id='TecnoSparkGo2023' type='button' value='TecnoSparkGo2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB!31499!$. 107
