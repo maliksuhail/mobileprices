@@ -1,0 +1,8 @@
+Mobile!Storage/RAM!PKR!USD
+<button id='SamsungS23' type='button' value='SamsungS23' onclick='SamsungS23()'>Samsung S23</button>!8/256 GB!399999!$. 1369
+<button id='iPhone14Plus' type='button' value='iPhone14Plus' onclick='iPhone14Plus()'>iPhone 14 Plus</button>!4/128 GB4/256 GB4/512 GB!420999!$. 1441
+<button id='iPhone14Pro' type='button' value='iPhone14Pro' onclick='iPhone14Pro()'>iPhone 14 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!520999!$. 1784
+<button id='SamsungZFold4' type='button' value='SamsungZFold4' onclick='SamsungZFold4()'>Samsung Z Fold4</button>!12/256 GB12/512 GB!539999!$. 1849
+<button id='SamsungS23Ultra' type='button' value='SamsungS23Ultra' onclick='SamsungS23Ultra()'>Samsung S23 Ultra</button>!12/512 GB!559999!$. 1917
+<button id='iPhone14ProMax' type='button' value='iPhone14ProMax' onclick='iPhone14ProMax()'>iPhone 14 Pro Max</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!564999!$. 1934
+<button id='SamsungZFold5' type='button' value='SamsungZFold5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
