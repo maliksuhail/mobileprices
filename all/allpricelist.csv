@@ -18,6 +18,26 @@ Mobile!Storage/RAM!PKR!USD
 <button id='iPhoneXS' type='button' value='iPhoneXS' onclick='iPhoneXS()'>iPhone XS</button>!4/64 GB4/256 GB4/512 GB!144999!$. 496
 <button id='iPhoneXSMax' type='button' value='iPhoneXSMax' onclick='iPhoneXSMax()'>iPhone XS Max</button>!4/64 GB4/256 GB4/512 GB!169999!$. 582
 <button id='iPhone8' type='button' value='iPhone8' onclick='iPhone8()'>iPhone 8</button>!2/64 GB2/128 GB2/256 GB!36999!$. 126
+<button id='HonorX5' type='button' value='HonorX5' onclick='HonorX5()'>Honor X5</button>!2/32 GB!31999!$. 109
+<button id='HonorX6' type='button' value='HonorX6' onclick='HonorX6()'>Honor X6</button>!4/64 GB4/128 GB!40999!$. 140
+<button id='Honor9XLite' type='button' value='Honor9XLite' onclick='Honor9XLite()'>Honor 9X Lite</button>!4/128 GB!29999!$. 102
+<button id='Honor9X' type='button' value='Honor9X' onclick='Honor9X()'>Honor 9X</button>!6/128 GB!39999!$. 136
+<button id='Honor20Pro' type='button' value='Honor20Pro' onclick='Honor20Pro()'>Honor 20 Pro</button>!8/256 GB!99999!$. 342
+<button id='Honor10i' type='button' value='Honor10i' onclick='Honor10i()'>Honor 10i</button>!4/128 GB!36999!$. 126
+<button id='HonorX40GTRacing' type='button' value='HonorX40GTRacing' onclick='HonorX40GTRacing()'>Honor X40 GT Racing</button>!12/256 GB12/512 GB!64999!$. 222
+<button id='HonorVPurse' type='button' value='HonorVPurse' onclick='HonorVPurse()'>Honor V Purse</button>!16/256 GB16/512 GB!234999!$. 804
+<button id='HonorPlay40S' type='button' value='HonorPlay40S' onclick='HonorPlay40S()'>Honor Play 40S</button>!4/128 GB!43999!$. 150
+<button id='HonorX5Plus' type='button' value='HonorX5Plus' onclick='HonorX5Plus()'>Honor X5 Plus</button>!4/64 GB!33999!$. 116
+<button id='HonorX6a' type='button' value='HonorX6a' onclick='HonorX6a()'>Honor X6a</button>!4/128 GB!49999!$. 171
+<button id='HonorPlay40C' type='button' value='HonorPlay40C' onclick='HonorPlay40C()'>Honor Play 40C</button>!6/128 GB!39999!$. 136
+<button id='HonorMagicPad13' type='button' value='HonorMagicPad13' onclick='HonorMagicPad13()'>Honor MagicPad 13</button>!8/256 GB12/256 GB16/512 GB!89999!$. 308
+<button id='HonorMagicV2' type='button' value='HonorMagicV2' onclick='HonorMagicV2()'>Honor Magic V2</button>!16/256 GB16/512 GB16/1024 GB!309999!$. 1061
+<button id='HonorPadX9' type='button' value='HonorPadX9' onclick='HonorPadX9()'>Honor Pad X9</button>!4/128 GB!65799!$. 225
+<button id='HonorPadX8Pro' type='button' value='HonorPadX8Pro' onclick='HonorPadX8Pro()'>Honor Pad X8 Pro</button>!4/128 GB6/128 GB8/128 GB!39999!$. 136
+<button id='HonorX50' type='button' value='HonorX50' onclick='HonorX50()'>Honor X50</button>!8/128 GB8/256 GB12/256 GB16/512 GB!55799!$. 191
+<button id='HonorPlay40' type='button' value='HonorPlay40' onclick='HonorPlay40()'>Honor Play 40</button>!6/128 GB8/128 GB8/256 GB!32999!$. 113
+<button id='HonorX50i' type='button' value='HonorX50i' onclick='HonorX50i()'>Honor X50i</button>!8/256 GB12/256 GB!59999!$. 205
+<button id='Honor90Lite' type='button' value='Honor90Lite' onclick='Honor90Lite()'>Honor 90 Lite</button>!8/256 GB!74999!$. 256
 <button id='InfinixHot30' type='button' value='InfinixHot30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB!39999!$. 136
 <button id='InfinixHot30i' type='button' value='InfinixHot30i' onclick='InfinixHot30i()'>Infinix Hot 30i</button>!4/128 GB!36299!$. 124
 <button id='InfinixNote30Pro' type='button' value='InfinixNote30Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
@@ -75,6 +95,23 @@ Mobile!Storage/RAM!PKR!USD
 <button id='InfinixZero5G' type='button' value='InfinixZero5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
 <button id='InfinixNote11Pro' type='button' value='InfinixNote11Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB!34999!$. 119
 <button id='InfinixHot11Play' type='button' value='InfinixHot11Play' onclick='InfinixHot11Play()'>Infinix Hot 11 Play</button>!4/64 GB4/128 GB!39999!$. 136
+<button id='ItelA60s' type='button' value='ItelA60s' onclick='ItelA60s()'>Itel A60s</button>!4/128 GB!24999!$. 85
+<button id='ItelA49Play' type='button' value='ItelA49Play' onclick='ItelA49Play()'>Itel A49 Play</button>!2/32 GB!16999!$. 58
+<button id='ItelP40' type='button' value='ItelP40' onclick='ItelP40()'>Itel P40</button>!4/64 GB4/128 GB!26999!$. 92
+<button id='ItelS23' type='button' value='ItelS23' onclick='ItelS23()'>Itel S23</button>!8/128 GB16/256 GB!30999!$. 106
+<button id='ItelP17Pro' type='button' value='ItelP17Pro' onclick='ItelP17Pro()'>Itel P17 Pro</button>!2/32 GB!23999!$. 82
+<button id='ItelVision3Plus' type='button' value='ItelVision3Plus' onclick='ItelVision3Plus()'>Itel Vision 3 Plus</button>!4/64 GB!25999!$. 89
+<button id='ItelA49' type='button' value='ItelA49' onclick='ItelA49()'>Itel A49</button>!2/32 GB!17999!$. 61
+<button id='ItelA27' type='button' value='ItelA27' onclick='ItelA27()'>Itel A27</button>!2/32 GB!16499!$. 56
+<button id='ItelVision2s' type='button' value='ItelVision2s' onclick='ItelVision2s()'>Itel Vision 2s</button>!2/32 GB!14999!$. 51
+<button id='ItelVision3' type='button' value='ItelVision3' onclick='ItelVision3()'>Itel Vision 3</button>!2/32 GB3/64 GB!24999!$. 85
+<button id='ItelA47' type='button' value='ItelA47' onclick='ItelA47()'>Itel A47</button>!2/32 GB!25999!$. 89
+<button id='ItelA23Pro' type='button' value='ItelA23Pro' onclick='ItelA23Pro()'>Itel A23 Pro</button>!1/8 GB!18499!$. 63
+<button id='ItelVision2Plus' type='button' value='ItelVision2Plus' onclick='ItelVision2Plus()'>Itel Vision 2 Plus</button>!2/32 GB3/64 GB!15999!$. 54
+<button id='ItelA48' type='button' value='ItelA48' onclick='ItelA48()'>Itel A48</button>!2/32 GB!13499!$. 46
+<button id='ItelA26' type='button' value='ItelA26' onclick='ItelA26()'>Itel A26</button>!2/32 GB!12999!$. 44
+<button id='ItelVision2' type='button' value='ItelVision2' onclick='ItelVision2()'>Itel Vision 2</button>!3/64 GB!17999!$. 61
+<button id='ItelVision1Pro' type='button' value='ItelVision1Pro' onclick='ItelVision1Pro()'>Itel Vision 1 Pro</button>!3/32 GB!16499!$. 56
 <button id='OppoA77s' type='button' value='OppoA77s' onclick='OppoA77s()'>Oppo A77s</button>!8/128 GB!74999!$. 256
 <button id='OppoA17' type='button' value='OppoA17' onclick='OppoA17()'>Oppo A17</button>!4/64 GB!49999!$. 171
 <button id='OppoA17K' type='button' value='OppoA17K' onclick='OppoA17K()'>Oppo A17K</button>!3/64 GB!45999!$. 157
