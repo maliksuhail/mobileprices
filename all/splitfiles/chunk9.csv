@@ -1,21 +1,21 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='PocoX5Pro' type='button' value='PocoX5Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 376
+<button id='SamsungA335G' type='button' value='SamsungA335G' onclick='SamsungA335G()'>Samsung A33 5G</button>!8/128 GB!112499!$. 385
+<button id='SamsungA34' type='button' value='SamsungA34' onclick='SamsungA34()'>Samsung A34</button>!8/256 GB!114999!$. 393
+<button id='VivoV27e' type='button' value='VivoV27e' onclick='VivoV27e()'>Vivo V27e</button>!8/256 GB!119999!$. 410
+<button id='OppoReno6Pro' type='button' value='OppoReno6Pro' onclick='OppoReno6Pro()'>Oppo Reno 6 Pro</button>!12/256 GB!119999!$. 410
+<button id='TecnoCamon20Premier' type='button' value='TecnoCamon20Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB!124999!$. 428
+<button id='OnePlusAce2Pro' type='button' value='OnePlusAce2Pro' onclick='OnePlusAce2Pro()'>OnePlus Ace 2 Pro</button>!12/256 GB16/512 GB24/1024 GB!127999!$. 438
+<button id='iPhoneXR' type='button' value='iPhoneXR' onclick='iPhoneXR()'>iPhone XR</button>!3/64 GB3/128 GB!129999!$. 445
+<button id='SamsungA535G' type='button' value='SamsungA535G' onclick='SamsungA535G()'>Samsung A53 5G</button>!8/128 GB!133999!$. 458
+<button id='OnePlus9' type='button' value='OnePlus9' onclick='OnePlus9()'>OnePlus 9</button>!12/256 GB!134999!$. 462
+<button id='SamsungA54' type='button' value='SamsungA54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB!140999!$. 482
+<button id='OnePlus8Pro' type='button' value='OnePlus8Pro' onclick='OnePlus8Pro()'>OnePlus 8 Pro</button>!8/128 GB12/256 GB!143999!$. 493
+<button id='iPhoneXS' type='button' value='iPhoneXS' onclick='iPhoneXS()'>iPhone XS</button>!4/64 GB4/256 GB4/512 GB!144999!$. 496
+<button id='VivoV25' type='button' value='VivoV25' onclick='VivoV25()'>Vivo V25</button>!12/256 GB!149999!$. 513
+<button id='iPhone11' type='button' value='iPhone11' onclick='iPhone11()'>iPhone 11</button>!4/64 GB4/128 GB!159999!$. 547
+<button id='VivoX80' type='button' value='VivoX80' onclick='VivoX80()'>Vivo X80</button>!12/256 GB!169999!$. 582
+<button id='iPhoneXSMax' type='button' value='iPhoneXSMax' onclick='iPhoneXSMax()'>iPhone XS Max</button>!4/64 GB4/256 GB4/512 GB!169999!$. 582
+<button id='SamsungA735G' type='button' value='SamsungA735G' onclick='SamsungA735G()'>Samsung A73 5G</button>!8/256 GB!170499!$. 583
 <button id='iPhone12Mini' type='button' value='iPhone12Mini' onclick='iPhone12Mini()'>iPhone 12 Mini</button>!4/64 GB4/128 GB4/256 GB!173500!$. 594
 <button id='Xiaomi12' type='button' value='Xiaomi12' onclick='Xiaomi12()'>Xiaomi 12</button>!12/256 GB!179999!$. 616
-<button id='iPhone12ProMax' type='button' value='iPhone12ProMax' onclick='iPhone12ProMax()'>iPhone 12 Pro Max</button>!6/128 GB6/256 GB6/512 GB!184999!$. 633
-<button id='iPhone12' type='button' value='iPhone12' onclick='iPhone12()'>iPhone 12</button>!4/64 GB4/128 GB4/256 GB!192000!$. 657
-<button id='iPhone13mini' type='button' value='iPhone13mini' onclick='iPhone13mini()'>iPhone 13 mini</button>!4/128 GB4/256 GB4/512 GB!205100!$. 702
-<button id='Xiaomi12Pro' type='button' value='Xiaomi12Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 715
-<button id='iPhone11Pro' type='button' value='iPhone11Pro' onclick='iPhone11Pro()'>iPhone 11 Pro</button>!4/64 GB4/256 GB!214999!$. 736
-<button id='iPhone13' type='button' value='iPhone13' onclick='iPhone13()'>iPhone 13</button>!4/128 GB4/256 GB4/512 GB!229800!$. 786
-<button id='iPhone12Pro' type='button' value='iPhone12Pro' onclick='iPhone12Pro()'>iPhone 12 Pro</button>!6/128 GB6/256 GB6/512 GB!229900!$. 787
-<button id='iPhone11ProMax' type='button' value='iPhone11ProMax' onclick='iPhone11ProMax()'>iPhone 11 Pro Max</button>!4/64 GB4/256 GB4/512 GB!229999!$. 787
-<button id='HonorVPurse' type='button' value='HonorVPurse' onclick='HonorVPurse()'>Honor V Purse</button>!16/256 GB16/512 GB!234999!$. 804
-<button id='iPhone13Pro' type='button' value='iPhone13Pro' onclick='iPhone13Pro()'>iPhone 13 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!294000!$. 1006
-<button id='HonorMagicV2' type='button' value='HonorMagicV2' onclick='HonorMagicV2()'>Honor Magic V2</button>!16/256 GB16/512 GB16/1024 GB!309999!$. 1061
-<button id='iPhone13ProMax' type='button' value='iPhone13ProMax' onclick='iPhone13ProMax()'>iPhone 13 Pro Max</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!318700!$. 1091
-<button id='SamsungZFlip4' type='button' value='SamsungZFlip4' onclick='SamsungZFlip4()'>Samsung Z Flip 4</button>!8/256 GB8/512 GB!332999!$. 1140
-<button id='SamsungZFlip5' type='button' value='SamsungZFlip5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232
-<button id='iPhone14' type='button' value='iPhone14' onclick='iPhone14()'>iPhone 14</button>!4/128 GB4/256 GB4/512 GB!385999!$. 1321
-<button id='SamsungS23' type='button' value='SamsungS23' onclick='SamsungS23()'>Samsung S23</button>!8/256 GB!399999!$. 1369
-<button id='iPhone14Plus' type='button' value='iPhone14Plus' onclick='iPhone14Plus()'>iPhone 14 Plus</button>!4/128 GB4/256 GB4/512 GB!420999!$. 1441
-<button id='iPhone14Pro' type='button' value='iPhone14Pro' onclick='iPhone14Pro()'>iPhone 14 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!520999!$. 1784

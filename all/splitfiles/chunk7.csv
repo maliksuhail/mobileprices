@@ -1,21 +1,21 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='VivoV23e' type='button' value='VivoV23e' onclick='VivoV23e()'>Vivo V23e</button>!8/128 GB8/256 GB!64999!$. 222
+<button id='InfinixNote12VIP' type='button' value='InfinixNote12VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB!64999!$. 222
+<button id='OppoReno6' type='button' value='OppoReno6' onclick='OppoReno6()'>Oppo Reno 6</button>!8/128 GB!64999!$. 222
+<button id='RedmiPad' type='button' value='RedmiPad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!64999!$. 222
+<button id='OnePlusNordCE5G' type='button' value='OnePlusNordCE5G' onclick='OnePlusNordCE5G()'>OnePlus Nord CE 5G</button>!8/128 GB12/256 GB!64999!$. 222
+<button id='HonorX40GTRacing' type='button' value='HonorX40GTRacing' onclick='HonorX40GTRacing()'>Honor X40 GT Racing</button>!12/256 GB12/512 GB!64999!$. 222
+<button id='HonorPadX9' type='button' value='HonorPadX9' onclick='HonorPadX9()'>Honor Pad X9</button>!4/128 GB!65799!$. 225
+<button id='OppoA76' type='button' value='OppoA76' onclick='OppoA76()'>Oppo A76</button>!6/128 GB!66999!$. 229
+<button id='VivoY36' type='button' value='VivoY36' onclick='VivoY36()'>Vivo Y36</button>!8/128 GB!69999!$. 239
+<button id='VivoY21T' type='button' value='VivoY21T' onclick='VivoY21T()'>Vivo Y21T</button>!4/128 GB!69999!$. 239
 <button id='SamsungTabS6Lite' type='button' value='SamsungTabS6Lite' onclick='SamsungTabS6Lite()'>Samsung Tab S6 Lite</button>!4/64 GB4/128 GB!69999!$. 239
+<button id='XiaomiPad5' type='button' value='XiaomiPad5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 239
 <button id='Realme9i' type='button' value='Realme9i' onclick='Realme9i()'>Realme 9i</button>!6/128 GB!72299!$. 247
 <button id='SamsungA24' type='button' value='SamsungA24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB!72999!$. 249
-<button id='RedmiNote12S' type='button' value='RedmiNote12S' onclick='RedmiNote12S()'>Redmi Note 12S</button>!8/256 GB!74999!$. 256
-<button id='TecnoCamon18Premier' type='button' value='TecnoCamon18Premier' onclick='TecnoCamon18Premier()'>Tecno Camon 18 Premier</button>!8/256 GB!74999!$. 256
 <button id='Realme9' type='button' value='Realme9' onclick='Realme9()'>Realme 9</button>!8/128 GB!74999!$. 256
+<button id='RedmiNote12S' type='button' value='RedmiNote12S' onclick='RedmiNote12S()'>Redmi Note 12S</button>!8/256 GB!74999!$. 256
+<button id='OppoA77s' type='button' value='OppoA77s' onclick='OppoA77s()'>Oppo A77s</button>!8/128 GB!74999!$. 256
+<button id='TecnoCamon18Premier' type='button' value='TecnoCamon18Premier' onclick='TecnoCamon18Premier()'>Tecno Camon 18 Premier</button>!8/256 GB!74999!$. 256
 <button id='Honor90Lite' type='button' value='Honor90Lite' onclick='Honor90Lite()'>Honor 90 Lite</button>!8/256 GB!74999!$. 256
 <button id='InfinixNote30Pro' type='button' value='InfinixNote30Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
-<button id='OppoA77s' type='button' value='OppoA77s' onclick='OppoA77s()'>Oppo A77s</button>!8/128 GB!74999!$. 256
-<button id='VivoY55' type='button' value='VivoY55' onclick='VivoY55()'>Vivo Y55</button>!8/128 GB!75499!$. 258
-<button id='RealmeGTMasterEdition' type='button' value='RealmeGTMasterEdition' onclick='RealmeGTMasterEdition()'>Realme GT Master Edition</button>!8/128 GB8/256 GB!76999!$. 263
-<button id='OppoA96' type='button' value='OppoA96' onclick='OppoA96()'>Oppo A96</button>!8/128 GB!77999!$. 267
-<button id='SamsungA23' type='button' value='SamsungA23' onclick='SamsungA23()'>Samsung A23</button>!6/128 GB!78499!$. 268
-<button id='InfinixZero20' type='button' value='InfinixZero20' onclick='InfinixZero20()'>Infinix Zero 20</button>!8/256 GB!79999!$. 273
-<button id='OppoReno5Pro' type='button' value='OppoReno5Pro' onclick='OppoReno5Pro()'>Oppo Reno 5 Pro</button>!12/256 GB!84999!$. 291
-<button id='RedmiNote12Pro' type='button' value='RedmiNote12Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 308
-<button id='VivoY73' type='button' value='VivoY73' onclick='VivoY73()'>Vivo Y73</button>!8/128 GB!89999!$. 308
-<button id='HonorMagicPad13' type='button' value='HonorMagicPad13' onclick='HonorMagicPad13()'>Honor MagicPad 13</button>!8/256 GB12/256 GB16/512 GB!89999!$. 308
-<button id='OppoF21Pro' type='button' value='OppoF21Pro' onclick='OppoF21Pro()'>Oppo F21 Pro</button>!8/128 GB!92199!$. 315
-<button id='Realme9ProPlus' type='button' value='Realme9ProPlus' onclick='Realme9ProPlus()'>Realme 9 Pro Plus</button>!8/128 GB!96999!$. 332
