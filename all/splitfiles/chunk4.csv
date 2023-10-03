@@ -1,21 +1,21 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='RedmiNote11' type='button' value='RedmiNote11' onclick='RedmiNote11()'>Redmi Note 11</button>!4/64 GB4/128 GB6/128 GB!38999!$. 133
-<button id='InfinixHot11Play' type='button' value='InfinixHot11Play' onclick='InfinixHot11Play()'>Infinix Hot 11 Play</button>!4/64 GB4/128 GB!39999!$. 136
-<button id='OppoA16K' type='button' value='OppoA16K' onclick='OppoA16K()'>Oppo A16K</button>!4/64 GB!39999!$. 136
-<button id='Realme8' type='button' value='Realme8' onclick='Realme8()'>Realme 8</button>!8/128 GB!39999!$. 136
-<button id='InfinixHot30' type='button' value='InfinixHot30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB!39999!$. 136
-<button id='TecnoSpark10Pro' type='button' value='TecnoSpark10Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB!39999!$. 136
-<button id='TecnoSpark9T' type='button' value='TecnoSpark9T' onclick='TecnoSpark9T()'>Tecno Spark 9T</button>!4/64 GB!39999!$. 136
-<button id='HonorPadX8Pro' type='button' value='HonorPadX8Pro' onclick='HonorPadX8Pro()'>Honor Pad X8 Pro</button>!4/128 GB6/128 GB8/128 GB!39999!$. 136
-<button id='Honor9X' type='button' value='Honor9X' onclick='Honor9X()'>Honor 9X</button>!6/128 GB!39999!$. 136
-<button id='OnePlusNordN2005G' type='button' value='OnePlusNordN2005G' onclick='OnePlusNordN2005G()'>OnePlus Nord N200 5G</button>!4/64 GB!39999!$. 136
-<button id='HonorPlay40C' type='button' value='HonorPlay40C' onclick='HonorPlay40C()'>Honor Play 40C</button>!6/128 GB!39999!$. 136
-<button id='InfinixHot12i' type='button' value='InfinixHot12i' onclick='InfinixHot12i()'>Infinix Hot 12i</button>!4/64 GB!39999!$. 136
-<button id='HonorX6' type='button' value='HonorX6' onclick='HonorX6()'>Honor X6</button>!4/64 GB4/128 GB!40999!$. 140
-<button id='OnePlus6' type='button' value='OnePlus6' onclick='OnePlus6()'>OnePlus 6</button>!8/128 GB!41999!$. 143
-<button id='Redmi12' type='button' value='Redmi12' onclick='Redmi12()'>Redmi 12</button>!8/128 GB!41999!$. 143
-<button id='OppoA95' type='button' value='OppoA95' onclick='OppoA95()'>Oppo A95</button>!8/128 GB!41999!$. 143
-<button id='HonorPlay40S' type='button' value='HonorPlay40S' onclick='HonorPlay40S()'>Honor Play 40S</button>!4/128 GB!43999!$. 150
-<button id='TecnoSpark8Pro' type='button' value='TecnoSpark8Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB!43999!$. 150
-<button id='InfinixHot20i' type='button' value='InfinixHot20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB!43999!$. 150
-<button id='OppoA16e' type='button' value='OppoA16e' onclick='OppoA16e()'>Oppo A16e</button>!4/64 GB!44299!$. 151
+<button id='OppoA95' type='button' value='Oppo A95' onclick='OppoA95()'>Oppo A95</button>!8/128 GB!41999!$. 143
+<button id='TecnoSpark8Pro' type='button' value='Tecno Spark 8 Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB!43999!$. 150
+<button id='InfinixHot20i' type='button' value='Infinix Hot 20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB!43999!$. 150
+<button id='OppoA16e' type='button' value='Oppo A16e' onclick='OppoA16e()'>Oppo A16e</button>!4/64 GB!44299!$. 151
+<button id='TecnoCamon19Neo' type='button' value='Tecno Camon 19 Neo' onclick='TecnoCamon19Neo()'>Tecno Camon 19 Neo</button>!6/128 GB!44999!$. 154
+<button id='TecnoPovaNeo2' type='button' value='Tecno Pova Neo 2' onclick='TecnoPovaNeo2()'>Tecno Pova Neo 2</button>!4/64 GB4/128 GB!44999!$. 154
+<button id='InfinixHot12' type='button' value='Infinix Hot 12' onclick='InfinixHot12()'>Infinix Hot 12</button>!6/128 GB!44999!$. 154
+<button id='SamsungA04s' type='button' value='Samsung A04s' onclick='SamsungA04s()'>Samsung A04s</button>!4/64 GB4/128 GB!44999!$. 154
+<button id='PocoM4Pro4G' type='button' value='Poco M4 Pro 4G' onclick='PocoM4Pro4G()'>Poco M4 Pro 4G</button>!6/128 GB8/256 GB!44999!$. 154
+<button id='RealmeC25s' type='button' value='Realme C25s' onclick='RealmeC25s()'>Realme C25s</button>!4/64 GB4/128 GB!44999!$. 154
+<button id='RealmeNarzo50' type='button' value='Realme Narzo 50' onclick='RealmeNarzo50()'>Realme Narzo 50</button>!4/64 GB!44999!$. 154
+<button id='RealmeNarzo50A' type='button' value='Realme Narzo 50A' onclick='RealmeNarzo50A()'>Realme Narzo 50A</button>!4/64 GB!45699!$. 156
+<button id='OppoA17K' type='button' value='Oppo A17K' onclick='OppoA17K()'>Oppo A17K</button>!3/64 GB!45999!$. 157
+<button id='PocoM4Pro5G' type='button' value='Poco M4 Pro 5G' onclick='PocoM4Pro5G()'>Poco M4 Pro 5G</button>!4/64 GB6/128 GB!46999!$. 160
+<button id='Realme8Pro' type='button' value='Realme 8 Pro' onclick='Realme8Pro()'>Realme 8 Pro</button>!8/128 GB!47999!$. 164
+<button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999!$. 171
+<button id='OppoF19Pro' type='button' value='Oppo F19 Pro' onclick='OppoF19Pro()'>Oppo F19 Pro</button>!8/128 GB!49999!$. 171
+<button id='OppoA17' type='button' value='Oppo A17' onclick='OppoA17()'>Oppo A17</button>!4/64 GB!49999!$. 171
+<button id='InfinixZero5G' type='button' value='Infinix Zero 5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
+<button id='OppoA57' type='button' value='Oppo A57' onclick='OppoA57()'>Oppo A57</button>!3/64 GB4/64 GB!49999!$. 171
