@@ -1,21 +1,21 @@
-Mobile!Storage/RAM!PKR!USD
-<button id='RedmiA2Plus' type='button' value='Redmi A2 Plus' onclick='RedmiA2Plus()'>Redmi A2 Plus</button>!3/64 GB!22999!$. 78
-<button id='OppoA15' type='button' value='Oppo A15' onclick='OppoA15()'>Oppo A15</button>!2/32 GB!22999!$. 78
-<button id='VivoY01' type='button' value='Vivo Y01' onclick='VivoY01()'>Vivo Y01</button>!2/32 GB!23999!$. 82
-<button id='ItelP17Pro' type='button' value='Itel P17 Pro' onclick='ItelP17Pro()'>Itel P17 Pro</button>!2/32 GB!23999!$. 82
-<button id='TecnoPop7' type='button' value='Tecno Pop 7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB!23999!$. 82
-<button id='RealmeNarzo50i' type='button' value='Realme Narzo 50i' onclick='RealmeNarzo50i()'>Realme Narzo 50i</button>!4/64 GB!23999!$. 82
-<button id='OppoA16' type='button' value='Oppo A16' onclick='OppoA16()'>Oppo A16</button>!3/32 GB4/64 GB!23999!$. 82
-<button id='TecnoSparkGo2023' type='button' value='Tecno Spark Go 2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB!24999!$. 85
-<button id='ItelVision3' type='button' value='Itel Vision 3' onclick='ItelVision3()'>Itel Vision 3</button>!2/32 GB3/64 GB!24999!$. 85
-<button id='TecnoPop5LTE' type='button' value='Tecno Pop 5 LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB!24999!$. 85
-<button id='RealmeC21Y' type='button' value='Realme C21Y' onclick='RealmeC21Y()'>Realme C21Y</button>!4/64 GB!24999!$. 85
-<button id='ItelA60s' type='button' value='Itel A60s' onclick='ItelA60s()'>Itel A60s</button>!4/128 GB!24999!$. 85
-<button id='SparxNeo7' type='button' value='Sparx Neo 7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999!$. 89
-<button id='ItelA47' type='button' value='Itel A47' onclick='ItelA47()'>Itel A47</button>!2/32 GB!25999!$. 89
-<button id='OppoA15s' type='button' value='Oppo A15s' onclick='OppoA15s()'>Oppo A15s</button>!4/64 GB!25999!$. 89
-<button id='ItelVision3Plus' type='button' value='Itel Vision 3 Plus' onclick='ItelVision3Plus()'>Itel Vision 3 Plus</button>!4/64 GB!25999!$. 89
-<button id='InfinixSmart7' type='button' value='Infinix Smart 7' onclick='InfinixSmart7()'>Infinix Smart 7</button>!4/64 GB!25999!$. 89
-<button id='SparxNeo7Pro' type='button' value='Sparx Neo 7 Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!26499!$. 90
-<button id='SparxNeo7Plus' type='button' value='Sparx Neo 7 Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!26499!$. 90
-<button id='ItelP40' type='button' value='Itel P40' onclick='ItelP40()'>Itel P40</button>!4/64 GB8/128 GB!26999!$. 92
+Mobile!Storage/RAM!PKR
+<button id='OppoA15' type='button' value='Oppo A15' onclick='OppoA15()'>Oppo A15</button>!2/32 GB!22999
+<button id='RedmiA2Plus' type='button' value='Redmi A2 Plus' onclick='RedmiA2Plus()'>Redmi A2 Plus</button>!3/64 GB!22999
+<button id='RealmeNarzo50i' type='button' value='Realme Narzo 50i' onclick='RealmeNarzo50i()'>Realme Narzo 50i</button>!4/64 GB!23999
+<button id='TecnoPop7' type='button' value='Tecno Pop 7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB!23999
+<button id='ItelP17Pro' type='button' value='Itel P17 Pro' onclick='ItelP17Pro()'>Itel P17 Pro</button>!2/32 GB!23999
+<button id='OppoA16' type='button' value='Oppo A16' onclick='OppoA16()'>Oppo A16</button>!3/32 GB4/64 GB!23999
+<button id='VivoY01' type='button' value='Vivo Y01' onclick='VivoY01()'>Vivo Y01</button>!2/32 GB!23999
+<button id='TecnoSparkGo2023' type='button' value='Tecno Spark Go 2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB!24999
+<button id='RealmeC21Y' type='button' value='Realme C21Y' onclick='RealmeC21Y()'>Realme C21Y</button>!4/64 GB!24999
+<button id='TecnoPop5LTE' type='button' value='Tecno Pop 5 LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB!24999
+<button id='ItelVision3' type='button' value='Itel Vision 3' onclick='ItelVision3()'>Itel Vision 3</button>!2/32 GB3/64 GB!24999
+<button id='ItelA60s' type='button' value='Itel A60s' onclick='ItelA60s()'>Itel A60s</button>!4/128 GB!24999
+<button id='ItelA47' type='button' value='Itel A47' onclick='ItelA47()'>Itel A47</button>!2/32 GB!25999
+<button id='InfinixSmart7' type='button' value='Infinix Smart 7' onclick='InfinixSmart7()'>Infinix Smart 7</button>!4/64 GB!25999
+<button id='OppoA15s' type='button' value='Oppo A15s' onclick='OppoA15s()'>Oppo A15s</button>!4/64 GB!25999
+<button id='ItelVision3Plus' type='button' value='Itel Vision 3 Plus' onclick='ItelVision3Plus()'>Itel Vision 3 Plus</button>!4/64 GB!25999
+<button id='SparxNeo7' type='button' value='Sparx Neo 7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB!25999
+<button id='SparxNeo7Plus' type='button' value='Sparx Neo 7 Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!26499
+<button id='SparxNeo7Pro' type='button' value='Sparx Neo 7 Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!26499
+<button id='RealmeC25' type='button' value='Realme C25' onclick='RealmeC25()'>Realme C25</button>!4/128 GB!26999

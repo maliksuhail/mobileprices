@@ -1,21 +1,21 @@
-Mobile!Storage/RAM!PKR!USD
-<button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999!$. 171
-<button id='OppoF19Pro' type='button' value='Oppo F19 Pro' onclick='OppoF19Pro()'>Oppo F19 Pro</button>!8/128 GB!49999!$. 171
-<button id='OppoA57' type='button' value='Oppo A57' onclick='OppoA57()'>Oppo A57</button>!3/64 GB4/64 GB!49999!$. 171
-<button id='OppoA17' type='button' value='Oppo A17' onclick='OppoA17()'>Oppo A17</button>!4/64 GB!49999!$. 171
-<button id='InfinixZero5G' type='button' value='Infinix Zero 5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999!$. 171
-<button id='RealmeC25Y' type='button' value='Realme C25Y' onclick='RealmeC25Y()'>Realme C25Y</button>!4/64 GB!49999!$. 171
-<button id='VivoY33T' type='button' value='Vivo Y33T' onclick='VivoY33T()'>Vivo Y33T</button>!8/128 GB!51999!$. 178
-<button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB!51999!$. 178
-<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!53999!$. 184
-<button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999!$. 184
-<button id='RedmiNote12' type='button' value='Redmi Note 12' onclick='RedmiNote12()'>Redmi Note 12</button>!6/128 GB8/128 GB8/256 GB!54999!$. 188
-<button id='VivoY16' type='button' value='Vivo Y16' onclick='VivoY16()'>Vivo Y16</button>!4/64 GB!54999!$. 188
-<button id='SamsungA14' type='button' value='Samsung A14' onclick='SamsungA14()'>Samsung A14</button>!4/128 GB6/128 GB!56999!$. 195
-<button id='VivoY22' type='button' value='Vivo Y22' onclick='VivoY22()'>Vivo Y22</button>!4/64 GB4/128 GB!57999!$. 198
-<button id='InfinixNote12' type='button' value='Infinix Note 12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999!$. 202
-<button id='OppoA54' type='button' value='Oppo A54' onclick='OppoA54()'>Oppo A54</button>!4/128 GB!59999!$. 205
-<button id='RealmeC35' type='button' value='Realme C35' onclick='RealmeC35()'>Realme C35</button>!4/128 GB!59999!$. 205
-<button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB!60999!$. 208
-<button id='RedmiPadSE' type='button' value='Redmi Pad SE' onclick='RedmiPadSE()'>Redmi Pad SE</button>!8/128 GB!61999!$. 212
-<button id='InfinixNote12G96' type='button' value='Infinix Note 12 G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999!$. 219
+Mobile!Storage/RAM!PKR
+<button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999
+<button id='OppoA57' type='button' value='Oppo A57' onclick='OppoA57()'>Oppo A57</button>!3/64 GB4/64 GB!49999
+<button id='OppoF19Pro' type='button' value='Oppo F19 Pro' onclick='OppoF19Pro()'>Oppo F19 Pro</button>!8/128 GB!49999
+<button id='OppoA17' type='button' value='Oppo A17' onclick='OppoA17()'>Oppo A17</button>!4/64 GB!49999
+<button id='InfinixZero5G' type='button' value='Infinix Zero 5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB!49999
+<button id='RealmeC25Y' type='button' value='Realme C25Y' onclick='RealmeC25Y()'>Realme C25Y</button>!4/64 GB!49999
+<button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB!51999
+<button id='VivoY33T' type='button' value='Vivo Y33T' onclick='VivoY33T()'>Vivo Y33T</button>!8/128 GB!51999
+<button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999
+<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!53999
+<button id='VivoY16' type='button' value='Vivo Y16' onclick='VivoY16()'>Vivo Y16</button>!4/64 GB!54999
+<button id='RedmiNote12' type='button' value='Redmi Note 12' onclick='RedmiNote12()'>Redmi Note 12</button>!6/128 GB8/128 GB8/256 GB!54999
+<button id='SamsungA14' type='button' value='Samsung A14' onclick='SamsungA14()'>Samsung A14</button>!4/128 GB6/128 GB!56999
+<button id='VivoY22' type='button' value='Vivo Y22' onclick='VivoY22()'>Vivo Y22</button>!4/64 GB4/128 GB!57999
+<button id='InfinixNote12' type='button' value='Infinix Note 12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999
+<button id='OppoA54' type='button' value='Oppo A54' onclick='OppoA54()'>Oppo A54</button>!4/128 GB!59999
+<button id='RealmeC35' type='button' value='Realme C35' onclick='RealmeC35()'>Realme C35</button>!4/128 GB!59999
+<button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB!60999
+<button id='RedmiPadSE' type='button' value='Redmi Pad SE' onclick='RedmiPadSE()'>Redmi Pad SE</button>!8/128 GB!61999
+<button id='InfinixNote12G96' type='button' value='Infinix Note 12 G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999
