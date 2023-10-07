@@ -74,3 +74,22 @@
 <button id='InfinixSmart6Plus' type='button' value='Infinix Smart 6 Plus' onclick='InfinixSmart6Plus()'>Infinix Smart 6 Plus</button>!3/64 GB! Rs. 34,499  PKR!$. 118
 <button id='InfinixZero5G' type='button' value='Infinix Zero 5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB! Rs. 49,999  PKR!$. 171
 <button id='InfinixNote11Pro' type='button' value='Infinix Note 11 Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB! Rs. 34,999  PKR!$. 119
+<button id='InfinixNote30VIP' type='button' value='Infinix Note 30 VIP' onclick='InfinixNote30VIP()'>Infinix Note 30 VIP</button>!12/256 GB! Rs. 84,999  PKR!$. 291
+<button id='InfinixHot30' type='button' value='Infinix Hot 30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB! Rs. 39,999  PKR!$. 136
+<button id='InfinixHot30i' type='button' value='Infinix Hot 30i' onclick='InfinixHot30i()'>Infinix Hot 30i</button>!4/128 GB! Rs. 36,299  PKR!$. 124
+<button id='InfinixNote30Pro' type='button' value='Infinix Note 30 Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB! Rs. 74,999  PKR!$. 256
+<button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB! Rs. 53,999  PKR!$. 184
+<button id='InfinixHot30Play' type='button' value='Infinix Hot 30 Play' onclick='InfinixHot30Play()'>Infinix Hot 30 Play</button>!4/64 GB! Rs. 28,999  PKR!$. 99
+<button id='InfinixSmart7HD' type='button' value='Infinix Smart 7 HD' onclick='InfinixSmart7HD()'>Infinix Smart 7 HD</button>!2/64 GB! Rs. 21,999  PKR!$. 75
+<button id='InfinixSmart7' type='button' value='Infinix Smart 7' onclick='InfinixSmart7()'>Infinix Smart 7</button>!4/64 GB! Rs. 25,999  PKR!$. 89
+<button id='InfinixHot20i' type='button' value='Infinix Hot 20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB! Rs. 43,999  PKR!$. 150
+<button id='InfinixZero20' type='button' value='Infinix Zero 20' onclick='InfinixZero20()'>Infinix Zero 20</button>!8/256 GB! Rs. 79,999  PKR!$. 273
+<button id='InfinixNote12VIP' type='button' value='Infinix Note 12 VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB! Rs. 64,999  PKR!$. 222
+<button id='InfinixNote12G96' type='button' value='Infinix Note 12 G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB! Rs. 63,999  PKR!$. 219
+<button id='InfinixNote12' type='button' value='Infinix Note 12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB! Rs. 58,999  PKR!$. 202
+<button id='InfinixHot12' type='button' value='Infinix Hot 12' onclick='InfinixHot12()'>Infinix Hot 12</button>!6/128 GB! Rs. 44,999  PKR!$. 154
+<button id='InfinixHot12i' type='button' value='Infinix Hot 12i' onclick='InfinixHot12i()'>Infinix Hot 12i</button>!4/64 GB! Rs. 39,999  PKR!$. 136
+<button id='InfinixHot12Play' type='button' value='Infinix Hot 12 Play' onclick='InfinixHot12Play()'>Infinix Hot 12 Play</button>!4/64 GB4/128 GB! Rs. 36,999  PKR!$. 126
+<button id='InfinixSmart6Plus' type='button' value='Infinix Smart 6 Plus' onclick='InfinixSmart6Plus()'>Infinix Smart 6 Plus</button>!3/64 GB! Rs. 34,499  PKR!$. 118
+<button id='InfinixZero5G' type='button' value='Infinix Zero 5G' onclick='InfinixZero5G()'>Infinix Zero 5G</button>!8/128 GB! Rs. 49,999  PKR!$. 171
+<button id='InfinixNote11Pro' type='button' value='Infinix Note 11 Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB! Rs. 34,999  PKR!$. 119
