@@ -1,4 +1,5 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='iPhone13Pro' type='button' value='iPhone 13 Pro' onclick='iPhone13Pro()'>iPhone 13 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!294000!$. 1006
 <button id='iPhone13ProMax' type='button' value='iPhone 13 Pro Max' onclick='iPhone13ProMax()'>iPhone 13 Pro Max</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!318700!$. 1091
 <button id='SamsungZFlip4' type='button' value='Samsung Z Flip 4' onclick='SamsungZFlip4()'>Samsung Z Flip 4</button>!8/256 GB8/512 GB!332999!$. 1140
 <button id='SamsungZFlip5' type='button' value='Samsung Z Flip 5' onclick='SamsungZFlip5()'>Samsung Z Flip 5</button>!8/512 GB!359999!$. 1232

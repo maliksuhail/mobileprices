@@ -158,6 +158,7 @@ Mobile!Storage/RAM!PKR!USD
 <button id='VivoY15C' type='button' value='Vivo Y15C' onclick='VivoY15C()'>Vivo Y15C</button>!4/64 GB!33999!$. 116
 <button id='VivoY15s' type='button' value='Vivo Y15s' onclick='VivoY15s()'>Vivo Y15s</button>!3/32 GB!29499!$. 101
 <button id='VivoY16' type='button' value='Vivo Y16' onclick='VivoY16()'>Vivo Y16</button>!4/64 GB!54999!$. 188
+<button id='VivoY17s' type='button' value='Vivo Y17s' onclick='VivoY17s()'>Vivo Y17s</button>!6/128 GB!44999!$. 154
 <button id='VivoY21T' type='button' value='Vivo Y21T' onclick='VivoY21T()'>Vivo Y21T</button>!4/128 GB!69999!$. 239
 <button id='VivoY22' type='button' value='Vivo Y22' onclick='VivoY22()'>Vivo Y22</button>!4/64 GB4/128 GB!57999!$. 198
 <button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB!64999!$. 222

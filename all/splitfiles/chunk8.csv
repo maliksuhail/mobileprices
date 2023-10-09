@@ -1,4 +1,5 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='SamsungA535G' type='button' value='Samsung A53 5G' onclick='SamsungA535G()'>Samsung A53 5G</button>!8/128 GB!133999!$. 458
 <button id='SamsungA54' type='button' value='Samsung A54' onclick='SamsungA54()'>Samsung A54</button>!8/256 GB!140999!$. 482
 <button id='iPhoneXS' type='button' value='iPhone XS' onclick='iPhoneXS()'>iPhone XS</button>!4/64 GB4/256 GB4/512 GB!144999!$. 496
 <button id='VivoV25' type='button' value='Vivo V25' onclick='VivoV25()'>Vivo V25</button>!12/256 GB!149999!$. 513
@@ -18,4 +19,3 @@ Mobile!Storage/RAM!PKR!USD
 <button id='iPhone12Pro' type='button' value='iPhone 12 Pro' onclick='iPhone12Pro()'>iPhone 12 Pro</button>!6/128 GB6/256 GB6/512 GB!229900!$. 787
 <button id='iPhone11ProMax' type='button' value='iPhone 11 Pro Max' onclick='iPhone11ProMax()'>iPhone 11 Pro Max</button>!4/64 GB4/256 GB4/512 GB!229999!$. 787
 <button id='Xiaomi13TPro' type='button' value='Xiaomi 13T Pro' onclick='Xiaomi13TPro()'>Xiaomi 13T Pro</button>!12/512 GB!234999!$. 804
-<button id='iPhone13Pro' type='button' value='iPhone 13 Pro' onclick='iPhone13Pro()'>iPhone 13 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!294000!$. 1006
