@@ -5,7 +5,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='InfinixHot20i' type='button' value='Infinix Hot 20i' onclick='InfinixHot20i()'>Infinix Hot 20i</button>!4/64 GB4/128 GB!43999!$. 150
 <button id='InfinixHot30' type='button' value='Infinix Hot 30' onclick='InfinixHot30()'>Infinix Hot 30</button>!8/128 GB!39999!$. 136
 <button id='InfinixHot30Play' type='button' value='Infinix Hot 30 Play' onclick='InfinixHot30Play()'>Infinix Hot 30 Play</button>!4/64 GB!28999!$. 99
-<button id='InfinixHot30Play' type='button' value='Infinix Hot 30 Play' onclick='InfinixHot30Play()'>Infinix Hot 30 Play</button>!4/64 GB8/128 GB!31999!$. 109
 <button id='InfinixHot30i' type='button' value='Infinix Hot 30i' onclick='InfinixHot30i()'>Infinix Hot 30i</button>!4/128 GB!36299!$. 124
 <button id='InfinixNote11Pro' type='button' value='Infinix Note 11 Pro' onclick='InfinixNote11Pro()'>Infinix Note 11 Pro</button>!8/128 GB!34999!$. 119
 <button id='InfinixNote12' type='button' value='Infinix Note 12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999!$. 202
@@ -57,7 +56,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='OppoReno6' type='button' value='Oppo Reno 6' onclick='OppoReno6()'>Oppo Reno 6</button>!8/128 GB!64999!$. 222
 <button id='OppoReno6Pro' type='button' value='Oppo Reno 6 Pro' onclick='OppoReno6Pro()'>Oppo Reno 6 Pro</button>!12/256 GB!119999!$. 410
 <button id='PocoM4Pro4G' type='button' value='Poco M4 Pro 4G' onclick='PocoM4Pro4G()'>Poco M4 Pro 4G</button>!6/128 GB8/256 GB!44999!$. 154
-<button id='PocoM4Pro5G' type='button' value='Poco M4 Pro 5G' onclick='PocoM4Pro5G()'>Poco M4 Pro 5G</button>!4/64 GB6/128 GB!46999!$. 160
 <button id='PocoX5Pro' type='button' value='Poco X5 Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 376
 <button id='Realme8' type='button' value='Realme 8' onclick='Realme8()'>Realme 8</button>!8/128 GB!39999!$. 136
 <button id='Realme8Pro' type='button' value='Realme 8 Pro' onclick='Realme8Pro()'>Realme 8 Pro</button>!8/128 GB!47999!$. 164
@@ -92,9 +90,9 @@ Mobile!Storage/RAM!PKR!USD
 <button id='RedmiPad' type='button' value='Redmi Pad' onclick='RedmiPad()'>Redmi Pad</button>!4/128 GB6/128 GB!64999!$. 222
 <button id='RedmiPadSE' type='button' value='Redmi Pad SE' onclick='RedmiPadSE()'>Redmi Pad SE</button>!8/128 GB!61999!$. 212
 <button id='SamsungA03' type='button' value='Samsung A03' onclick='SamsungA03()'>Samsung A03</button>!3/32 GB4/64 GB!29999!$. 102
-<button id='SamsungA04' type='button' value='Samsung A04' onclick='SamsungA04()'>Samsung A04</button>!3/32 GB4/64 GB!37499!$. 128
+<button id='SamsungA04' type='button' value='Samsung A04' onclick='SamsungA04()'>Samsung A04</button>!3/32 GB4/64 GB!31499!$. 107
 <button id='SamsungA04e' type='button' value='Samsung A04e' onclick='SamsungA04e()'>Samsung A04e</button>!3/32 GB3/64 GB!33999!$. 116
-<button id='SamsungA04s' type='button' value='Samsung A04s' onclick='SamsungA04s()'>Samsung A04s</button>!4/64 GB4/128 GB!44999!$. 154
+<button id='SamsungA04s' type='button' value='Samsung A04s' onclick='SamsungA04s()'>Samsung A04s</button>!4/64 GB4/128 GB!39999!$. 136
 <button id='SamsungA14' type='button' value='Samsung A14' onclick='SamsungA14()'>Samsung A14</button>!4/128 GB6/128 GB!56999!$. 195
 <button id='SamsungA23' type='button' value='Samsung A23' onclick='SamsungA23()'>Samsung A23</button>!6/128 GB!78499!$. 268
 <button id='SamsungA24' type='button' value='Samsung A24' onclick='SamsungA24()'>Samsung A24</button>!6/128 GB8/128 GB!72999!$. 249
@@ -116,10 +114,8 @@ Mobile!Storage/RAM!PKR!USD
 <button id='SparxNeo7Plus' type='button' value='Sparx Neo 7 Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB!26499!$. 90
 <button id='SparxNeo7Pro' type='button' value='Sparx Neo 7 Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB!26499!$. 90
 <button id='SparxNeo7Ultra' type='button' value='Sparx Neo 7 Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!33499!$. 114
-<button id='SparxNeo7Ultra' type='button' value='Sparx Neo 7 Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!35999!$. 123
 <button id='SparxNeo8' type='button' value='Sparx Neo 8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 101
 <button id='SparxNeoX' type='button' value='Sparx Neo X' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!28499!$. 97
-<button id='SparxNeoX' type='button' value='Sparx Neo X' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!29999!$. 102
 <button id='SparxS3' type='button' value='Sparx S3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!14999!$. 51
 <button id='SparxS6' type='button' value='Sparx S6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!16499!$. 56
 <button id='SparxS9' type='button' value='Sparx S9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!16999!$. 58
@@ -137,16 +133,13 @@ Mobile!Storage/RAM!PKR!USD
 <button id='TecnoPovaNeo' type='button' value='Tecno Pova Neo' onclick='TecnoPovaNeo()'>Tecno Pova Neo</button>!4/64 GB!34999!$. 119
 <button id='TecnoPovaNeo2' type='button' value='Tecno Pova Neo 2' onclick='TecnoPovaNeo2()'>Tecno Pova Neo 2</button>!4/64 GB4/128 GB!44999!$. 154
 <button id='TecnoSpark10' type='button' value='Tecno Spark 10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB!32999!$. 113
-<button id='TecnoSpark10' type='button' value='Tecno Spark 10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB!34999!$. 119
 <button id='TecnoSpark10C' type='button' value='Tecno Spark 10C' onclick='TecnoSpark10C()'>Tecno Spark 10C</button>!4/128 GB!28999!$. 99
-<button id='TecnoSpark10C' type='button' value='Tecno Spark 10C' onclick='TecnoSpark10C()'>Tecno Spark 10C</button>!4/128 GB!30999!$. 106
 <button id='TecnoSpark10Pro' type='button' value='Tecno Spark 10 Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB!39999!$. 136
 <button id='TecnoSpark8C' type='button' value='Tecno Spark 8C' onclick='TecnoSpark8C()'>Tecno Spark 8C</button>!2/64 GB3/64 GB4/128 GB!21999!$. 75
 <button id='TecnoSpark8Pro' type='button' value='Tecno Spark 8 Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB!43999!$. 150
 <button id='TecnoSpark9T' type='button' value='Tecno Spark 9T' onclick='TecnoSpark9T()'>Tecno Spark 9T</button>!4/64 GB!39999!$. 136
 <button id='TecnoSparkGo2023' type='button' value='Tecno Spark Go 2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB!24999!$. 85
 <button id='VivoV23' type='button' value='Vivo V23' onclick='VivoV23()'>Vivo V23</button>!12/256 GB!99999!$. 342
-<button id='VivoV23e' type='button' value='Vivo V23e' onclick='VivoV23e()'>Vivo V23e</button>!8/128 GB8/256 GB!64999!$. 222
 <button id='VivoV25' type='button' value='Vivo V25' onclick='VivoV25()'>Vivo V25</button>!12/256 GB!149999!$. 513
 <button id='VivoV25e' type='button' value='Vivo V25e' onclick='VivoV25e()'>Vivo V25e</button>!8/128 GB!109999!$. 376
 <button id='VivoV27e' type='button' value='Vivo V27e' onclick='VivoV27e()'>Vivo V27e</button>!8/256 GB!99999!$. 342
@@ -170,7 +163,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='Xiaomi12Pro' type='button' value='Xiaomi 12 Pro' onclick='Xiaomi12Pro()'>Xiaomi 12 Pro</button>!12/256 GB!208999!$. 715
 <button id='Xiaomi13T' type='button' value='Xiaomi 13T' onclick='Xiaomi13T()'>Xiaomi 13T</button>!12/256 GB!169999!$. 582
 <button id='Xiaomi13TPro' type='button' value='Xiaomi 13T Pro' onclick='Xiaomi13TPro()'>Xiaomi 13T Pro</button>!12/512 GB!234999!$. 804
-<button id='XiaomiPad5' type='button' value='Xiaomi Pad 5' onclick='XiaomiPad5()'>Xiaomi Pad 5</button>!6/256 GB!69999!$. 239
 <button id='XiaomiPad6' type='button' value='Xiaomi Pad 6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 342
 <button id='iPhone11' type='button' value='iPhone 11' onclick='iPhone11()'>iPhone 11</button>!4/64 GB4/128 GB!159999!$. 547
 <button id='iPhone11Pro' type='button' value='iPhone 11 Pro' onclick='iPhone11Pro()'>iPhone 11 Pro</button>!4/64 GB4/256 GB!214999!$. 736
