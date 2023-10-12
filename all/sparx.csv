@@ -9,3 +9,15 @@
 <button id='SparxNeo7Pro' type='button' value='Sparx Neo 7 Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB! Rs. 26,499  PKR!$. 90
 <button id='SparxNeo7' type='button' value='Sparx Neo 7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB! Rs. 25,999  PKR!$. 89
 <button id='SparxS3' type='button' value='Sparx S3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB! Rs. 14,999  PKR!$. 51
+<button id='SparxS7' type='button' value='Sparx S7' onclick='SparxS7()'>Sparx S7</button>!2/32 GB! Rs. 16,499  PKR!$. 56
+<button id='SparxNeo8' type='button' value='Sparx Neo 8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB! Rs. 29,499  PKR!$. 101
+<button id='SparxNeoX' type='button' value='Sparx Neo X' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB! Rs. 28,499  PKR!$. 97
+<button id='SparxNeo7Plus' type='button' value='Sparx Neo 7 Plus' onclick='SparxNeo7Plus()'>Sparx Neo 7 Plus</button>!4/64 GB! Rs. 26,499  PKR!$. 90
+<button id='SparxNeo7Ultra' type='button' value='Sparx Neo 7 Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB! Rs. 33,499  PKR!$. 114
+<button id='SparxNeo6' type='button' value='Sparx Neo 6' onclick='SparxNeo6()'>Sparx Neo 6</button>!3/32 GB! Rs. 21,999  PKR!$. 75
+<button id='SparxS9' type='button' value='Sparx S9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB! Rs. 16,999  PKR!$. 58
+<button id='SparxNeo5' type='button' value='Sparx Neo 5' onclick='SparxNeo5()'>Sparx Neo 5</button>!2/32 GB! Rs. 21,499  PKR!$. 73
+<button id='SparxS6' type='button' value='Sparx S6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB! Rs. 16,499  PKR!$. 56
+<button id='SparxNeo7Pro' type='button' value='Sparx Neo 7 Pro' onclick='SparxNeo7Pro()'>Sparx Neo 7 Pro</button>!4/64 GB! Rs. 26,499  PKR!$. 90
+<button id='SparxNeo7' type='button' value='Sparx Neo 7' onclick='SparxNeo7()'>Sparx Neo 7</button>!3/64 GB! Rs. 25,999  PKR!$. 89
+<button id='SparxS3' type='button' value='Sparx S3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB! Rs. 14,999  PKR!$. 51
