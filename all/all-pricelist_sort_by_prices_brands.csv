@@ -10,6 +10,7 @@ Mobile!Storage/RAM!PKR!USD
 <button id='InfinixNote12' type='button' value='Infinix Note 12' onclick='InfinixNote12()'>Infinix Note 12</button>!6/128 GB!58999!$. 202
 <button id='InfinixNote12G96' type='button' value='Infinix Note 12 G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999!$. 219
 <button id='InfinixNote12VIP' type='button' value='Infinix Note 12 VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB!64999!$. 222
+<button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!49999!$. 171
 <button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999!$. 184
 <button id='InfinixNote30Pro' type='button' value='Infinix Note 30 Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
 <button id='InfinixNote30VIP' type='button' value='Infinix Note 30 VIP' onclick='InfinixNote30VIP()'>Infinix Note 30 VIP</button>!12/256 GB!84999!$. 291
@@ -126,6 +127,7 @@ Mobile!Storage/RAM!PKR!USD
 <button id='TecnoCamon19Neo' type='button' value='Tecno Camon 19 Neo' onclick='TecnoCamon19Neo()'>Tecno Camon 19 Neo</button>!6/128 GB!44999!$. 154
 <button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999!$. 171
 <button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB!51999!$. 178
+<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!49999!$. 171
 <button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!53999!$. 184
 <button id='TecnoCamon20Premier' type='button' value='Tecno Camon 20 Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB!124999!$. 428
 <button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB!60999!$. 208

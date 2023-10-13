@@ -1,12 +1,14 @@
 Mobile!Storage/RAM!PKR!USD
+<button id='RedmiNote12Pro' type='button' value='Redmi Note 12 Pro' onclick='RedmiNote12Pro()'>Redmi Note 12 Pro</button>!8/256 GB!89999!$. 308
+<button id='VivoY73' type='button' value='Vivo Y73' onclick='VivoY73()'>Vivo Y73</button>!8/128 GB!89999!$. 308
 <button id='OppoF21Pro' type='button' value='Oppo F21 Pro' onclick='OppoF21Pro()'>Oppo F21 Pro</button>!8/128 GB!92199!$. 315
 <button id='Realme9ProPlus' type='button' value='Realme 9 Pro Plus' onclick='Realme9ProPlus()'>Realme 9 Pro Plus</button>!8/128 GB!96999!$. 332
-<button id='VivoV27e' type='button' value='Vivo V27e' onclick='VivoV27e()'>Vivo V27e</button>!8/256 GB!99999!$. 342
 <button id='XiaomiPad6' type='button' value='Xiaomi Pad 6' onclick='XiaomiPad6()'>Xiaomi Pad 6</button>!8/256 GB!99999!$. 342
 <button id='VivoV23' type='button' value='Vivo V23' onclick='VivoV23()'>Vivo V23</button>!12/256 GB!99999!$. 342
+<button id='VivoV27e' type='button' value='Vivo V27e' onclick='VivoV27e()'>Vivo V27e</button>!8/256 GB!99999!$. 342
 <button id='OppoF21Pro5G' type='button' value='Oppo F21 Pro 5G' onclick='OppoF21Pro5G()'>Oppo F21 Pro 5G</button>!8/128 GB!102499!$. 351
-<button id='VivoV25e' type='button' value='Vivo V25e' onclick='VivoV25e()'>Vivo V25e</button>!8/128 GB!109999!$. 376
 <button id='PocoX5Pro' type='button' value='Poco X5 Pro' onclick='PocoX5Pro()'>Poco X5 Pro</button>!8/256 GB!109999!$. 376
+<button id='VivoV25e' type='button' value='Vivo V25e' onclick='VivoV25e()'>Vivo V25e</button>!8/128 GB!109999!$. 376
 <button id='SamsungA335G' type='button' value='Samsung A33 5G' onclick='SamsungA335G()'>Samsung A33 5G</button>!8/128 GB!112499!$. 385
 <button id='SamsungA34' type='button' value='Samsung A34' onclick='SamsungA34()'>Samsung A34</button>!8/256 GB!114999!$. 393
 <button id='OppoReno6Pro' type='button' value='Oppo Reno 6 Pro' onclick='OppoReno6Pro()'>Oppo Reno 6 Pro</button>!12/256 GB!119999!$. 410
@@ -17,5 +19,3 @@ Mobile!Storage/RAM!PKR!USD
 <button id='iPhoneXS' type='button' value='iPhone XS' onclick='iPhoneXS()'>iPhone XS</button>!4/64 GB4/256 GB4/512 GB!144999!$. 496
 <button id='VivoV25' type='button' value='Vivo V25' onclick='VivoV25()'>Vivo V25</button>!12/256 GB!149999!$. 513
 <button id='iPhone11' type='button' value='iPhone 11' onclick='iPhone11()'>iPhone 11</button>!4/64 GB4/128 GB!159999!$. 547
-<button id='Xiaomi13T' type='button' value='Xiaomi 13T' onclick='Xiaomi13T()'>Xiaomi 13T</button>!12/256 GB!169999!$. 582
-<button id='iPhoneXSMax' type='button' value='iPhone XS Max' onclick='iPhoneXSMax()'>iPhone XS Max</button>!4/64 GB4/256 GB4/512 GB!169999!$. 582
