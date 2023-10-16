@@ -11,7 +11,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='InfinixNote12G96' type='button' value='Infinix Note 12 G96' onclick='InfinixNote12G96()'>Infinix Note 12 G96</button>!8/128 GB8/256 GB!63999!$. 219
 <button id='InfinixNote12VIP' type='button' value='Infinix Note 12 VIP' onclick='InfinixNote12VIP()'>Infinix Note 12 VIP</button>!8/256 GB!64999!$. 222
 <button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!49999!$. 171
-<button id='InfinixNote30' type='button' value='Infinix Note 30' onclick='InfinixNote30()'>Infinix Note 30</button>!8/256 GB!53999!$. 184
 <button id='InfinixNote30Pro' type='button' value='Infinix Note 30 Pro' onclick='InfinixNote30Pro()'>Infinix Note 30 Pro</button>!8/256 GB!74999!$. 256
 <button id='InfinixNote30VIP' type='button' value='Infinix Note 30 VIP' onclick='InfinixNote30VIP()'>Infinix Note 30 VIP</button>!12/256 GB!84999!$. 291
 <button id='InfinixSmart6Plus' type='button' value='Infinix Smart 6 Plus' onclick='InfinixSmart6Plus()'>Infinix Smart 6 Plus</button>!3/64 GB!34499!$. 118
@@ -128,7 +127,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB!49999!$. 171
 <button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB!51999!$. 178
 <button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!49999!$. 171
-<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB!53999!$. 184
 <button id='TecnoCamon20Premier' type='button' value='Tecno Camon 20 Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB!124999!$. 428
 <button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB!60999!$. 208
 <button id='TecnoPop5LTE' type='button' value='Tecno Pop 5 LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB!24999!$. 85
@@ -182,7 +180,7 @@ Mobile!Storage/RAM!PKR!USD
 <button id='iPhone14Plus' type='button' value='iPhone 14 Plus' onclick='iPhone14Plus()'>iPhone 14 Plus</button>!4/128 GB4/256 GB4/512 GB!420999!$. 1441
 <button id='iPhone14Pro' type='button' value='iPhone 14 Pro' onclick='iPhone14Pro()'>iPhone 14 Pro</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!520999!$. 1784
 <button id='iPhone14ProMax' type='button' value='iPhone 14 Pro Max' onclick='iPhone14ProMax()'>iPhone 14 Pro Max</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!564999!$. 1934
-<button id='iPhone8' type='button' value='iPhone 8' onclick='iPhone8()'>iPhone 8</button>!2/64 GB2/128 GB2/256 GB!36999!$. 126
+<button id='iPhone15Pro' type='button' value='iPhone 15 Pro' onclick='iPhone15Pro()'>iPhone 15 Pro</button>!8/256 GB8/512 GB8/1024 GB!649999!$. 2226
+<button id='iPhone15ProMax' type='button' value='iPhone 15 Pro Max' onclick='iPhone15ProMax()'>iPhone 15 Pro Max</button>!8/256 GB8/512 GB8/1024 GB!849999!$. 2910
 <button id='iPhoneXR' type='button' value='iPhone XR' onclick='iPhoneXR()'>iPhone XR</button>!3/64 GB3/128 GB!129999!$. 445
 <button id='iPhoneXS' type='button' value='iPhone XS' onclick='iPhoneXS()'>iPhone XS</button>!4/64 GB4/256 GB4/512 GB!144999!$. 496
-<button id='iPhoneXSMax' type='button' value='iPhone XS Max' onclick='iPhoneXSMax()'>iPhone XS Max</button>!4/64 GB4/256 GB4/512 GB!169999!$. 582

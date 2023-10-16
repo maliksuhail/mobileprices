@@ -1,46 +1,6 @@
 <button id='TecnoCamon20Premier' type='button' value='Tecno Camon 20 Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB! Rs. 124,999  PKR!$. 428
 <button id='TecnoSpark10Pro' type='button' value='Tecno Spark 10 Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB! Rs. 39,999  PKR!$. 136
 <button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB! Rs. 60,999  PKR!$. 208
-<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB! Rs. 53,999  PKR!$. 184
-<button id='TecnoSpark10' type='button' value='Tecno Spark 10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB! Rs. 32,999  PKR!$. 113
-<button id='TecnoPop7' type='button' value='Tecno Pop 7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB! Rs. 23,999  PKR!$. 82
-<button id='TecnoSpark10C' type='button' value='Tecno Spark 10C' onclick='TecnoSpark10C()'>Tecno Spark 10C</button>!4/128 GB! Rs. 28,999  PKR!$. 99
-<button id='TecnoPovaNeo2' type='button' value='Tecno Pova Neo 2' onclick='TecnoPovaNeo2()'>Tecno Pova Neo 2</button>!4/64 GB4/128 GB! Rs. 44,999  PKR!$. 154
-<button id='TecnoSparkGo2023' type='button' value='Tecno Spark Go 2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB! Rs. 24,999  PKR!$. 85
-<button id='TecnoSpark9T' type='button' value='Tecno Spark 9T' onclick='TecnoSpark9T()'>Tecno Spark 9T</button>!4/64 GB! Rs. 39,999  PKR!$. 136
-<button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB! Rs. 51,999  PKR!$. 178
-<button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB! Rs. 49,999  PKR!$. 171
-<button id='TecnoCamon19Neo' type='button' value='Tecno Camon 19 Neo' onclick='TecnoCamon19Neo()'>Tecno Camon 19 Neo</button>!6/128 GB! Rs. 44,999  PKR!$. 154
-<button id='TecnoSpark8C' type='button' value='Tecno Spark 8C' onclick='TecnoSpark8C()'>Tecno Spark 8C</button>!2/64 GB3/64 GB4/128 GB! Rs. 21,999  PKR!$. 75
-<button id='TecnoPovaNeo' type='button' value='Tecno Pova Neo' onclick='TecnoPovaNeo()'>Tecno Pova Neo</button>!4/64 GB! Rs. 34,999  PKR!$. 119
-<button id='TecnoSpark8Pro' type='button' value='Tecno Spark 8 Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB! Rs. 43,999  PKR!$. 150
-<button id='TecnoCamon18T' type='button' value='Tecno Camon 18T' onclick='TecnoCamon18T()'>Tecno Camon 18T</button>!4/128 GB! Rs. 29,999  PKR!$. 102
-<button id='TecnoCamon18P' type='button' value='Tecno Camon 18P' onclick='TecnoCamon18P()'>Tecno Camon 18P</button>!8/128 GB! Rs. 35,999  PKR!$. 123
-<button id='TecnoCamon18Premier' type='button' value='Tecno Camon 18 Premier' onclick='TecnoCamon18Premier()'>Tecno Camon 18 Premier</button>!8/256 GB! Rs. 74,999  PKR!$. 256
-<button id='TecnoPop5LTE' type='button' value='Tecno Pop 5 LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB! Rs. 24,999  PKR!$. 85
-<button id='TecnoCamon20Premier' type='button' value='Tecno Camon 20 Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB! Rs. 124,999  PKR!$. 428
-<button id='TecnoSpark10Pro' type='button' value='Tecno Spark 10 Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB! Rs. 39,999  PKR!$. 136
-<button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB! Rs. 60,999  PKR!$. 208
-<button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB! Rs. 53,999  PKR!$. 184
-<button id='TecnoSpark10' type='button' value='Tecno Spark 10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB! Rs. 32,999  PKR!$. 113
-<button id='TecnoPop7' type='button' value='Tecno Pop 7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB! Rs. 23,999  PKR!$. 82
-<button id='TecnoSpark10C' type='button' value='Tecno Spark 10C' onclick='TecnoSpark10C()'>Tecno Spark 10C</button>!4/128 GB! Rs. 28,999  PKR!$. 99
-<button id='TecnoPovaNeo2' type='button' value='Tecno Pova Neo 2' onclick='TecnoPovaNeo2()'>Tecno Pova Neo 2</button>!4/64 GB4/128 GB! Rs. 44,999  PKR!$. 154
-<button id='TecnoSparkGo2023' type='button' value='Tecno Spark Go 2023' onclick='TecnoSparkGo2023()'>Tecno Spark Go 2023</button>!4/64 GB! Rs. 24,999  PKR!$. 85
-<button id='TecnoSpark9T' type='button' value='Tecno Spark 9T' onclick='TecnoSpark9T()'>Tecno Spark 9T</button>!4/64 GB! Rs. 39,999  PKR!$. 136
-<button id='TecnoCamon19ProMondrian' type='button' value='Tecno Camon 19 Pro Mondrian' onclick='TecnoCamon19ProMondrian()'>Tecno Camon 19 Pro Mondrian</button>!8/128 GB! Rs. 51,999  PKR!$. 178
-<button id='TecnoCamon19Pro' type='button' value='Tecno Camon 19 Pro' onclick='TecnoCamon19Pro()'>Tecno Camon 19 Pro</button>!8/128 GB! Rs. 49,999  PKR!$. 171
-<button id='TecnoCamon19Neo' type='button' value='Tecno Camon 19 Neo' onclick='TecnoCamon19Neo()'>Tecno Camon 19 Neo</button>!6/128 GB! Rs. 44,999  PKR!$. 154
-<button id='TecnoSpark8C' type='button' value='Tecno Spark 8C' onclick='TecnoSpark8C()'>Tecno Spark 8C</button>!2/64 GB3/64 GB4/128 GB! Rs. 21,999  PKR!$. 75
-<button id='TecnoPovaNeo' type='button' value='Tecno Pova Neo' onclick='TecnoPovaNeo()'>Tecno Pova Neo</button>!4/64 GB! Rs. 34,999  PKR!$. 119
-<button id='TecnoSpark8Pro' type='button' value='Tecno Spark 8 Pro' onclick='TecnoSpark8Pro()'>Tecno Spark 8 Pro</button>!4/64 GB! Rs. 43,999  PKR!$. 150
-<button id='TecnoCamon18T' type='button' value='Tecno Camon 18T' onclick='TecnoCamon18T()'>Tecno Camon 18T</button>!4/128 GB! Rs. 29,999  PKR!$. 102
-<button id='TecnoCamon18P' type='button' value='Tecno Camon 18P' onclick='TecnoCamon18P()'>Tecno Camon 18P</button>!8/128 GB! Rs. 35,999  PKR!$. 123
-<button id='TecnoCamon18Premier' type='button' value='Tecno Camon 18 Premier' onclick='TecnoCamon18Premier()'>Tecno Camon 18 Premier</button>!8/256 GB! Rs. 74,999  PKR!$. 256
-<button id='TecnoPop5LTE' type='button' value='Tecno Pop 5 LTE' onclick='TecnoPop5LTE()'>Tecno Pop 5 LTE</button>!2/32 GB3/32 GB! Rs. 24,999  PKR!$. 85
-<button id='TecnoCamon20Premier' type='button' value='Tecno Camon 20 Premier' onclick='TecnoCamon20Premier()'>Tecno Camon 20 Premier</button>!8/512 GB! Rs. 124,999  PKR!$. 428
-<button id='TecnoSpark10Pro' type='button' value='Tecno Spark 10 Pro' onclick='TecnoSpark10Pro()'>Tecno Spark 10 Pro</button>!8/128 GB! Rs. 39,999  PKR!$. 136
-<button id='TecnoCamon20Pro' type='button' value='Tecno Camon 20 Pro' onclick='TecnoCamon20Pro()'>Tecno Camon 20 Pro</button>!8/256 GB! Rs. 60,999  PKR!$. 208
 <button id='TecnoCamon20' type='button' value='Tecno Camon 20' onclick='TecnoCamon20()'>Tecno Camon 20</button>!8/256 GB! Rs. 49,999  PKR!$. 171
 <button id='TecnoSpark10' type='button' value='Tecno Spark 10' onclick='TecnoSpark10()'>Tecno Spark 10</button>!4/128 GB! Rs. 32,999  PKR!$. 113
 <button id='TecnoPop7' type='button' value='Tecno Pop 7' onclick='TecnoPop7()'>Tecno Pop 7</button>!2/64 GB! Rs. 23,999  PKR!$. 82

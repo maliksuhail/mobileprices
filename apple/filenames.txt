@@ -1,4 +1,6 @@
-apple_pricelist_13-10-2023_out.png
+apple_pricelist_16-10-2023_out.png
+iPhone_15_Pro_MaxPrice_with__specs__pakistan.jpg
+iPhone_15_ProPrice_with__specs__pakistan.jpg
 iPhone_14_PlusPrice_with__specs__pakistan.jpg
 iPhone_14_Pro_MaxPrice_with__specs__pakistan.jpg
 iPhone_14_ProPrice_with__specs__pakistan.jpg
@@ -16,5 +18,3 @@ iPhone_11_Pro(used)Price_with__specs__pakistan.jpg
 iPhone_11(used)Price_with__specs__pakistan.jpg
 iPhone_XR(used)Price_with__specs__pakistan.jpg
 iPhone_XS(used)Price_with__specs__pakistan.jpg
-iPhone_XS_Max(used)Price_with__specs__pakistan.jpg
-iPhone_8(used)Price_with__specs__pakistan.jpg
