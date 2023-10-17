@@ -116,7 +116,6 @@ Mobile!Storage/RAM!PKR!USD
 <button id='SparxNeo7Ultra' type='button' value='Sparx Neo 7 Ultra' onclick='SparxNeo7Ultra()'>Sparx Neo 7 Ultra</button>!6/128 GB8/128 GB!33499!$. 114
 <button id='SparxNeo8' type='button' value='Sparx Neo 8' onclick='SparxNeo8()'>Sparx Neo 8</button>!4/128 GB!29499!$. 101
 <button id='SparxNeoX' type='button' value='Sparx Neo X' onclick='SparxNeoX()'>Sparx Neo X</button>!4/64 GB!28499!$. 97
-<button id='SparxS3' type='button' value='Sparx S3' onclick='SparxS3()'>Sparx S3</button>!2/16 GB!14999!$. 51
 <button id='SparxS6' type='button' value='Sparx S6' onclick='SparxS6()'>Sparx S6</button>!2/32 GB!16499!$. 56
 <button id='SparxS7' type='button' value='Sparx S7' onclick='SparxS7()'>Sparx S7</button>!2/32 GB!16499!$. 56
 <button id='SparxS9' type='button' value='Sparx S9' onclick='SparxS9()'>Sparx S9</button>!2/32 GB!16999!$. 58
@@ -155,7 +154,7 @@ Mobile!Storage/RAM!PKR!USD
 <button id='VivoY17s' type='button' value='Vivo Y17s' onclick='VivoY17s()'>Vivo Y17s</button>!6/128 GB!44999!$. 154
 <button id='VivoY21T' type='button' value='Vivo Y21T' onclick='VivoY21T()'>Vivo Y21T</button>!4/128 GB!69999!$. 239
 <button id='VivoY22' type='button' value='Vivo Y22' onclick='VivoY22()'>Vivo Y22</button>!4/64 GB4/128 GB!57999!$. 198
-<button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB!64999!$. 222
+<button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB!57399!$. 196
 <button id='VivoY33T' type='button' value='Vivo Y33T' onclick='VivoY33T()'>Vivo Y33T</button>!8/128 GB!51999!$. 178
 <button id='VivoY36' type='button' value='Vivo Y36' onclick='VivoY36()'>Vivo Y36</button>!8/128 GB!69999!$. 239
 <button id='VivoY55' type='button' value='Vivo Y55' onclick='VivoY55()'>Vivo Y55</button>!8/128 GB!75499!$. 258

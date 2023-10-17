@@ -1,5 +1,4 @@
 Mobile!Storage/RAM!PKR!USD
-<button id='SamsungS23Ultra' type='button' value='Samsung S23 Ultra' onclick='SamsungS23Ultra()'>Samsung S23 Ultra</button>!12/512 GB!559999!$. 1917
 <button id='iPhone14ProMax' type='button' value='iPhone 14 Pro Max' onclick='iPhone14ProMax()'>iPhone 14 Pro Max</button>!6/128 GB6/256 GB6/512 GB6/1024 GB!564999!$. 1934
 <button id='SamsungZFold5' type='button' value='Samsung Z Fold 5' onclick='SamsungZFold5()'>Samsung Z Fold 5</button>!12/512 GB!599999!$. 2054
 <button id='iPhone15Pro' type='button' value='iPhone 15 Pro' onclick='iPhone15Pro()'>iPhone 15 Pro</button>!8/256 GB8/512 GB8/1024 GB!649999!$. 2226

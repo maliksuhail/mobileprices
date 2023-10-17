@@ -1,5 +1,21 @@
 <button id='VivoY17s' type='button' value='Vivo Y17s' onclick='VivoY17s()'>Vivo Y17s</button>!6/128 GB! Rs. 44,999  PKR!$. 154
-<button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB! Rs. 64,999  PKR!$. 222
+<button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB! Rs. 57,399  PKR!$. 196
+<button id='VivoY02t' type='button' value='Vivo Y02t' onclick='VivoY02t()'>Vivo Y02t</button>!4/64 GB! Rs. 35,999  PKR!$. 123
+<button id='VivoY36' type='button' value='Vivo Y36' onclick='VivoY36()'>Vivo Y36</button>!8/128 GB! Rs. 69,999  PKR!$. 239
+<button id='VivoY02' type='button' value='Vivo Y02' onclick='VivoY02()'>Vivo Y02</button>!3/32 GB! Rs. 31,999  PKR!$. 109
+<button id='VivoV27e' type='button' value='Vivo V27e' onclick='VivoV27e()'>Vivo V27e</button>!8/256 GB! Rs. 99,999  PKR!$. 342
+<button id='VivoY73' type='button' value='Vivo Y73' onclick='VivoY73()'>Vivo Y73</button>!8/128 GB! Rs. 89,999  PKR!$. 308
+<button id='VivoY16' type='button' value='Vivo Y16' onclick='VivoY16()'>Vivo Y16</button>!4/64 GB! Rs. 54,999  PKR!$. 188
+<button id='VivoV25e' type='button' value='Vivo V25e' onclick='VivoV25e()'>Vivo V25e</button>!8/128 GB! Rs. 109,999  PKR!$. 376
+<button id='VivoV25' type='button' value='Vivo V25' onclick='VivoV25()'>Vivo V25</button>!12/256 GB! Rs. 149,999  PKR!$. 513
+<button id='VivoY22' type='button' value='Vivo Y22' onclick='VivoY22()'>Vivo Y22</button>!4/64 GB4/128 GB! Rs. 57,999  PKR!$. 198
+<button id='VivoY02s' type='button' value='Vivo Y02s' onclick='VivoY02s()'>Vivo Y02s</button>!3/32 GB! Rs. 31,999  PKR!$. 109
+<button id='VivoY15C' type='button' value='Vivo Y15C' onclick='VivoY15C()'>Vivo Y15C</button>!4/64 GB! Rs. 33,999  PKR!$. 116
+<button id='VivoY55' type='button' value='Vivo Y55' onclick='VivoY55()'>Vivo Y55</button>!8/128 GB! Rs. 75,499  PKR!$. 258
+<button id='VivoX80' type='button' value='Vivo X80' onclick='VivoX80()'>Vivo X80</button>!12/256 GB! Rs. 169,999  PKR!$. 582
+<button id='VivoY01' type='button' value='Vivo Y01' onclick='VivoY01()'>Vivo Y01</button>!2/32 GB! Rs. 23,999  PKR!$. 82
+<button id='VivoY17s' type='button' value='Vivo Y17s' onclick='VivoY17s()'>Vivo Y17s</button>!6/128 GB! Rs. 44,999  PKR!$. 154
+<button id='VivoY27' type='button' value='Vivo Y27' onclick='VivoY27()'>Vivo Y27</button>!6/128 GB! Rs. 57,399  PKR!$. 196
 <button id='VivoY02t' type='button' value='Vivo Y02t' onclick='VivoY02t()'>Vivo Y02t</button>!4/64 GB! Rs. 35,999  PKR!$. 123
 <button id='VivoY36' type='button' value='Vivo Y36' onclick='VivoY36()'>Vivo Y36</button>!8/128 GB! Rs. 69,999  PKR!$. 239
 <button id='VivoY02' type='button' value='Vivo Y02' onclick='VivoY02()'>Vivo Y02</button>!3/32 GB! Rs. 31,999  PKR!$. 109
