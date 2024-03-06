@@ -1,1528 +1,1569 @@
-<style>
-  #parent{
-    padding: 40px;
-    background-color:black;
-    height:100px;
-    width:100%;
-}
-.center {
-  display: block;
-margin: 0 auto;
-}
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
-<div id="parent">
-<select name="Brands" id="brand" class="center">
-  <option value="All">All</option>
-    <option value="Samsung">Samsung</option>
-    <option value="Infinix">infinix</option>
-    <option value="Vivo">Vivo</option>
-    <option value="Oppo">Oppo</option>
-    <option value="Realme">Realme</option>
-    <option value="Xiaomi">Xiaomi</option>
-    <option value="Sparx">Sparx</option>
-    <option value="IPhone">IPhone</option>
-    <option value="ITel">ITel</option>
-    <option value="Rs">Rs</option>
-</select>
-</div>
-<table border="1" id="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Store</th>
-      <th>Mobile</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24945/Samsung-Galaxy-Z-Fold-5-12GB-RAM-256GB-Storage.html'>Samsung</a></td>
-      <td>559,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24916/Samsung-Galaxy-S24-Ultra-12GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S24 Ultra 12GB RAM 256GB Storage Non PTA New</a></td>
-      <td>334,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24881/Samsung-Galaxy-S24-Ultra-12GB-RAM-512GB-Storage-Non-PTA.html'>Samsung Galaxy S24 Ultra 12GB RAM 512GB Storage Non PTA New</a></td>
-      <td>374,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24591/Samsung-Galaxy-Z-Flip-5-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy Z Flip 5 8GB RAM 256GB Storage Non PTA New</a></td>
-      <td>359,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24587/Samsung-Galaxy-Z-Fold-5-12GB-RAM-512GB-Storage.html'>Samsung Galaxy Z Fold 5 12GB RAM 512GB Storage New</a></td>
-      <td>599,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24790/Samsung-Galaxy-S23-FE-8GB-RAM-256GB-Storage-PTA-Approved.html'>Samsung Galaxy S23 FE 8GB RAM 256GB Storage PTA Approved New</a></td>
-      <td>204,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24789/Samsung-Galaxy-S23-FE-8GB-RAM-128GB-Storage-Non-PTA.html'>Samsung Galaxy S23 FE 8GB RAM 128GB Storage Non PTA New</a></td>
-      <td>184,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24520/Samsung-Galaxy-S23-Ultra-12GB-RAM-1TB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 1TB Storage Non PTA New</a></td>
-      <td>354,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24448/Samsung-Galaxy-A04E-3GB-RAM-64GB-Storage-PTA-Approved.html'>Samsung Galaxy A04E 3GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>35,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24447/Samsung-Galaxy-A04E-3GB-RAM-32GB-Storage-PTA-Approved.html'>Samsung Galaxy A04E 3GB RAM 32GB Storage PTA Approved New</a></td>
-      <td>33,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24432/Samsung-Galaxy-A54-8GB-RAM-256GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A54 8GB RAM 256GB Storage 5G PTA Approved New</a></td>
-      <td>140,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24425/Samsung-Galaxy-A24-8GB-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A24 8GB 128GB Storage PTA Approved New</a></td>
-      <td>79,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24423/Samsung-Galaxy-A34-8GB-RAM-256GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A34 8GB RAM 256GB Storage 5G PTA Approved New</a></td>
-      <td>114,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24422/Samsung-Galaxy-A34-6GB-RAM-128GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A34 6GB RAM 128GB Storage 5G PTA Approved New</a></td>
-      <td>89,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24421/Samsung-Galaxy-A24-6GB-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A24 6GB 128GB Storage PTA Approved New</a></td>
-      <td>72,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24420/Samsung-Galaxy-A54-8GB-RAM-128GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A54 8GB RAM 128GB Storage 5G PTA Approved New</a></td>
-      <td>124,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24403/Samsung-Galaxy-S23-Ultra-12GB-RAM-512GB-Storage-PTA-Approved.html'>Samsung Galaxy S23 Ultra 12GB RAM 512GB Storage PTA Approved New</a></td>
-      <td>571,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24376/Samsung-Galaxy-Z-Fold-4-12GB-Ram-512GB-Storage-NON-PTA-5G.html'>Samsung Galaxy Z Fold 4 12GB Ram 512GB Storage NON PTA 5G</a></td>
-      <td>392,495 - PKR</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24337/Samsung-Galaxy-A14-6GB-RAM-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A14 6GB RAM 128GB Storage PTA Approved</a></td>
-      <td>59,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24336/Samsung-Galaxy-A14-4GB-RAM-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A14 4GB RAM 128GB Storage PTA Approved</a></td>
-      <td>56,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24187/Samsung-Galaxy-S23-Plus-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Plus 8GB RAM 256GB Storage Non PTA</a></td>
-      <td>222,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24185/Samsung-Galaxy-S23-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 8GB RAM 256GB Storage Non PTA</a></td>
-      <td>201,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24179/Samsung-Galaxy-S23-Ultra-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 8GB RAM 256GB Storage Non PTA New</a></td>
-      <td>262,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24087/Samsung-Galaxy-A04-4GB-RAM-64GB-Storage-PTA--Approved.html'>Samsung Galaxy A04 4GB RAM 64GB Storage PTA Approved</a></td>
-      <td>35,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24080/Samsung-Galaxy-A04-3GB-RAM-32GB-Storage-PTA--Approved.html'>Samsung Galaxy A04 3GB RAM 32GB Storage PTA Approved</a></td>
-      <td>31,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24015/Samsung-Galaxy-S23-Ultra-12GB-RAM-512GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 512GB Storage Non PTA New</a></td>
-      <td>294,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24014/Samsung-Galaxy-S23-Ultra-12GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 256GB Storage Non PTA New</a></td>
-      <td>261,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23962/Samsung-S23-Ultra.html'>Samsung S23 Ultra New</a></td>
-      <td>262,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23955/Samsung-Galaxy-Z-Fold-4-12GB-Ram-256GB-Storage-PTA--Approved-5G.html'>Samsung Galaxy Z Fold 4 12GB Ram 256GB Storage PTA Approved 5G New</a></td>
-      <td>419,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23923/Samsung-Galaxy-Z-Flip-4-8GB-RAM-256GB-Storage-PTA--Approved.html'>Samsung Galaxy Z Flip 4 8GB RAM 256GB Storage PTA Approved</a></td>
-      <td>279,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23824/Samsung-Galaxy-Z-Fold-4-12GB-RAM-512GB-Storage-PTA--Approved.html'>Samsung Galaxy Z Fold 4 12GB RAM 512GB Storage PTA Approved</a></td>
-      <td>564,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23823/Samsung-Galaxy-Z-Flip-4-8GB-RAM-512GB-Storage.html'>Samsung Galaxy Z Flip 4 8GB RAM 512GB Storage</a></td>
-      <td>369,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a14'>Samsung Galaxy A14</a></td>
-      <td>Rs 36,499</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a24-4g'>Samsung Galaxy A24 4G</a></td>
-      <td>Rs 58,999</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23-fe'>Samsung Galaxy S23 FE</a></td>
-      <td>Rs 185,999</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04'>Samsung Galaxy A04</a></td>
-      <td>Rs 21,299</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a05'>Samsung Galaxy A05</a></td>
-      <td>Rs 32,800</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a54-5g'>Samsung Galaxy A54 5G</a></td>
-      <td>Rs 127,999</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a13'>Samsung Galaxy A13</a></td>
-      <td>Rs 40,499</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s21-fe'>Samsung Galaxy S21 FE</a></td>
-      <td>Rs 144,999</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a15'>Samsung Galaxy A15</a></td>
-      <td>Rs 52,999</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a25'>Samsung Galaxy A25</a></td>
-      <td>Rs 90,499</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s22'>Samsung Galaxy S22</a></td>
-      <td>Rs 194,999</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s22-ultra'>Samsung Galaxy S22 Ultra</a></td>
-      <td>Rs 334,999</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a34'>Samsung Galaxy A34</a></td>
-      <td>Rs 99,999</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a05s'>Samsung Galaxy A05s</a></td>
-      <td>Rs 46,999</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-flip-5'>Samsung Galaxy Z Flip 5</a></td>
-      <td>Rs 323,499</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24-ultra'>Samsung Galaxy S24 Ultra</a></td>
-      <td>Rs 434,999</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a12'>Samsung Galaxy A12</a></td>
-      <td>Rs 39,499</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a73'>Samsung Galaxy A73</a></td>
-      <td>Rs 171,499</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24-ultra-12-256gb'>Samsung Galaxy S24 Ultra (12GB-256GB)</a></td>
-      <td>Rs 420,000</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04s'>Samsung Galaxy A04s</a></td>
-      <td>Rs 32,199</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23-ultra'>Samsung Galaxy S23 Ultra</a></td>
-      <td>Rs 494,999</td>
-    </tr>
-    <tr>
-      <th>53</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a33'>Samsung Galaxy A33 5G</a></td>
-      <td>Rs 100,999</td>
-    </tr>
-    <tr>
-      <th>54</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-fold-5'>Samsung Galaxy Z Fold 5</a></td>
-      <td>Rs 517,499</td>
-    </tr>
-    <tr>
-      <th>55</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-fold-4'>Samsung Galaxy Z Fold 4</a></td>
-      <td>Rs 324,999</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-flip-4'>Samsung Galaxy Z Flip 4</a></td>
-      <td>Rs 314,999</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04e'>Samsung Galaxy A04e</a></td>
-      <td>Rs 20,499</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a53'>Samsung Galaxy A53 5G</a></td>
-      <td>Rs 121,999</td>
-    </tr>
-    <tr>
-      <th>59</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23'>Samsung Galaxy S23</a></td>
-      <td>Rs 359,999</td>
-    </tr>
-    <tr>
-      <th>60</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24'>Samsung Galaxy S24</a></td>
-      <td>Rs 269,999</td>
-    </tr>
-    <tr>
-      <th>61</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a32'>Samsung Galaxy A32</a></td>
-      <td>Rs 79,999</td>
-    </tr>
-    <tr>
-      <th>62</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a22'>Samsung Galaxy A22</a></td>
-      <td>Rs 55,999</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a03'>Samsung Galaxy A03</a></td>
-      <td>Rs 26,699</td>
-    </tr>
-    <tr>
-      <th>64</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a23'>Samsung Galaxy A23</a></td>
-      <td>Rs 74,199</td>
-    </tr>
-    <tr>
-      <th>65</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-s23-plus-8gb-256gb/'>Samsung Galaxy S23 Plus 8GB 256GB</a></td>
-      <td>Rs 249,999.00</td>
-    </tr>
-    <tr>
-      <th>66</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-s23-plus-8gb-512gb/'>Samsung Galaxy S23 Plus 8GB 512GB</a></td>
-      <td>Rs 319,999.00</td>
-    </tr>
-    <tr>
-      <th>67</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-s23-8gb-128gb-non-pta/'>Samsung Galaxy S23 8GB 128GB Non PTA</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>68</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a74-8gb-256gb/'>Samsung Galaxy A74 8GB 256GB</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>69</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-s23-8gb-256gb-non-pta/'>Samsung Galaxy S23 8GB 256GB Non PTA</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a23e-4gb-64gb/'>Samsung Galaxy A23e 4GB 64GB</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a34-5g-8gb-256gb/'>Samsung Galaxy A34 5G 8GB 256GB</a></td>
-      <td>Rs 105,999.00 Rs 114,999.00</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-z-fold4-12gb-512gb/'>Samsung Galaxy Z Fold4 12GB 512GB PTA Approved </a></td>
-      <td>Rs 389,999.00 Rs 574,999.00</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a04s-4gb-128gb/'>Samsung Galaxy A04s 4GB 128GB</a></td>
-      <td>Rs 34,999.00 Rs 43,999.00</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-z-flip-5-8gb-512gb/'>Samsung Galaxy z Flip 5 8GB 512GB</a></td>
-      <td>Rs 349,999.00 Rs 359,999.00</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-z-fold-5/'>Samsung Galaxy Z Fold 5</a></td>
-      <td>Rs 589,999.00 Rs 599,999.00</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a54-5g-8gb-256gb/'>Samsung Galaxy A54 5G 8GB 256GB</a></td>
-      <td>Rs 133,999.00 Rs 140,999.00</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a04-3gb-32gb/'>Samsung Galaxy A04 3GB 32GB</a></td>
-      <td>Rs 22,499.00 Rs 31,499.00</td>
-    </tr>
-    <tr>
-      <th>78</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a05-4gb-128gb/'>Samsung Galaxy A05 4GB 128GB</a></td>
-      <td>Rs 33,999.00</td>
-    </tr>
-    <tr>
-      <th>79</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a05-6gb-128gb/'>Samsung Galaxy A05 6GB 128GB</a></td>
-      <td>Rs 37,999.00</td>
-    </tr>
-    <tr>
-      <th>80</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/samsung-galaxy-a05s-6gb-128gb/'>Samsung Galaxy A05s 6GB 128GB</a></td>
-      <td>Rs 47,999.00</td>
-    </tr>
-    <tr>
-      <th>81</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24928/Xiaomi-Redmi-Note-13-Pro-Plus-12GB-RAM-512GB-Storage-PtA-Approved-5G.html'>Xiaomi Redmi Note 13 Pro Plus 12GB RAM 512GB Storage PtA Approved 5G New</a></td>
-      <td>139,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24808/Infinix-Hot-40-Pro-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40 Pro 8GB RAM 256GB Storage PTA Approved New</a></td>
-      <td>45,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24807/Infinix-Hot-40-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40 8GB RAM 256GB Storage PTA Approved New</a></td>
-      <td>39,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24551/Infinix-Note-30-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Note 30 8GB RAM 256GB Storage PTA Approved New</a></td>
-      <td>40,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24922/Infinix-Hot-30-4GB-RAM-128GB-storage-PTA-Approved.html'>Infinix Hot 30 4GB RAM 128GB storage PTA Approved</a></td>
-      <td>31,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>86</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24921/Infinix-Hot-40i-8GB-RAM-128GB-Storage-PTA-Approved.html'>Infinix Hot 40i 8GB RAM 128GB Storage PTA Approved</a></td>
-      <td>30,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>87</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24917/Infinix-Hot-30-Play-8GB-RAM-128GB-Storage-PTA-Approved.html'>Infinix Hot 30 Play 8GB RAM 128GB Storage PTA Approved</a></td>
-      <td>32,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>88</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24914/Infinix-Hot-40i-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40i 8GB RAM 256GB Storage PTA Approved</a></td>
-      <td>35,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>89</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24893/Infinix-Smart-8-3GB-RAM-64GB-Storage-Pta-Approved.html'>Infinix Smart 8 3GB RAM 64GB Storage Pta Approved</a></td>
-      <td>23,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>90</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24598/Infinix-Hot-30-8GB-RAM-128GB-storage-PTA-Approved.html'>Infinix Hot 30 8GB RAM 128GB storage PTA Approved</a></td>
-      <td>34,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24550/Infinix-Note-30-Pro-16GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Note 30 Pro 16GB RAM 256GB Storage PTA Approved</a></td>
-      <td>98,000 - PKR</td>
-    </tr>
-    <tr>
-      <th>92</th>
-      <td>61,999 - PKR</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24519/Infinix-Hot-30-Play-4GB-RAM-64GB-Storage-PTA-Approved.html'>Infinix Hot 30 Play 4GB RAM 64GB Storage PTA Approved</a></td>
-      <td>29,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>94</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24400/Infinix-Hot-12i-4GB-RAM-64GB-Storage-PTA-Approved.html'>Infinix Hot 12i 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>35,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24049/Infinix-HOT-20i-4GB-RAM-128GB-Storage-PTA--Approved.html'>Infinix HOT 20i 4GB RAM 128GB Storage PTA Approved</a></td>
-      <td>35,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>96</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23918/Infinix-HOT-20i-4GB-RAM-64G-Storage-PTA--Approved.html'>Infinix HOT 20i 4GB RAM 64G Storage PTA Approved</a></td>
-      <td>33,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>97</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23424/Infinix-Hot-12-PLAY-X6816C-4GB-Ram-64GB-Storage-LTE-PTA-Approved.html'>Infinix Hot 12 PLAY X6816C 4GB Ram 64GB Storage LTE PTA Approved</a></td>
-      <td>33,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>98</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23372/Infinix-Hot-12-X6817-6GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Hot 12 X6817 6GB Ram 128GB Storage LTE PTA Approved</a></td>
-      <td>33,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>99</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23370/Infinix-Note-12-X670-8GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Note 12 X670 8GB Ram 128GB Storage LTE PTA Approved</a></td>
-      <td>54,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>100</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23362/Infinix-Note-12-X663-6GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Note 12 X663 6GB Ram 128GB Storage LTE PTA Approved</a></td>
-      <td>40,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>101</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23169/Infinix-Smart-6-X657B--3GB-Ram-64GB-Storage-LTE-Pta-Approved.html'>Infinix Smart 6 X657B 3GB Ram 64GB Storage LTE Pta Approved New</a></td>
-      <td>23,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>102</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-30-pro'>Infinix Note 30 Pro</a></td>
-      <td>Rs 58,999</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-30'>Infinix Note 30</a></td>
-      <td>Rs 38,999</td>
-    </tr>
-    <tr>
-      <th>104</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40i'>Infinix Hot 40i</a></td>
-      <td>Rs 28,099</td>
-    </tr>
-    <tr>
-      <th>105</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40'>Infinix Hot 40</a></td>
-      <td>Rs 36,599</td>
-    </tr>
-    <tr>
-      <th>106</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-30-4g'>Infinix Zero 30 4G</a></td>
-      <td>Rs 65,499</td>
-    </tr>
-    <tr>
-      <th>107</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40-pro'>Infinix Hot 40 Pro</a></td>
-      <td>Rs 43,999</td>
-    </tr>
-    <tr>
-      <th>108</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-6'>Infinix Smart 6</a></td>
-      <td>Rs 21,999</td>
-    </tr>
-    <tr>
-      <th>109</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-7-hd'>Infinix Smart 7 HD</a></td>
-      <td>Rs 18,999</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8-pro'>Infinix Smart 8 Pro</a></td>
-      <td>Rs 25,299</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30-play-nfc'>Infinix Hot 30 Play</a></td>
-      <td>Rs 27,049</td>
-    </tr>
-    <tr>
-      <th>112</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-11-play'>Infinix Hot 11 Play</a></td>
-      <td>Rs 28,999</td>
-    </tr>
-    <tr>
-      <th>113</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12i'>Infinix Hot 12i</a></td>
-      <td>Rs 34,299</td>
-    </tr>
-    <tr>
-      <th>114</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8-plus'>Infinix Smart 8 Plus</a></td>
-      <td>Rs 25,399</td>
-    </tr>
-    <tr>
-      <th>115</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30'>Infinix Hot 30</a></td>
-      <td>Rs 30,099</td>
-    </tr>
-    <tr>
-      <th>116</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-30-5g'>Infinix Zero 30 5G</a></td>
-      <td>Rs 103,999</td>
-    </tr>
-    <tr>
-      <th>117</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8'>Infinix Smart 8</a></td>
-      <td>Rs 22,599</td>
-    </tr>
-    <tr>
-      <th>118</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12'>Infinix Hot 12</a></td>
-      <td>Rs 23,299</td>
-    </tr>
-    <tr>
-      <th>119</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12-play'>Infinix Hot 12 Play</a></td>
-      <td>Rs 31,999</td>
-    </tr>
-    <tr>
-      <th>120</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30i'>Infinix Hot 30i</a></td>
-      <td>Rs 27,799</td>
-    </tr>
-    <tr>
-      <th>121</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-6-hd'>Infinix Smart 6 HD</a></td>
-      <td>Rs 22,499</td>
-    </tr>
-    <tr>
-      <th>122</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-20'>Infinix Zero 20</a></td>
-      <td>Rs 79,999</td>
-    </tr>
-    <tr>
-      <th>123</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-20i'>Infinix Hot 20i</a></td>
-      <td>Rs 32,799</td>
-    </tr>
-    <tr>
-      <th>124</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-7'>Infinix Smart 7</a></td>
-      <td>Rs 24,599</td>
-    </tr>
-    <tr>
-      <th>125</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-12-g88'>Infinix Note 12 G88</a></td>
-      <td>Rs 38,999</td>
-    </tr>
-    <tr>
-      <th>126</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-12-g96'>Infinix Note 12 G96</a></td>
-      <td>Rs 45,499</td>
-    </tr>
-    <tr>
-      <th>127</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-gt-10-pro-8gb-256gb/'>Infinix GT 10 Pro 8GB 256GB</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>128</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-note-30-pro-8gb-256gb/'>Infinix Note 30 Pro 8GB 256GB</a></td>
-      <td>Rs 61,999.00 Rs 62,999.00</td>
-    </tr>
-    <tr>
-      <th>129</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-hot-40-8gb-256gb/'>Infinix Hot 40 8GB 256GB</a></td>
-      <td>Rs 39,999.00 Rs 40,999.00</td>
-    </tr>
-    <tr>
-      <th>130</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-smart-8-pro-4gb-128gb/'>Infinix Smart 8 Pro 4GB 128GB</a></td>
-      <td>Rs 26,999.00</td>
-    </tr>
-    <tr>
-      <th>131</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-hot-40-pro-8gb-256gb/'>Infinix Hot 40 Pro 8GB 256GB</a></td>
-      <td>Rs 46,499.00 Rs 48,499.00</td>
-    </tr>
-    <tr>
-      <th>132</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-hot-40i-8gb-128gb-1/'>Infinix Hot 40i 8GB 256GB</a></td>
-      <td>Rs 33,999.00 Rs 35,999.00</td>
-    </tr>
-    <tr>
-      <th>133</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-hot-40i-8gb-128gb/'>Infinix Hot 40i 8GB 128GB</a></td>
-      <td>Rs 29,999.00</td>
-    </tr>
-    <tr>
-      <th>134</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-hot-30i-4gb-128gb/'>Infinix Hot 30i 4GB 128GB</a></td>
-      <td>Rs 27,999.00 Rs 36,999.00</td>
-    </tr>
-    <tr>
-      <th>135</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-note-30-8gb-256gb/'>Infinix Note 30 8GB 256GB</a></td>
-      <td>Rs 40,999.00 Rs 44,999.00</td>
-    </tr>
-    <tr>
-      <th>136</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-note-40-8gb-256gb/'>Infinix Note 40 8GB 256GB</a></td>
-      <td>Rs 49,999.00</td>
-    </tr>
-    <tr>
-      <th>137</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/infinix-zero-30-8gb-256gb-4g/'>Infinix Zero 30 8GB 256GB 4G</a></td>
-      <td>Rs 64,999.00 Rs 69,999.00</td>
-    </tr>
-    <tr>
-      <th>138</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23458/Oppo-F21-Pro-8GB-Ram-128GB-Storage-5G-PTA-Approved.html'>Oppo F21 Pro 8GB Ram 128GB Storage 5G PTA Approved</a></td>
-      <td>139,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>139</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24788/Oppo-A58-6GB-RAM-128GB-Storage-PTA-Approved.html'>Oppo A58 6GB RAM 128GB Storage PTA Approved</a></td>
-      <td>50,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>140</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24398/OPPO--A17-4GB-RAM-64GB-Storage-PTA-Approved.html'>OPPO A17 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>36,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>141</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23300/Oppo-A96-8GB-Ram128GB-Storage-LTE-PTA-Approved.html'>Oppo A96 8GB Ram128GB Storage LTE PTA Approved</a></td>
-      <td>89,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>142</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23299/Oppo-F21-Pro-8GB-Ram-128GB-Storage-LTE.html'>Oppo F21 Pro 8GB Ram 128GB Storage LTE</a></td>
-      <td>119,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>143</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23282/Oppo-A16e-4GB-RAM-64GB-Storage-LTE-PTA-Approved.html'>Oppo A16e 4GB RAM 64GB Storage LTE PTA Approved</a></td>
-      <td>40,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>144</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a38'>Oppo A38</a></td>
-      <td>Rs 37,099</td>
-    </tr>
-    <tr>
-      <th>145</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a58'>Oppo A58</a></td>
-      <td>Rs 48,899</td>
-    </tr>
-    <tr>
-      <th>146</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a18'>Oppo A18</a></td>
-      <td>Rs 33,299</td>
-    </tr>
-    <tr>
-      <th>147</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a78'>Oppo A78</a></td>
-      <td>Rs 66,899</td>
-    </tr>
-    <tr>
-      <th>148</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16e'>Oppo A16e</a></td>
-      <td>Rs 38,949</td>
-    </tr>
-    <tr>
-      <th>149</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a54'>Oppo A54</a></td>
-      <td>Rs 59,499</td>
-    </tr>
-    <tr>
-      <th>150</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a76'>Oppo A76</a></td>
-      <td>Rs 66,999</td>
-    </tr>
-    <tr>
-      <th>151</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16'>Oppo A16</a></td>
-      <td>Rs 24,499</td>
-    </tr>
-    <tr>
-      <th>152</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a57-4g'>Oppo A57</a></td>
-      <td>Rs 43,299</td>
-    </tr>
-    <tr>
-      <th>153</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16k'>Oppo A16K</a></td>
-      <td>Rs 39,999</td>
-    </tr>
-    <tr>
-      <th>154</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f21-pro-5g'>Oppo F21 Pro 5G</a></td>
-      <td>Rs 139,999</td>
-    </tr>
-    <tr>
-      <th>155</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f21-pro'>Oppo F21 Pro</a></td>
-      <td>Rs 118,299</td>
-    </tr>
-    <tr>
-      <th>156</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a77s'>Oppo A77s</a></td>
-      <td>Rs 74,999</td>
-    </tr>
-    <tr>
-      <th>157</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a17'>Oppo A17</a></td>
-      <td>Rs 35,199</td>
-    </tr>
-    <tr>
-      <th>158</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-reno5'>OPPO Reno5</a></td>
-      <td>Rs 0</td>
-    </tr>
-    <tr>
-      <th>159</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-reno5-pro'>OPPO Reno5 Pro</a></td>
-      <td>Rs 0</td>
-    </tr>
-    <tr>
-      <th>160</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f25-pro-5g'>Oppo F25 Pro 5G</a></td>
-      <td>Rs 0</td>
-    </tr>
-    <tr>
-      <th>161</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/oppo-a77s-8gb-128gb/'>Oppo A77s 8GB 128GB</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>162</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/oppo-a58-8gb-128gb/'>Oppo A58 8GB 128GB </a></td>
-      <td>Rs 51,499.00 Rs 56,999.00</td>
-    </tr>
-    <tr>
-      <th>163</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/oppo-a18-4gb-128gb/'>Oppo A18 4GB 128GB</a></td>
-      <td>Rs 34,999.00 Rs 35,999.00</td>
-    </tr>
-    <tr>
-      <th>164</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/oppo-a78-8gb-128gb/'>Oppo A78 8GB 128GB</a></td>
-      <td>Rs 71,999.00</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24969/Vivo-Y17S-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y17S 4GB RAM 128GB Storage PTA Approved New</a></td>
-      <td>35,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>166</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24670/Vivo-V29-5G.html'>Vivo V29 5G New</a></td>
-      <td>159,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>167</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24259/Vivo-V27-5G.html'>Vivo V27 5G New</a></td>
-      <td>COMING SOON</td>
-    </tr>
-    <tr>
-      <th>168</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24946/Vivo-Y02T-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y02T 4GB RAM 128GB Storage PTA Approved</a></td>
-      <td>31,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>169</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24944/Vivo-Y36-8GB-RAM-256GB-Storage-PTA-Approved.html'>Vivo Y36 8GB RAM 256GB Storage PTA Approved</a></td>
-      <td>64,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>170</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24920/Vivo-Y22-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y22 4GB RAM 128GB Storage PTA Approved New</a></td>
-      <td>54,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>171</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24601/Vivo-Y02T-4GB-RAM-64GB-Storage-PTA-Approved.html'>Vivo Y02T 4GB RAM 64GB Storage PTA Approved</a></td>
-      <td>27,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>172</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24600/Vivo-Y02-3GB-RAM-32GB-Storage-PTA-Approved.html'>Vivo Y02 3GB RAM 32GB Storage PTA Approved</a></td>
-      <td>32,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>173</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24599/Vivo-Y27-6GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y27 6GB RAM 128GB Storage PTA Approved</a></td>
-      <td>47,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>174</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24411/Vivo-Y73-8GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y73 8GB RAM 128GB Storage PTA Approved</a></td>
-      <td>80,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>175</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24397/Vivo-Y16-4GB-RAM-64GB-Storage-PTA--Approved.html'>Vivo Y16 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>37,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>176</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24396/Vivo-V27e-8GB-RAM-256GB-Storage-PTA--Approved.html'>Vivo V27e 8GB RAM 256GB Storage PTA Approved New</a></td>
-      <td>91,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>177</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23912/Vivo-V25-12GB-RAM-256GB-Storage-PTA-Approved.html'>Vivo V25 12GB RAM 256GB Storage PTA Approved</a></td>
-      <td>142,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>178</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23845/Vivo-Y22-4GB-RAM-64GB-Storage-PTA-Approved.html'>Vivo Y22 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>51,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>179</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23787/Vivo-Y02s-3GB-RAM-32GB-Storage-LTE-PTA-Approved.html'>Vivo Y02s 3GB RAM 32GB Storage LTE PTA Approved</a></td>
-      <td>30,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>180</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23188/Vivo-Y21T-4GB-RAM-128GB-Storage-LTE-PTA-Approved.html'>Vivo Y21T 4GB RAM 128GB Storage LTE PTA Approved</a></td>
-      <td>67,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>181</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02t'>Vivo Y02t</a></td>
-      <td>Rs 24,299</td>
-    </tr>
-    <tr>
-      <th>182</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y17s'>Vivo Y17s</a></td>
-      <td>Rs 32,549</td>
-    </tr>
-    <tr>
-      <th>183</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y21t'>Vivo Y21T</a></td>
-      <td>Rs 65,199</td>
-    </tr>
-    <tr>
-      <th>184</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y22'>Vivo Y22</a></td>
-      <td>Rs 52,799</td>
-    </tr>
-    <tr>
-      <th>185</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y27s'>Vivo Y27s</a></td>
-      <td>Rs 46,699</td>
-    </tr>
-    <tr>
-      <th>186</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v29e'>Vivo V29e</a></td>
-      <td>Rs 89,499</td>
-    </tr>
-    <tr>
-      <th>187</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02'>Vivo Y02</a></td>
-      <td>Rs 30,999</td>
-    </tr>
-    <tr>
-      <th>188</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y73'>Vivo Y73</a></td>
-      <td>Rs 70,999</td>
-    </tr>
-    <tr>
-      <th>189</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y36'>Vivo Y36</a></td>
-      <td>Rs 54,099</td>
-    </tr>
-    <tr>
-      <th>190</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y33s'>Vivo Y33s</a></td>
-      <td>Rs 51,999</td>
-    </tr>
-    <tr>
-      <th>191</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y16'>Vivo Y16</a></td>
-      <td>Rs 35,199</td>
-    </tr>
-    <tr>
-      <th>192</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v25'>Vivo V25 5G</a></td>
-      <td>Rs 140,499</td>
-    </tr>
-    <tr>
-      <th>193</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v29'>Vivo V29</a></td>
-      <td>Rs 143,199</td>
-    </tr>
-    <tr>
-      <th>194</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y21'>Vivo Y21</a></td>
-      <td>Rs 53,499</td>
-    </tr>
-    <tr>
-      <th>195</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02s'>Vivo Y02s</a></td>
-      <td>Rs 29,299</td>
-    </tr>
-    <tr>
-      <th>196</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y27'>Vivo Y27</a></td>
-      <td>Rs 46,799</td>
-    </tr>
-    <tr>
-      <th>197</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v27e'>Vivo V27e</a></td>
-      <td>Rs 87,999</td>
-    </tr>
-    <tr>
-      <th>198</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-x90-pro-12gb-256gb/'>Vivo X90 Pro 12GB 256GB</a></td>
-      <td>Rating:</td>
-    </tr>
-    <tr>
-      <th>199</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y02t-4gb-128gb/'>Vivo Y02t 4GB 128GB</a></td>
-      <td>Rs 31,499.00 Rs 33,999.00</td>
-    </tr>
-    <tr>
-      <th>200</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-v29-12gb-256gb/'>Vivo V29 12GB 256GB</a></td>
-      <td>Rs 149,999.00 Rs 159,999.00</td>
-    </tr>
-    <tr>
-      <th>201</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y17s-6gb-128gb/'>Vivo Y17s 6GB 128GB</a></td>
-      <td>Rs 39,999.00 Rs 41,999.00</td>
-    </tr>
-    <tr>
-      <th>202</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y17s-4gb-128gb/'>Vivo Y17s 4GB 128GB</a></td>
-      <td>Rs 34,499.00 Rs 36,999.00</td>
-    </tr>
-    <tr>
-      <th>203</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y02t-4gb-64gb/'>Vivo Y02t 4GB 64GB</a></td>
-      <td>Rs 26,699.00 Rs 29,999.00</td>
-    </tr>
-    <tr>
-      <th>204</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y27s-8gb-128gb/'>Vivo Y27s 8GB 128GB</a></td>
-      <td>Rs 48,499.00 Rs 52,999.00</td>
-    </tr>
-    <tr>
-      <th>205</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-y36-8gb-256gb/'>Vivo Y36 8GB 256GB</a></td>
-      <td>Rs 56,999.00 Rs 59,999.00</td>
-    </tr>
-    <tr>
-      <th>206</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-v30-lite-8gb-256gb/'>Vivo V30 Lite 8GB 256GB</a></td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>207</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/vivo-v29e-8gb-256gb/'>Vivo V29e 8GB 256GB</a></td>
-      <td>Rs 88,999.00 Rs 99,999.00</td>
-    </tr>
-    <tr>
-      <th>208</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24949/Realme-Note-50-4GB-RAM-64GB-Storage-PTA-Approved.html'>Realme Note 50 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>24,199 - PKR</td>
-    </tr>
-    <tr>
-      <th>209</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24114/Realme-GT3.html'>Realme GT3 New</a></td>
-      <td>COMING SOON</td>
-    </tr>
-    <tr>
-      <th>210</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24918/Realme-C21-4GB-RAM-64GB-Storage.html'>Realme C21 4GB RAM 64GB Storage</a></td>
-      <td>41,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>211</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24915/Realme-C67-8GB-RAM-128GB-Storage-PTA-Approved.html'>Realme C67 8GB RAM 128GB Storage PTA Approved</a></td>
-      <td>44,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>212</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24597/Real-Me-Narzo-50A-Prime-4GB-RAM-64GB-Storage-PTA-Approved.html'>Real Me Narzo 50A Prime 4GB RAM 64GB Storage PTA Approved</a></td>
-      <td>29,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>213</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24395/Realme-C33-4GB-RAM-128GB-Storage-PTA-Approved.html'>Realme C33 4GB RAM 128GB Storage PTA Approved New</a></td>
-      <td>47,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>214</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/24394/Realme-C33-4GB-RAM-64GB-Storage-PTA--Approved.html'>Realme C33 4GB RAM 64GB Storage PTA Approved New</a></td>
-      <td>35,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>215</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23826/Realme-C25s-4GB-RAM-128GB-Storage-PTA--Approved.html'>Realme C25s 4GB RAM 128GB Storage PTA Approved</a></td>
-      <td>45,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>216</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23820/REALME-C25Y-4GB-RAM-64GB-STORAGE-PTA-APPROVED.html'>REALME C25Y 4GB RAM 64GB STORAGE PTA APPROVED</a></td>
-      <td>39,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>217</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23698/REALME-C35-4GB-RAM-128GB-STORAGE-PTA-APPROVED.html'>REALME C35 4GB RAM 128GB STORAGE PTA APPROVED</a></td>
-      <td>34,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>218</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23597/Realme-9-Pro-plus-8GB-RAM-128GB--Storage-5G-PTA-Approved.html'>Realme 9 Pro plus 8GB RAM 128GB Storage 5G PTA Approved</a></td>
-      <td>91,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>219</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/23157/REALME-C11-4GB-RAM-64GB-STORAGE-LTE-PTA-Approved.html'>REALME C11 4GB RAM 64GB STORAGE LTE PTA Approved</a></td>
-      <td>37,499 - PKR</td>
-    </tr>
-    <tr>
-      <th>220</th>
-      <td>mega.pk</td>
-      <td><a href='https://www.mega.pk/mobiles_products/22792/Realme-C21-3GB-RAM-32GB-Storage.html'>Realme C21 3GB RAM 32GB Storage</a></td>
-      <td>33,999 - PKR</td>
-    </tr>
-    <tr>
-      <th>221</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c67'>Realme C67</a></td>
-      <td>Rs 44,299</td>
-    </tr>
-    <tr>
-      <th>222</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c30'>Realme C30</a></td>
-      <td>Rs 21,799</td>
-    </tr>
-    <tr>
-      <th>223</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50'>Realme Narzo 50</a></td>
-      <td>Rs 34,849</td>
-    </tr>
-    <tr>
-      <th>224</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c25y'>Realme C25Y</a></td>
-      <td>Rs 37,699</td>
-    </tr>
-    <tr>
-      <th>225</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50a-prime'>Realme Narzo 50A Prime</a></td>
-      <td>Rs 26,849</td>
-    </tr>
-    <tr>
-      <th>226</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c11-2021'>Realme C11 2021</a></td>
-      <td>Rs 35,599</td>
-    </tr>
-    <tr>
-      <th>227</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c21'>Realme C21</a></td>
-      <td>Rs 33,499</td>
-    </tr>
-    <tr>
-      <th>228</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-note-50'>Realme Note 50</a></td>
-      <td>Rs 22,499</td>
-    </tr>
-    <tr>
-      <th>229</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c21y'>Realme C21Y</a></td>
-      <td>Rs 33,299</td>
-    </tr>
-    <tr>
-      <th>230</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c33'>Realme C33</a></td>
-      <td>Rs 39,999</td>
-    </tr>
-    <tr>
-      <th>231</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c35'>Realme C35</a></td>
-      <td>Rs 31,999</td>
-    </tr>
-    <tr>
-      <th>232</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c51'>Realme C51</a></td>
-      <td>Rs 23,699</td>
-    </tr>
-    <tr>
-      <th>233</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-9-4g'>Realme 9 4G</a></td>
-      <td>Rs 97,299</td>
-    </tr>
-    <tr>
-      <th>234</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-9-pro-plus'>Realme 9 Pro Plus</a></td>
-      <td>Rs 95,999</td>
-    </tr>
-    <tr>
-      <th>235</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-9i'>Realme 9i</a></td>
-      <td>Rs 77,499</td>
-    </tr>
-    <tr>
-      <th>236</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c53'>Realme C53</a></td>
-      <td>Rs 31,799</td>
-    </tr>
-    <tr>
-      <th>237</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-c25s'>Realme C25s</a></td>
-      <td>Rs 40,600</td>
-    </tr>
-    <tr>
-      <th>238</th>
-      <td>priceoye.pk</td>
-      <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50i'>Realme Narzo 50i</a></td>
-      <td>Rs 28,999</td>
-    </tr>
-    <tr>
-      <th>239</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c35-4gb-128gb/'>Realme C35 4GB 128GB</a></td>
-      <td>Rs 45,999.00 Rs 49,999.00</td>
-    </tr>
-    <tr>
-      <th>240</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c25y-4gb-64gb/'>Realme C25Y 4GB 64GB</a></td>
-      <td>Rs 39,999.00 Rs 49,999.00</td>
-    </tr>
-    <tr>
-      <th>241</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-narzo-50-4gb-64gb/'>Realme Narzo 50 4GB 64GB</a></td>
-      <td>Rs 41,999.00 Rs 44,999.00</td>
-    </tr>
-    <tr>
-      <th>242</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c33-4gb-64gb/'>Realme C33 4GB 64GB</a></td>
-      <td>Rs 30,499.00 Rs 34,999.00</td>
-    </tr>
-    <tr>
-      <th>243</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c51-4gb-64gb/'>Realme C51 4GB 64GB</a></td>
-      <td>Rs 29,999.00</td>
-    </tr>
-    <tr>
-      <th>244</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c53-6gb-128gb/'>Realme C53 6GB 128GB</a></td>
-      <td>Rs 33,999.00 Rs 34,999.00</td>
-    </tr>
-    <tr>
-      <th>245</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-c67-8gb-128gb/'>Realme C67 8GB 128GB</a></td>
-      <td>Rs 44,999.00 Rs 47,999.00</td>
-    </tr>
-    <tr>
-      <th>246</th>
-      <td>shophive.pk</td>
-      <td><a href='https://www.shophive.com/realme-note-50-4gb-64gb/'>Realme Note 50 4GB 64GB </a></td>
-      <td>Rs 24,999.00</td>
-    </tr>
-  </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Responsive Buttons</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="btn btn-primary btn-block">Samsung</a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-secondary btn-block">Infinix</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="btn btn-success btn-block">Oppo</a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-info btn-block">Vivo</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="btn btn-warning btn-block">Realme</a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-danger btn-block">Xiaomi</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="btn btn-light btn-block">Sparx</a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-dark btn-block">ITel</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="btn btn-link btn-block">Apple</a>
+            </div>
+            <div class="col-md-6">
+                <a href="#" class="btn btn-outline-primary btn-block">Honor</a>
+            </div>
+        </div>
+    </div>
 
-<script>
-  function myFunction(value) {
+    <table border="1" id="dataframe">
+      <thead>
+        <tr style="text-align: right;">
+          <th></th>
+          <th>Store</th>
+          <th>Mobile</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>0</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24945/Samsung-Galaxy-Z-Fold-5-12GB-RAM-256GB-Storage.html'>Samsung</a></td>
+          <td>559,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24916/Samsung-Galaxy-S24-Ultra-12GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S24 Ultra 12GB RAM 256GB Storage Non PTA New</a></td>
+          <td>334,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24881/Samsung-Galaxy-S24-Ultra-12GB-RAM-512GB-Storage-Non-PTA.html'>Samsung Galaxy S24 Ultra 12GB RAM 512GB Storage Non PTA New</a></td>
+          <td>374,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24591/Samsung-Galaxy-Z-Flip-5-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy Z Flip 5 8GB RAM 256GB Storage Non PTA New</a></td>
+          <td>359,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24587/Samsung-Galaxy-Z-Fold-5-12GB-RAM-512GB-Storage.html'>Samsung Galaxy Z Fold 5 12GB RAM 512GB Storage New</a></td>
+          <td>599,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24790/Samsung-Galaxy-S23-FE-8GB-RAM-256GB-Storage-PTA-Approved.html'>Samsung Galaxy S23 FE 8GB RAM 256GB Storage PTA Approved New</a></td>
+          <td>204,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24789/Samsung-Galaxy-S23-FE-8GB-RAM-128GB-Storage-Non-PTA.html'>Samsung Galaxy S23 FE 8GB RAM 128GB Storage Non PTA New</a></td>
+          <td>184,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24520/Samsung-Galaxy-S23-Ultra-12GB-RAM-1TB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 1TB Storage Non PTA New</a></td>
+          <td>354,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24448/Samsung-Galaxy-A04E-3GB-RAM-64GB-Storage-PTA-Approved.html'>Samsung Galaxy A04E 3GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>35,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24447/Samsung-Galaxy-A04E-3GB-RAM-32GB-Storage-PTA-Approved.html'>Samsung Galaxy A04E 3GB RAM 32GB Storage PTA Approved New</a></td>
+          <td>33,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>10</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24432/Samsung-Galaxy-A54-8GB-RAM-256GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A54 8GB RAM 256GB Storage 5G PTA Approved New</a></td>
+          <td>140,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>11</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24425/Samsung-Galaxy-A24-8GB-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A24 8GB 128GB Storage PTA Approved New</a></td>
+          <td>79,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>12</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24423/Samsung-Galaxy-A34-8GB-RAM-256GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A34 8GB RAM 256GB Storage 5G PTA Approved New</a></td>
+          <td>114,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>13</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24422/Samsung-Galaxy-A34-6GB-RAM-128GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A34 6GB RAM 128GB Storage 5G PTA Approved New</a></td>
+          <td>89,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>14</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24421/Samsung-Galaxy-A24-6GB-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A24 6GB 128GB Storage PTA Approved New</a></td>
+          <td>72,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>15</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24420/Samsung-Galaxy-A54-8GB-RAM-128GB-Storage-5G-PTA-Approved.html'>Samsung Galaxy A54 8GB RAM 128GB Storage 5G PTA Approved New</a></td>
+          <td>124,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>16</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24403/Samsung-Galaxy-S23-Ultra-12GB-RAM-512GB-Storage-PTA-Approved.html'>Samsung Galaxy S23 Ultra 12GB RAM 512GB Storage PTA Approved New</a></td>
+          <td>571,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>17</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24376/Samsung-Galaxy-Z-Fold-4-12GB-Ram-512GB-Storage-NON-PTA-5G.html'>Samsung Galaxy Z Fold 4 12GB Ram 512GB Storage NON PTA 5G</a></td>
+          <td>392,495 - PKR</td>
+        </tr>
+        <tr>
+          <th>18</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24337/Samsung-Galaxy-A14-6GB-RAM-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A14 6GB RAM 128GB Storage PTA Approved</a></td>
+          <td>59,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>19</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24336/Samsung-Galaxy-A14-4GB-RAM-128GB-Storage-PTA-Approved.html'>Samsung Galaxy A14 4GB RAM 128GB Storage PTA Approved</a></td>
+          <td>56,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>20</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24187/Samsung-Galaxy-S23-Plus-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Plus 8GB RAM 256GB Storage Non PTA</a></td>
+          <td>222,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>21</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24185/Samsung-Galaxy-S23-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 8GB RAM 256GB Storage Non PTA</a></td>
+          <td>201,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>22</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24179/Samsung-Galaxy-S23-Ultra-8GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 8GB RAM 256GB Storage Non PTA New</a></td>
+          <td>262,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>23</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24087/Samsung-Galaxy-A04-4GB-RAM-64GB-Storage-PTA--Approved.html'>Samsung Galaxy A04 4GB RAM 64GB Storage PTA Approved</a></td>
+          <td>35,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>24</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24080/Samsung-Galaxy-A04-3GB-RAM-32GB-Storage-PTA--Approved.html'>Samsung Galaxy A04 3GB RAM 32GB Storage PTA Approved</a></td>
+          <td>31,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>25</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24015/Samsung-Galaxy-S23-Ultra-12GB-RAM-512GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 512GB Storage Non PTA New</a></td>
+          <td>294,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>26</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24014/Samsung-Galaxy-S23-Ultra-12GB-RAM-256GB-Storage-Non-PTA.html'>Samsung Galaxy S23 Ultra 12GB RAM 256GB Storage Non PTA New</a></td>
+          <td>261,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>27</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23962/Samsung-S23-Ultra.html'>Samsung S23 Ultra New</a></td>
+          <td>262,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>28</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23955/Samsung-Galaxy-Z-Fold-4-12GB-Ram-256GB-Storage-PTA--Approved-5G.html'>Samsung Galaxy Z Fold 4 12GB Ram 256GB Storage PTA Approved 5G New</a></td>
+          <td>419,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>29</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23923/Samsung-Galaxy-Z-Flip-4-8GB-RAM-256GB-Storage-PTA--Approved.html'>Samsung Galaxy Z Flip 4 8GB RAM 256GB Storage PTA Approved</a></td>
+          <td>279,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>30</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23824/Samsung-Galaxy-Z-Fold-4-12GB-RAM-512GB-Storage-PTA--Approved.html'>Samsung Galaxy Z Fold 4 12GB RAM 512GB Storage PTA Approved</a></td>
+          <td>564,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>31</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23823/Samsung-Galaxy-Z-Flip-4-8GB-RAM-512GB-Storage.html'>Samsung Galaxy Z Flip 4 8GB RAM 512GB Storage</a></td>
+          <td>369,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>32</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a14'>Samsung Galaxy A14</a></td>
+          <td>Rs 36,499</td>
+        </tr>
+        <tr>
+          <th>33</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a24-4g'>Samsung Galaxy A24 4G</a></td>
+          <td>Rs 58,999</td>
+        </tr>
+        <tr>
+          <th>34</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23-fe'>Samsung Galaxy S23 FE</a></td>
+          <td>Rs 185,999</td>
+        </tr>
+        <tr>
+          <th>35</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04'>Samsung Galaxy A04</a></td>
+          <td>Rs 21,299</td>
+        </tr>
+        <tr>
+          <th>36</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a05'>Samsung Galaxy A05</a></td>
+          <td>Rs 32,800</td>
+        </tr>
+        <tr>
+          <th>37</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a54-5g'>Samsung Galaxy A54 5G</a></td>
+          <td>Rs 127,999</td>
+        </tr>
+        <tr>
+          <th>38</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a13'>Samsung Galaxy A13</a></td>
+          <td>Rs 40,499</td>
+        </tr>
+        <tr>
+          <th>39</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s21-fe'>Samsung Galaxy S21 FE</a></td>
+          <td>Rs 144,999</td>
+        </tr>
+        <tr>
+          <th>40</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a15'>Samsung Galaxy A15</a></td>
+          <td>Rs 52,999</td>
+        </tr>
+        <tr>
+          <th>41</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a25'>Samsung Galaxy A25</a></td>
+          <td>Rs 90,499</td>
+        </tr>
+        <tr>
+          <th>42</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s22'>Samsung Galaxy S22</a></td>
+          <td>Rs 194,999</td>
+        </tr>
+        <tr>
+          <th>43</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s22-ultra'>Samsung Galaxy S22 Ultra</a></td>
+          <td>Rs 334,999</td>
+        </tr>
+        <tr>
+          <th>44</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a34'>Samsung Galaxy A34</a></td>
+          <td>Rs 99,999</td>
+        </tr>
+        <tr>
+          <th>45</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a05s'>Samsung Galaxy A05s</a></td>
+          <td>Rs 46,999</td>
+        </tr>
+        <tr>
+          <th>46</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-flip-5'>Samsung Galaxy Z Flip 5</a></td>
+          <td>Rs 323,499</td>
+        </tr>
+        <tr>
+          <th>47</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24-ultra'>Samsung Galaxy S24 Ultra</a></td>
+          <td>Rs 434,999</td>
+        </tr>
+        <tr>
+          <th>48</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a12'>Samsung Galaxy A12</a></td>
+          <td>Rs 39,499</td>
+        </tr>
+        <tr>
+          <th>49</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a73'>Samsung Galaxy A73</a></td>
+          <td>Rs 171,499</td>
+        </tr>
+        <tr>
+          <th>50</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24-ultra-12-256gb'>Samsung Galaxy S24 Ultra (12GB-256GB)</a></td>
+          <td>Rs 420,000</td>
+        </tr>
+        <tr>
+          <th>51</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04s'>Samsung Galaxy A04s</a></td>
+          <td>Rs 32,199</td>
+        </tr>
+        <tr>
+          <th>52</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23-ultra'>Samsung Galaxy S23 Ultra</a></td>
+          <td>Rs 494,999</td>
+        </tr>
+        <tr>
+          <th>53</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a33'>Samsung Galaxy A33 5G</a></td>
+          <td>Rs 100,999</td>
+        </tr>
+        <tr>
+          <th>54</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-fold-5'>Samsung Galaxy Z Fold 5</a></td>
+          <td>Rs 517,499</td>
+        </tr>
+        <tr>
+          <th>55</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-fold-4'>Samsung Galaxy Z Fold 4</a></td>
+          <td>Rs 324,999</td>
+        </tr>
+        <tr>
+          <th>56</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-z-flip-4'>Samsung Galaxy Z Flip 4</a></td>
+          <td>Rs 314,999</td>
+        </tr>
+        <tr>
+          <th>57</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a04e'>Samsung Galaxy A04e</a></td>
+          <td>Rs 20,499</td>
+        </tr>
+        <tr>
+          <th>58</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a53'>Samsung Galaxy A53 5G</a></td>
+          <td>Rs 121,999</td>
+        </tr>
+        <tr>
+          <th>59</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s23'>Samsung Galaxy S23</a></td>
+          <td>Rs 359,999</td>
+        </tr>
+        <tr>
+          <th>60</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-s24'>Samsung Galaxy S24</a></td>
+          <td>Rs 269,999</td>
+        </tr>
+        <tr>
+          <th>61</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a32'>Samsung Galaxy A32</a></td>
+          <td>Rs 79,999</td>
+        </tr>
+        <tr>
+          <th>62</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a22'>Samsung Galaxy A22</a></td>
+          <td>Rs 55,999</td>
+        </tr>
+        <tr>
+          <th>63</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a03'>Samsung Galaxy A03</a></td>
+          <td>Rs 26,699</td>
+        </tr>
+        <tr>
+          <th>64</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/samsung/samsung-galaxy-a23'>Samsung Galaxy A23</a></td>
+          <td>Rs 74,199</td>
+        </tr>
+        <tr>
+          <th>65</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-s23-plus-8gb-256gb/'>Samsung Galaxy S23 Plus 8GB 256GB</a></td>
+          <td>Rs 249,999.00</td>
+        </tr>
+        <tr>
+          <th>66</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-s23-plus-8gb-512gb/'>Samsung Galaxy S23 Plus 8GB 512GB</a></td>
+          <td>Rs 319,999.00</td>
+        </tr>
+        <tr>
+          <th>67</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-s23-8gb-128gb-non-pta/'>Samsung Galaxy S23 8GB 128GB Non PTA</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>68</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a74-8gb-256gb/'>Samsung Galaxy A74 8GB 256GB</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>69</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-s23-8gb-256gb-non-pta/'>Samsung Galaxy S23 8GB 256GB Non PTA</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>70</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a23e-4gb-64gb/'>Samsung Galaxy A23e 4GB 64GB</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>71</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a34-5g-8gb-256gb/'>Samsung Galaxy A34 5G 8GB 256GB</a></td>
+          <td>Rs 105,999.00 Rs 114,999.00</td>
+        </tr>
+        <tr>
+          <th>72</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-z-fold4-12gb-512gb/'>Samsung Galaxy Z Fold4 12GB 512GB PTA Approved </a></td>
+          <td>Rs 389,999.00 Rs 574,999.00</td>
+        </tr>
+        <tr>
+          <th>73</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a04s-4gb-128gb/'>Samsung Galaxy A04s 4GB 128GB</a></td>
+          <td>Rs 34,999.00 Rs 43,999.00</td>
+        </tr>
+        <tr>
+          <th>74</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-z-flip-5-8gb-512gb/'>Samsung Galaxy z Flip 5 8GB 512GB</a></td>
+          <td>Rs 349,999.00 Rs 359,999.00</td>
+        </tr>
+        <tr>
+          <th>75</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-z-fold-5/'>Samsung Galaxy Z Fold 5</a></td>
+          <td>Rs 589,999.00 Rs 599,999.00</td>
+        </tr>
+        <tr>
+          <th>76</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a54-5g-8gb-256gb/'>Samsung Galaxy A54 5G 8GB 256GB</a></td>
+          <td>Rs 133,999.00 Rs 140,999.00</td>
+        </tr>
+        <tr>
+          <th>77</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a04-3gb-32gb/'>Samsung Galaxy A04 3GB 32GB</a></td>
+          <td>Rs 22,499.00 Rs 31,499.00</td>
+        </tr>
+        <tr>
+          <th>78</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a05-4gb-128gb/'>Samsung Galaxy A05 4GB 128GB</a></td>
+          <td>Rs 33,999.00</td>
+        </tr>
+        <tr>
+          <th>79</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a05-6gb-128gb/'>Samsung Galaxy A05 6GB 128GB</a></td>
+          <td>Rs 37,999.00</td>
+        </tr>
+        <tr>
+          <th>80</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/samsung-galaxy-a05s-6gb-128gb/'>Samsung Galaxy A05s 6GB 128GB</a></td>
+          <td>Rs 47,999.00</td>
+        </tr>
+        <tr>
+          <th>81</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24928/Xiaomi-Redmi-Note-13-Pro-Plus-12GB-RAM-512GB-Storage-PtA-Approved-5G.html'>Xiaomi Redmi Note 13 Pro Plus 12GB RAM 512GB Storage PtA Approved 5G New</a></td>
+          <td>139,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>82</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24808/Infinix-Hot-40-Pro-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40 Pro 8GB RAM 256GB Storage PTA Approved New</a></td>
+          <td>45,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>83</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24807/Infinix-Hot-40-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40 8GB RAM 256GB Storage PTA Approved New</a></td>
+          <td>39,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>84</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24551/Infinix-Note-30-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Note 30 8GB RAM 256GB Storage PTA Approved New</a></td>
+          <td>40,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>85</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24922/Infinix-Hot-30-4GB-RAM-128GB-storage-PTA-Approved.html'>Infinix Hot 30 4GB RAM 128GB storage PTA Approved</a></td>
+          <td>31,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>86</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24921/Infinix-Hot-40i-8GB-RAM-128GB-Storage-PTA-Approved.html'>Infinix Hot 40i 8GB RAM 128GB Storage PTA Approved</a></td>
+          <td>30,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>87</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24917/Infinix-Hot-30-Play-8GB-RAM-128GB-Storage-PTA-Approved.html'>Infinix Hot 30 Play 8GB RAM 128GB Storage PTA Approved</a></td>
+          <td>32,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>88</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24914/Infinix-Hot-40i-8GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Hot 40i 8GB RAM 256GB Storage PTA Approved</a></td>
+          <td>35,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>89</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24893/Infinix-Smart-8-3GB-RAM-64GB-Storage-Pta-Approved.html'>Infinix Smart 8 3GB RAM 64GB Storage Pta Approved</a></td>
+          <td>23,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>90</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24598/Infinix-Hot-30-8GB-RAM-128GB-storage-PTA-Approved.html'>Infinix Hot 30 8GB RAM 128GB storage PTA Approved</a></td>
+          <td>34,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>91</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24550/Infinix-Note-30-Pro-16GB-RAM-256GB-Storage-PTA-Approved.html'>Infinix Note 30 Pro 16GB RAM 256GB Storage PTA Approved</a></td>
+          <td>98,000 - PKR</td>
+        </tr>
+        <tr>
+          <th>92</th>
+          <td>61,999 - PKR</td>
+          <td>NaN</td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>93</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24519/Infinix-Hot-30-Play-4GB-RAM-64GB-Storage-PTA-Approved.html'>Infinix Hot 30 Play 4GB RAM 64GB Storage PTA Approved</a></td>
+          <td>29,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>94</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24400/Infinix-Hot-12i-4GB-RAM-64GB-Storage-PTA-Approved.html'>Infinix Hot 12i 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>35,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>95</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24049/Infinix-HOT-20i-4GB-RAM-128GB-Storage-PTA--Approved.html'>Infinix HOT 20i 4GB RAM 128GB Storage PTA Approved</a></td>
+          <td>35,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>96</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23918/Infinix-HOT-20i-4GB-RAM-64G-Storage-PTA--Approved.html'>Infinix HOT 20i 4GB RAM 64G Storage PTA Approved</a></td>
+          <td>33,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>97</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23424/Infinix-Hot-12-PLAY-X6816C-4GB-Ram-64GB-Storage-LTE-PTA-Approved.html'>Infinix Hot 12 PLAY X6816C 4GB Ram 64GB Storage LTE PTA Approved</a></td>
+          <td>33,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>98</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23372/Infinix-Hot-12-X6817-6GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Hot 12 X6817 6GB Ram 128GB Storage LTE PTA Approved</a></td>
+          <td>33,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>99</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23370/Infinix-Note-12-X670-8GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Note 12 X670 8GB Ram 128GB Storage LTE PTA Approved</a></td>
+          <td>54,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>100</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23362/Infinix-Note-12-X663-6GB-Ram-128GB-Storage-LTE-PTA-Approved.html'>Infinix Note 12 X663 6GB Ram 128GB Storage LTE PTA Approved</a></td>
+          <td>40,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>101</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23169/Infinix-Smart-6-X657B--3GB-Ram-64GB-Storage-LTE-Pta-Approved.html'>Infinix Smart 6 X657B 3GB Ram 64GB Storage LTE Pta Approved New</a></td>
+          <td>23,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>102</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-30-pro'>Infinix Note 30 Pro</a></td>
+          <td>Rs 58,999</td>
+        </tr>
+        <tr>
+          <th>103</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-30'>Infinix Note 30</a></td>
+          <td>Rs 38,999</td>
+        </tr>
+        <tr>
+          <th>104</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40i'>Infinix Hot 40i</a></td>
+          <td>Rs 28,099</td>
+        </tr>
+        <tr>
+          <th>105</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40'>Infinix Hot 40</a></td>
+          <td>Rs 36,599</td>
+        </tr>
+        <tr>
+          <th>106</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-30-4g'>Infinix Zero 30 4G</a></td>
+          <td>Rs 65,499</td>
+        </tr>
+        <tr>
+          <th>107</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-40-pro'>Infinix Hot 40 Pro</a></td>
+          <td>Rs 43,999</td>
+        </tr>
+        <tr>
+          <th>108</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-6'>Infinix Smart 6</a></td>
+          <td>Rs 21,999</td>
+        </tr>
+        <tr>
+          <th>109</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-7-hd'>Infinix Smart 7 HD</a></td>
+          <td>Rs 18,999</td>
+        </tr>
+        <tr>
+          <th>110</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8-pro'>Infinix Smart 8 Pro</a></td>
+          <td>Rs 25,299</td>
+        </tr>
+        <tr>
+          <th>111</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30-play-nfc'>Infinix Hot 30 Play</a></td>
+          <td>Rs 27,049</td>
+        </tr>
+        <tr>
+          <th>112</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-11-play'>Infinix Hot 11 Play</a></td>
+          <td>Rs 28,999</td>
+        </tr>
+        <tr>
+          <th>113</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12i'>Infinix Hot 12i</a></td>
+          <td>Rs 34,299</td>
+        </tr>
+        <tr>
+          <th>114</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8-plus'>Infinix Smart 8 Plus</a></td>
+          <td>Rs 25,399</td>
+        </tr>
+        <tr>
+          <th>115</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30'>Infinix Hot 30</a></td>
+          <td>Rs 30,099</td>
+        </tr>
+        <tr>
+          <th>116</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-30-5g'>Infinix Zero 30 5G</a></td>
+          <td>Rs 103,999</td>
+        </tr>
+        <tr>
+          <th>117</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-8'>Infinix Smart 8</a></td>
+          <td>Rs 22,599</td>
+        </tr>
+        <tr>
+          <th>118</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12'>Infinix Hot 12</a></td>
+          <td>Rs 23,299</td>
+        </tr>
+        <tr>
+          <th>119</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-12-play'>Infinix Hot 12 Play</a></td>
+          <td>Rs 31,999</td>
+        </tr>
+        <tr>
+          <th>120</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-30i'>Infinix Hot 30i</a></td>
+          <td>Rs 27,799</td>
+        </tr>
+        <tr>
+          <th>121</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-6-hd'>Infinix Smart 6 HD</a></td>
+          <td>Rs 22,499</td>
+        </tr>
+        <tr>
+          <th>122</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-zero-20'>Infinix Zero 20</a></td>
+          <td>Rs 79,999</td>
+        </tr>
+        <tr>
+          <th>123</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-hot-20i'>Infinix Hot 20i</a></td>
+          <td>Rs 32,799</td>
+        </tr>
+        <tr>
+          <th>124</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-smart-7'>Infinix Smart 7</a></td>
+          <td>Rs 24,599</td>
+        </tr>
+        <tr>
+          <th>125</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-12-g88'>Infinix Note 12 G88</a></td>
+          <td>Rs 38,999</td>
+        </tr>
+        <tr>
+          <th>126</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/infinix/infinix-note-12-g96'>Infinix Note 12 G96</a></td>
+          <td>Rs 45,499</td>
+        </tr>
+        <tr>
+          <th>127</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-gt-10-pro-8gb-256gb/'>Infinix GT 10 Pro 8GB 256GB</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>128</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-note-30-pro-8gb-256gb/'>Infinix Note 30 Pro 8GB 256GB</a></td>
+          <td>Rs 61,999.00 Rs 62,999.00</td>
+        </tr>
+        <tr>
+          <th>129</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-hot-40-8gb-256gb/'>Infinix Hot 40 8GB 256GB</a></td>
+          <td>Rs 39,999.00 Rs 40,999.00</td>
+        </tr>
+        <tr>
+          <th>130</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-smart-8-pro-4gb-128gb/'>Infinix Smart 8 Pro 4GB 128GB</a></td>
+          <td>Rs 26,999.00</td>
+        </tr>
+        <tr>
+          <th>131</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-hot-40-pro-8gb-256gb/'>Infinix Hot 40 Pro 8GB 256GB</a></td>
+          <td>Rs 46,499.00 Rs 48,499.00</td>
+        </tr>
+        <tr>
+          <th>132</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-hot-40i-8gb-128gb-1/'>Infinix Hot 40i 8GB 256GB</a></td>
+          <td>Rs 33,999.00 Rs 35,999.00</td>
+        </tr>
+        <tr>
+          <th>133</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-hot-40i-8gb-128gb/'>Infinix Hot 40i 8GB 128GB</a></td>
+          <td>Rs 29,999.00</td>
+        </tr>
+        <tr>
+          <th>134</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-hot-30i-4gb-128gb/'>Infinix Hot 30i 4GB 128GB</a></td>
+          <td>Rs 27,999.00 Rs 36,999.00</td>
+        </tr>
+        <tr>
+          <th>135</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-note-30-8gb-256gb/'>Infinix Note 30 8GB 256GB</a></td>
+          <td>Rs 40,999.00 Rs 44,999.00</td>
+        </tr>
+        <tr>
+          <th>136</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-note-40-8gb-256gb/'>Infinix Note 40 8GB 256GB</a></td>
+          <td>Rs 49,999.00</td>
+        </tr>
+        <tr>
+          <th>137</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/infinix-zero-30-8gb-256gb-4g/'>Infinix Zero 30 8GB 256GB 4G</a></td>
+          <td>Rs 64,999.00 Rs 69,999.00</td>
+        </tr>
+        <tr>
+          <th>138</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23458/Oppo-F21-Pro-8GB-Ram-128GB-Storage-5G-PTA-Approved.html'>Oppo F21 Pro 8GB Ram 128GB Storage 5G PTA Approved</a></td>
+          <td>139,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>139</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24788/Oppo-A58-6GB-RAM-128GB-Storage-PTA-Approved.html'>Oppo A58 6GB RAM 128GB Storage PTA Approved</a></td>
+          <td>50,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>140</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24398/OPPO--A17-4GB-RAM-64GB-Storage-PTA-Approved.html'>OPPO A17 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>36,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>141</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23300/Oppo-A96-8GB-Ram128GB-Storage-LTE-PTA-Approved.html'>Oppo A96 8GB Ram128GB Storage LTE PTA Approved</a></td>
+          <td>89,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>142</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23299/Oppo-F21-Pro-8GB-Ram-128GB-Storage-LTE.html'>Oppo F21 Pro 8GB Ram 128GB Storage LTE</a></td>
+          <td>119,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>143</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23282/Oppo-A16e-4GB-RAM-64GB-Storage-LTE-PTA-Approved.html'>Oppo A16e 4GB RAM 64GB Storage LTE PTA Approved</a></td>
+          <td>40,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>144</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a38'>Oppo A38</a></td>
+          <td>Rs 37,099</td>
+        </tr>
+        <tr>
+          <th>145</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a58'>Oppo A58</a></td>
+          <td>Rs 48,899</td>
+        </tr>
+        <tr>
+          <th>146</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a18'>Oppo A18</a></td>
+          <td>Rs 33,299</td>
+        </tr>
+        <tr>
+          <th>147</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a78'>Oppo A78</a></td>
+          <td>Rs 66,899</td>
+        </tr>
+        <tr>
+          <th>148</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16e'>Oppo A16e</a></td>
+          <td>Rs 38,949</td>
+        </tr>
+        <tr>
+          <th>149</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a54'>Oppo A54</a></td>
+          <td>Rs 59,499</td>
+        </tr>
+        <tr>
+          <th>150</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a76'>Oppo A76</a></td>
+          <td>Rs 66,999</td>
+        </tr>
+        <tr>
+          <th>151</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16'>Oppo A16</a></td>
+          <td>Rs 24,499</td>
+        </tr>
+        <tr>
+          <th>152</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a57-4g'>Oppo A57</a></td>
+          <td>Rs 43,299</td>
+        </tr>
+        <tr>
+          <th>153</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a16k'>Oppo A16K</a></td>
+          <td>Rs 39,999</td>
+        </tr>
+        <tr>
+          <th>154</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f21-pro-5g'>Oppo F21 Pro 5G</a></td>
+          <td>Rs 139,999</td>
+        </tr>
+        <tr>
+          <th>155</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f21-pro'>Oppo F21 Pro</a></td>
+          <td>Rs 118,299</td>
+        </tr>
+        <tr>
+          <th>156</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a77s'>Oppo A77s</a></td>
+          <td>Rs 74,999</td>
+        </tr>
+        <tr>
+          <th>157</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-a17'>Oppo A17</a></td>
+          <td>Rs 35,199</td>
+        </tr>
+        <tr>
+          <th>158</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-reno5'>OPPO Reno5</a></td>
+          <td>Rs 0</td>
+        </tr>
+        <tr>
+          <th>159</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-reno5-pro'>OPPO Reno5 Pro</a></td>
+          <td>Rs 0</td>
+        </tr>
+        <tr>
+          <th>160</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/oppo/oppo-f25-pro-5g'>Oppo F25 Pro 5G</a></td>
+          <td>Rs 0</td>
+        </tr>
+        <tr>
+          <th>161</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/oppo-a77s-8gb-128gb/'>Oppo A77s 8GB 128GB</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>162</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/oppo-a58-8gb-128gb/'>Oppo A58 8GB 128GB </a></td>
+          <td>Rs 51,499.00 Rs 56,999.00</td>
+        </tr>
+        <tr>
+          <th>163</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/oppo-a18-4gb-128gb/'>Oppo A18 4GB 128GB</a></td>
+          <td>Rs 34,999.00 Rs 35,999.00</td>
+        </tr>
+        <tr>
+          <th>164</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/oppo-a78-8gb-128gb/'>Oppo A78 8GB 128GB</a></td>
+          <td>Rs 71,999.00</td>
+        </tr>
+        <tr>
+          <th>165</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24969/Vivo-Y17S-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y17S 4GB RAM 128GB Storage PTA Approved New</a></td>
+          <td>35,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>166</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24670/Vivo-V29-5G.html'>Vivo V29 5G New</a></td>
+          <td>159,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>167</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24259/Vivo-V27-5G.html'>Vivo V27 5G New</a></td>
+          <td>COMING SOON</td>
+        </tr>
+        <tr>
+          <th>168</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24946/Vivo-Y02T-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y02T 4GB RAM 128GB Storage PTA Approved</a></td>
+          <td>31,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>169</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24944/Vivo-Y36-8GB-RAM-256GB-Storage-PTA-Approved.html'>Vivo Y36 8GB RAM 256GB Storage PTA Approved</a></td>
+          <td>64,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>170</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24920/Vivo-Y22-4GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y22 4GB RAM 128GB Storage PTA Approved New</a></td>
+          <td>54,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>171</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24601/Vivo-Y02T-4GB-RAM-64GB-Storage-PTA-Approved.html'>Vivo Y02T 4GB RAM 64GB Storage PTA Approved</a></td>
+          <td>27,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>172</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24600/Vivo-Y02-3GB-RAM-32GB-Storage-PTA-Approved.html'>Vivo Y02 3GB RAM 32GB Storage PTA Approved</a></td>
+          <td>32,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>173</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24599/Vivo-Y27-6GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y27 6GB RAM 128GB Storage PTA Approved</a></td>
+          <td>47,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>174</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24411/Vivo-Y73-8GB-RAM-128GB-Storage-PTA-Approved.html'>Vivo Y73 8GB RAM 128GB Storage PTA Approved</a></td>
+          <td>80,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>175</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24397/Vivo-Y16-4GB-RAM-64GB-Storage-PTA--Approved.html'>Vivo Y16 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>37,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>176</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24396/Vivo-V27e-8GB-RAM-256GB-Storage-PTA--Approved.html'>Vivo V27e 8GB RAM 256GB Storage PTA Approved New</a></td>
+          <td>91,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>177</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23912/Vivo-V25-12GB-RAM-256GB-Storage-PTA-Approved.html'>Vivo V25 12GB RAM 256GB Storage PTA Approved</a></td>
+          <td>142,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>178</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23845/Vivo-Y22-4GB-RAM-64GB-Storage-PTA-Approved.html'>Vivo Y22 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>51,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>179</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23787/Vivo-Y02s-3GB-RAM-32GB-Storage-LTE-PTA-Approved.html'>Vivo Y02s 3GB RAM 32GB Storage LTE PTA Approved</a></td>
+          <td>30,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>180</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23188/Vivo-Y21T-4GB-RAM-128GB-Storage-LTE-PTA-Approved.html'>Vivo Y21T 4GB RAM 128GB Storage LTE PTA Approved</a></td>
+          <td>67,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>181</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02t'>Vivo Y02t</a></td>
+          <td>Rs 24,299</td>
+        </tr>
+        <tr>
+          <th>182</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y17s'>Vivo Y17s</a></td>
+          <td>Rs 32,549</td>
+        </tr>
+        <tr>
+          <th>183</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y21t'>Vivo Y21T</a></td>
+          <td>Rs 65,199</td>
+        </tr>
+        <tr>
+          <th>184</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y22'>Vivo Y22</a></td>
+          <td>Rs 52,799</td>
+        </tr>
+        <tr>
+          <th>185</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y27s'>Vivo Y27s</a></td>
+          <td>Rs 46,699</td>
+        </tr>
+        <tr>
+          <th>186</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v29e'>Vivo V29e</a></td>
+          <td>Rs 89,499</td>
+        </tr>
+        <tr>
+          <th>187</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02'>Vivo Y02</a></td>
+          <td>Rs 30,999</td>
+        </tr>
+        <tr>
+          <th>188</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y73'>Vivo Y73</a></td>
+          <td>Rs 70,999</td>
+        </tr>
+        <tr>
+          <th>189</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y36'>Vivo Y36</a></td>
+          <td>Rs 54,099</td>
+        </tr>
+        <tr>
+          <th>190</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y33s'>Vivo Y33s</a></td>
+          <td>Rs 51,999</td>
+        </tr>
+        <tr>
+          <th>191</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y16'>Vivo Y16</a></td>
+          <td>Rs 35,199</td>
+        </tr>
+        <tr>
+          <th>192</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v25'>Vivo V25 5G</a></td>
+          <td>Rs 140,499</td>
+        </tr>
+        <tr>
+          <th>193</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v29'>Vivo V29</a></td>
+          <td>Rs 143,199</td>
+        </tr>
+        <tr>
+          <th>194</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y21'>Vivo Y21</a></td>
+          <td>Rs 53,499</td>
+        </tr>
+        <tr>
+          <th>195</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y02s'>Vivo Y02s</a></td>
+          <td>Rs 29,299</td>
+        </tr>
+        <tr>
+          <th>196</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-y27'>Vivo Y27</a></td>
+          <td>Rs 46,799</td>
+        </tr>
+        <tr>
+          <th>197</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/vivo/vivo-v27e'>Vivo V27e</a></td>
+          <td>Rs 87,999</td>
+        </tr>
+        <tr>
+          <th>198</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-x90-pro-12gb-256gb/'>Vivo X90 Pro 12GB 256GB</a></td>
+          <td>Rating:</td>
+        </tr>
+        <tr>
+          <th>199</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y02t-4gb-128gb/'>Vivo Y02t 4GB 128GB</a></td>
+          <td>Rs 31,499.00 Rs 33,999.00</td>
+        </tr>
+        <tr>
+          <th>200</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-v29-12gb-256gb/'>Vivo V29 12GB 256GB</a></td>
+          <td>Rs 149,999.00 Rs 159,999.00</td>
+        </tr>
+        <tr>
+          <th>201</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y17s-6gb-128gb/'>Vivo Y17s 6GB 128GB</a></td>
+          <td>Rs 39,999.00 Rs 41,999.00</td>
+        </tr>
+        <tr>
+          <th>202</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y17s-4gb-128gb/'>Vivo Y17s 4GB 128GB</a></td>
+          <td>Rs 34,499.00 Rs 36,999.00</td>
+        </tr>
+        <tr>
+          <th>203</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y02t-4gb-64gb/'>Vivo Y02t 4GB 64GB</a></td>
+          <td>Rs 26,699.00 Rs 29,999.00</td>
+        </tr>
+        <tr>
+          <th>204</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y27s-8gb-128gb/'>Vivo Y27s 8GB 128GB</a></td>
+          <td>Rs 48,499.00 Rs 52,999.00</td>
+        </tr>
+        <tr>
+          <th>205</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-y36-8gb-256gb/'>Vivo Y36 8GB 256GB</a></td>
+          <td>Rs 56,999.00 Rs 59,999.00</td>
+        </tr>
+        <tr>
+          <th>206</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-v30-lite-8gb-256gb/'>Vivo V30 Lite 8GB 256GB</a></td>
+          <td>NaN</td>
+        </tr>
+        <tr>
+          <th>207</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/vivo-v29e-8gb-256gb/'>Vivo V29e 8GB 256GB</a></td>
+          <td>Rs 88,999.00 Rs 99,999.00</td>
+        </tr>
+        <tr>
+          <th>208</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24949/Realme-Note-50-4GB-RAM-64GB-Storage-PTA-Approved.html'>Realme Note 50 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>24,199 - PKR</td>
+        </tr>
+        <tr>
+          <th>209</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24114/Realme-GT3.html'>Realme GT3 New</a></td>
+          <td>COMING SOON</td>
+        </tr>
+        <tr>
+          <th>210</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24918/Realme-C21-4GB-RAM-64GB-Storage.html'>Realme C21 4GB RAM 64GB Storage</a></td>
+          <td>41,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>211</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24915/Realme-C67-8GB-RAM-128GB-Storage-PTA-Approved.html'>Realme C67 8GB RAM 128GB Storage PTA Approved</a></td>
+          <td>44,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>212</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24597/Real-Me-Narzo-50A-Prime-4GB-RAM-64GB-Storage-PTA-Approved.html'>Real Me Narzo 50A Prime 4GB RAM 64GB Storage PTA Approved</a></td>
+          <td>29,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>213</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24395/Realme-C33-4GB-RAM-128GB-Storage-PTA-Approved.html'>Realme C33 4GB RAM 128GB Storage PTA Approved New</a></td>
+          <td>47,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>214</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/24394/Realme-C33-4GB-RAM-64GB-Storage-PTA--Approved.html'>Realme C33 4GB RAM 64GB Storage PTA Approved New</a></td>
+          <td>35,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>215</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23826/Realme-C25s-4GB-RAM-128GB-Storage-PTA--Approved.html'>Realme C25s 4GB RAM 128GB Storage PTA Approved</a></td>
+          <td>45,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>216</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23820/REALME-C25Y-4GB-RAM-64GB-STORAGE-PTA-APPROVED.html'>REALME C25Y 4GB RAM 64GB STORAGE PTA APPROVED</a></td>
+          <td>39,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>217</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23698/REALME-C35-4GB-RAM-128GB-STORAGE-PTA-APPROVED.html'>REALME C35 4GB RAM 128GB STORAGE PTA APPROVED</a></td>
+          <td>34,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>218</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23597/Realme-9-Pro-plus-8GB-RAM-128GB--Storage-5G-PTA-Approved.html'>Realme 9 Pro plus 8GB RAM 128GB Storage 5G PTA Approved</a></td>
+          <td>91,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>219</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/23157/REALME-C11-4GB-RAM-64GB-STORAGE-LTE-PTA-Approved.html'>REALME C11 4GB RAM 64GB STORAGE LTE PTA Approved</a></td>
+          <td>37,499 - PKR</td>
+        </tr>
+        <tr>
+          <th>220</th>
+          <td>mega.pk</td>
+          <td><a href='https://www.mega.pk/mobiles_products/22792/Realme-C21-3GB-RAM-32GB-Storage.html'>Realme C21 3GB RAM 32GB Storage</a></td>
+          <td>33,999 - PKR</td>
+        </tr>
+        <tr>
+          <th>221</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c67'>Realme C67</a></td>
+          <td>Rs 44,299</td>
+        </tr>
+        <tr>
+          <th>222</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c30'>Realme C30</a></td>
+          <td>Rs 21,799</td>
+        </tr>
+        <tr>
+          <th>223</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50'>Realme Narzo 50</a></td>
+          <td>Rs 34,849</td>
+        </tr>
+        <tr>
+          <th>224</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c25y'>Realme C25Y</a></td>
+          <td>Rs 37,699</td>
+        </tr>
+        <tr>
+          <th>225</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50a-prime'>Realme Narzo 50A Prime</a></td>
+          <td>Rs 26,849</td>
+        </tr>
+        <tr>
+          <th>226</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c11-2021'>Realme C11 2021</a></td>
+          <td>Rs 35,599</td>
+        </tr>
+        <tr>
+          <th>227</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c21'>Realme C21</a></td>
+          <td>Rs 33,499</td>
+        </tr>
+        <tr>
+          <th>228</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-note-50'>Realme Note 50</a></td>
+          <td>Rs 22,499</td>
+        </tr>
+        <tr>
+          <th>229</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c21y'>Realme C21Y</a></td>
+          <td>Rs 33,299</td>
+        </tr>
+        <tr>
+          <th>230</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c33'>Realme C33</a></td>
+          <td>Rs 39,999</td>
+        </tr>
+        <tr>
+          <th>231</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c35'>Realme C35</a></td>
+          <td>Rs 31,999</td>
+        </tr>
+        <tr>
+          <th>232</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c51'>Realme C51</a></td>
+          <td>Rs 23,699</td>
+        </tr>
+        <tr>
+          <th>233</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-9-4g'>Realme 9 4G</a></td>
+          <td>Rs 97,299</td>
+        </tr>
+        <tr>
+          <th>234</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-9-pro-plus'>Realme 9 Pro Plus</a></td>
+          <td>Rs 95,999</td>
+        </tr>
+        <tr>
+          <th>235</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-9i'>Realme 9i</a></td>
+          <td>Rs 77,499</td>
+        </tr>
+        <tr>
+          <th>236</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c53'>Realme C53</a></td>
+          <td>Rs 31,799</td>
+        </tr>
+        <tr>
+          <th>237</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-c25s'>Realme C25s</a></td>
+          <td>Rs 40,600</td>
+        </tr>
+        <tr>
+          <th>238</th>
+          <td>priceoye.pk</td>
+          <td><a href='https://priceoye.pk/mobiles/realme/realme-narzo-50i'>Realme Narzo 50i</a></td>
+          <td>Rs 28,999</td>
+        </tr>
+        <tr>
+          <th>239</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c35-4gb-128gb/'>Realme C35 4GB 128GB</a></td>
+          <td>Rs 45,999.00 Rs 49,999.00</td>
+        </tr>
+        <tr>
+          <th>240</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c25y-4gb-64gb/'>Realme C25Y 4GB 64GB</a></td>
+          <td>Rs 39,999.00 Rs 49,999.00</td>
+        </tr>
+        <tr>
+          <th>241</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-narzo-50-4gb-64gb/'>Realme Narzo 50 4GB 64GB</a></td>
+          <td>Rs 41,999.00 Rs 44,999.00</td>
+        </tr>
+        <tr>
+          <th>242</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c33-4gb-64gb/'>Realme C33 4GB 64GB</a></td>
+          <td>Rs 30,499.00 Rs 34,999.00</td>
+        </tr>
+        <tr>
+          <th>243</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c51-4gb-64gb/'>Realme C51 4GB 64GB</a></td>
+          <td>Rs 29,999.00</td>
+        </tr>
+        <tr>
+          <th>244</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c53-6gb-128gb/'>Realme C53 6GB 128GB</a></td>
+          <td>Rs 33,999.00 Rs 34,999.00</td>
+        </tr>
+        <tr>
+          <th>245</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-c67-8gb-128gb/'>Realme C67 8GB 128GB</a></td>
+          <td>Rs 44,999.00 Rs 47,999.00</td>
+        </tr>
+        <tr>
+          <th>246</th>
+          <td>shophive.pk</td>
+          <td><a href='https://www.shophive.com/realme-note-50-4gb-64gb/'>Realme Note 50 4GB 64GB </a></td>
+          <td>Rs 24,999.00</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      label=document.getElementById('lbl')
+      
+          document.addEventListener('click',my_fun);
+          function my_fun(e) {
+        var target = e.target;
+        if (target.tagName === 'A' || target.tagName === 'BUTTON') {
+            //label.innerText=target.innerText;
+            myFunction(target.innerText);
+             //return target.innerText;
+        }
+    }
+    
+    function myFunction(value) {
     // Declare variables
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("brand");
@@ -1546,8 +1587,5 @@ margin: 0 auto;
     }
   }
 
-document.getElementById('brand').onchange = function() {
-  //document.getElementById('lbl').innerHTML=this.value;
-  myFunction(this.value);
-};
-  </script>
+    </script>
+</body>
