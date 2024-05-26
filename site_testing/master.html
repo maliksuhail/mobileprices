@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricecheck.pk</title>
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        h2, h1 {
+            padding-top: 15px;
+            width: 100%;
+            text-align: center;
+        }
+        table {
+            padding-top: 15px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #0074D9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Check Prices of Top Stores at One Place</h2>
+    <h1 id="h">For Details click on Mobile Name</h1>
+    <table>
+        <tr>
+            <td><a href="#" class="button-link" id="allButton">All Prices</a></td>
+            <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
+            <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
+            <!-- Add other buttons here -->
+        </tr>
+        <!-- Other rows... -->
+    </table>
+
+    <!-- Container for dynamic content -->
+    <div id="contentContainer"></div>
+
+    <script>
+        // Handle button clicks
+        $(document).ready(function() {
+            $('#allButton').click(function() {
+                loadPage('all.html');
+            });
+
+            $('#samsungButton').click(function() {
+                loadPage('samsung.html');
+            });
+
+            $('#infinixButton').click(function() {
+                loadPage('infinix.html');
+            });
+
+            // Add similar handlers for other buttons
+        });
+
+        // Load the specified HTML file into the content container
+        function loadPage(pageName) {
+            $('#contentContainer').load(pageName);
+        }
+    </script>
+</body>
+</html>
