@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricecheck.pk</title>
+    <title>MobiTribe</title>
     <!-- Include jQuery library -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
@@ -39,13 +39,21 @@
     </style>
 </head>
 <body>
-    <h2>Check Prices of Top Stores at One Place</h2>
-    <h1 id="h">For Details click on Mobile Name</h1>
     <table>
         <tr>
-            <td><a href="#" class="button-link" id="allButton">All Prices</a></td>
+            <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
             <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
+            <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
+            <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
+            <!-- Add other buttons here -->
+        </tr>
+        <tr>
+            <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
+            <td><a href="#" class="button-link" id="xiaomiButton">Xiaomi</a></td>
+            <td><a href="#" class="button-link" id="realmeButton">Realme</a></td>
+            <td><a href="#" class="button-link" id="SparxButton">Sparx</a></td>
+            <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
             <!-- Add other buttons here -->
         </tr>
         <!-- Other rows... -->
@@ -57,16 +65,44 @@
     <script>
         // Handle button clicks
         $(document).ready(function() {
-            $('#allButton').click(function() {
+            $('#popularButton').click(function() {
                 loadPage('assets/popular/popular.html');
             });
 
             $('#samsungButton').click(function() {
-                loadPage('samsung.html');
+                loadPage('assets/samsung/samsung.html');
             });
 
             $('#infinixButton').click(function() {
-                loadPage('infinix.html');
+                loadPage('assets/infinix/infinix.html');
+            });
+
+            $('#tecnoButton').click(function() {
+                loadPage('assets/tecno/tecno.html');
+            });
+
+            $('#vivoButton').click(function() {
+                loadPage('assets/vivo/vivo.html');
+            });
+
+            $('#oppoButton').click(function() {
+                loadPage('assets/oppo/oppo.html');
+            });
+
+            $('#xiaomiButton').click(function() {
+                loadPage('assets/xiaomi/xiaomi.html');
+            });
+
+            $('#realmeButton').click(function() {
+                loadPage('assets/realme/realme.html');
+            });
+
+            $('#sparxButton').click(function() {
+                loadPage('assets/sparx/sparx.html');
+            });
+
+            $('#itelButton').click(function() {
+                loadPage('assets/itel/itel.html');
             });
 
             // Add similar handlers for other buttons
