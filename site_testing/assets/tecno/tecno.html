@@ -54,14 +54,14 @@ Load Price List
 <script>
 // Load Tecno imagelist by default
 $(document).ready(function() {
-loadContent("assets/Tecno/Tecno_imagelist.html");
+loadContent("assets/tecno/Tecno_imagelist.html");
 });
 
 // Handle radio button change
 $("input[name='listType']").change(function() {
 const selectedValue = $(this).val();
 if (selectedValue === "image") {
-loadContent("assets/Tecno/Tecno_imagelist.html");
+loadContent("assets/tecno/Tecno_imagelist.html");
 } else if (selectedValue === "price") {
 loadContent("assets/Tecno/Tecno_pricelist.html");
 }
