@@ -63,6 +63,11 @@
     <div id="contentContainer"></div>
 
     <script>
+        // Load popular_imagelist.html by default
+$(document).ready(function() {
+    loadPage('assets/popular/popular.html');
+});
+
         // Handle button clicks
         $(document).ready(function() {
             $('#popularButton').click(function() {
