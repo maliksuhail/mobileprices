@@ -52,18 +52,18 @@ Load Price List
 <div id="content"></div>
 
 <script>
-// Load samsungt.html by default
+// Load tecno imagelist by default
 $(document).ready(function() {
-loadContent("assets/samsung/samsung_imagelist.html");
+loadContent("assets/tecno/tecno_imagelist.html");
 });
 
 // Handle radio button change
 $("input[name='listType']").change(function() {
 const selectedValue = $(this).val();
 if (selectedValue === "image") {
-loadContent("assets/samsung/samsung_imagelist.html");
+loadContent("assets/tecno/tecno_imagelist.html");
 } else if (selectedValue === "price") {
-loadContent("assets/samsung/samsung_pricelist.html");
+loadContent("assets/tecno/tecno_pricelist.html");
 }
 });
 
