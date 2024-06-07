@@ -56,6 +56,11 @@
             <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
             <!-- Add other buttons here -->
         </tr>
+        <tr>
+            <td><a href="#" class="button-link" id="iphoneButton">Iphone</a></td>            
+            <td><a href="#" class="button-link" id="lowtohighButton">All Low to High</a></td>
+            <td><a href="#" class="button-link" id="hightolowButton">All High to Low</a></td>
+        </tr>
         <!-- Other rows... -->
     </table>
 
@@ -108,6 +113,18 @@ $(document).ready(function() {
 
             $('#itelButton').click(function() {
                 loadPage('assets/itel/itel.html');
+            });
+
+            $('#appleButton').click(function() {
+                loadPage('assets/apple/apple.html');
+            });
+
+            $('#lowtohighButton').click(function() {
+                loadPage('assets/lowtohigh/lowtohigh.html');
+            });
+
+            $('#hightolowButton').click(function() {
+                loadPage('assets/hightolow/hightolow.html');
             });
 
             // Add similar handlers for other buttons
