@@ -73,6 +73,9 @@ font-weight: bold;
     </style>
 </head>
 <body>
+    <div class="search-container">
+        <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store...">
+    </div>
     <table>
         <tr>
             <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
@@ -99,13 +102,8 @@ font-weight: bold;
         </tr>
         <!-- Other rows... -->
     </table>
-
-    <h1>Search Stores</h1>
-    <div class="search-container">
-      <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store...">
-      <div class="contentContainer">
+    <div class="contentContainer">
     </div>
-  </div>
     <div id="store-details"></div>
 
     <script>
@@ -146,11 +144,19 @@ font-weight: bold;
             `);
             $(".contentContainer").empty.show();
           }
-      
+//disable input fields on windows and android      
+/*
+$('#search-box').on('keyup', function(event) {
+if (event.key === 'Enter') {
+$('.content-container').focus();
+}
+});
+*/
           // Show/hide div container
           $("#search-box").on("keyup", function() {
             if ($(this).val().length) {
-              $(".contentContainer").empty.show();
+                $(".contentContainer").empty();
+              $(".contentContainer").show();
             } else {
               $(".contentContainer").hide();
               $("#store-details").html(""); // Clear previous selection
@@ -161,7 +167,7 @@ font-weight: bold;
     <script>
         // Load popular_imagelist.html by default
 $(document).ready(function() {
-    //loadPage('assets/popular/popular.html');
+    loadPage('assets/popular/popular.html');
 });
 
         // Handle button clicks
@@ -175,6 +181,7 @@ $(document).ready(function() {
             });
 
             $('#infinixButton').click(function() {
+                $(".contentContainer").empty();
                 loadPage('assets/infinix/infinix.html');
             });
 
