@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Price List</title>
+<!-- Include jQuery and jQuery UI -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+</head>
+<body>
+<input type="text" id="searchBox" placeholder="Search...">
+<div id="resultsContainer"></div>
+
+<script>
+$(function() {
+// Load data from pricelist_html.html (replace with your actual data)
+$.get("pricelist_html.html", function(data) {
+const $table = $(data).find("table"); // Assuming your table is inside pricelist_html.html
+
+// Extract mobile names from the third column (Mobile)
+const mobileColumnIndex = 1; // 0-based index (third column)
+const availableMobiles = $table.find(`td:nth-child(${mobileColumnIndex + 1})`).map(function() {
+return $(this).text();
+}).get();
+
+$("#searchBox").autocomplete({
+source: availableMobiles,
+select: function(event, ui) {
+// Handle selection (e.g., display selected value or perform an action)
+$("#resultsContainer").text("Selected: " + ui.item.value);
+}
+});
+});
+});
+</script>
+</body>
+</html>

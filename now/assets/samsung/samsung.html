@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Master Page</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+/* Center align radio buttons */
+.radio-container {
+text-align: center;
+}
+/* Hide the default radio button */
+.custom-radio input[type="radio"] {
+display: none;
+}
+/* Custom radio button style */
+.custom-radio {
+display: inline-block;
+margin: 10px;
+cursor: pointer;
+font-size: 16px;
+}
+.custom-radio::before {
+content: "";
+display: inline-block;
+width: 20px;
+height: 20px;
+border: 2px solid #ccc;
+border-radius: 50%;
+margin-right: 5px;
+vertical-align: middle;
+}
+.custom-radio input[type="radio"]:checked + .custom-radio::before {
+background-color: #bd1c10;
+border-color: #bd1c10;
+}
+</style>
+</head>
+<body>
+<div class="radio-container">
+<label class="custom-radio">
+<input type="radio" name="listType" value="image" checked>
+Load Image List
+</label>
+<label class="custom-radio">
+<input type="radio" name="listType" value="price">
+Load Price List
+</label>
+</div>
+
+<div id="content"></div>
+
+<script>
+// Load samsungt.html by default
+$(document).ready(function() {
+loadContent("assets/samsung/samsung_imagelist.html");
+});
+
+// Handle radio button change
+$("input[name='listType']").change(function() {
+const selectedValue = $(this).val();
+if (selectedValue === "image") {
+loadContent("assets/samsung/samsung_imagelist.html");
+} else if (selectedValue === "price") {
+loadContent("assets/samsung/samsung_pricelist.html");
+}
+});
+
+// Function to load content
+function loadContent(url) {
+$.ajax({
+url: url,
+success: function(data) {
+$("#content").html(data);
+},
+error: function() {
+$("#content").html("Error loading content.");
+}
+});
+}
+</script>
+</body>
+</html>
