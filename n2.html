@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MobiTribe</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+<div class="search-container">
+<input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store...">
+</div>
+<div class="contentContainer" tabindex="0">
+</div>
+<div id="store-details"></div>
+
+<script>
+$(document).ready(function() {
+// Parse pricelist_html.html data (assuming simple format)
+var stores = [];
+var mobiles = [];
+var prices = [];
+var links = [];
+$.get("pricelist_html.html", function(data) {
+var rows = $(data).find("tr");
+rows.each(function(i, row) {
+var cells = $(row).find("td");
+stores.push($(cells[0]).text().trim());
+links.push($(cells[1]).find("a").attr("href"));
+prices.push($(cells[2]).text().trim());
+mobiles.push($(cells[1]).text().trim()+" "+$(cells[2]).text().trim()+" "+$(cells[0]).text().trim());
+});
+});
+
+// Initialize autocomplete
+$("#search-box").autocomplete({
+source: mobiles,
+minLength: 2,
+select: (event, ui) => { // Use arrow function here
+var selectedIndex = mobiles.indexOf(ui.item.value);
+displayStoreDetails(mobiles[selectedIndex], stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
+$("#search-box").val(''); // Clear the input field
+$("#search-box").autocomplete('close'); // Hide the autocomplete list
+$(".contentContainer").focus();
+return false; // Prevent the widget from inserting the value
+}
+});
+
+// Display store details on selection
+function displayStoreDetails(mobileName, storeName, link, price) {
+$("#store-details").html(`
+<h2><a href="${link}">${mobileName}</a></h2>
+<p>Price: ${price}</p>
+<p>Store: ${storeName}</p>
+`);
+$(".contentContainer").empty().show();
+}
+
+// Show/hide div container
+$("#search-box").on("keyup", function() {
+if ($(this).val().length) {
+$(".contentContainer").empty();
+$(".contentContainer").show();
+} else {
+//$("#store-details").html(""); // Clear previous selection
+$("#search-box").val(''); // Clear input field
+}
+});
+});
+</script>
+</body>
+</html>

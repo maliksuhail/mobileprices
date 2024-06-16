@@ -74,7 +74,7 @@ font-weight: bold;
 </head>
 <body>
     <div class="search-container">
-        <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store...">
+        <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
     <table>
         <tr>
@@ -102,69 +102,74 @@ font-weight: bold;
         </tr>
         <!-- Other rows... -->
     </table>
-    <div class="contentContainer">
+    <div class="contentContainer" tabindex="0">
     </div>
     <div id="store-details"></div>
 
     <script>
-        $(document).ready(function() {
-          // Parse pricelist_html.html data (assuming simple format)
-          var stores = [];
-          var mobiles = [];
-          var prices = [];
-          var links = [];
-          $.get("pricelist_html.html", function(data) {
-            var rows = $(data).find("tr");
-            rows.each(function(i, row) {
-              var cells = $(row).find("td");
-              stores.push($(cells[0]).text().trim());
-              //mobiles.push($(cells[1]).text().trim()+" "+$(cells[0]).text().trim());
-              links.push($(cells[1]).find("a").attr("href"));
-              prices.push($(cells[2]).text().trim());
-              mobiles.push($(cells[1]).text().trim()+" "+$(cells[2]).text().trim()+" "+$(cells[0]).text().trim());
-            });
-          });
-      
-          // Initialize autocomplete
-          $("#search-box").autocomplete({
-            source: mobiles,
-            minLength: 2,
-            select: function(event, ui) {
-              var selectedIndex = mobiles.indexOf(ui.item.value);
-              displayStoreDetails(mobiles[selectedIndex],stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
-            }
-          });
-      
-          // Display store details on selection
-          function displayStoreDetails(mobileName,storeName, link, price) {
-            $("#store-details").html(`
-              <h2><a href="${link}">${mobileName}</a></h2>
-              <p>Price: ${price}</p>
-              Store: ${storeName}
-            `);
-            $(".contentContainer").empty.show();
-          }
-//disable input fields on windows and android      
-/*
-$('#search-box').on('keyup', function(event) {
-if (event.key === 'Enter') {
-$('.content-container').focus();
+        /*
+        function emptyContentContainer() {
+  $(".contentContainer").empty();
 }
-});
-*/
-          // Show/hide div container
-          $("#search-box").on("keyup", function() {
-            if ($(this).val().length) {
-                $(".contentContainer").empty();
-              $(".contentContainer").show();
-            } else {
-              $(".contentContainer").hide();
-              $("#store-details").html(""); // Clear previous selection
-            }
-          });
+  */
+        $(document).ready(function() {
+        // Parse pricelist_html.html data (assuming simple format)
+        var stores = [];
+        var mobiles = [];
+        var prices = [];
+        var links = [];
+        $.get("pricelist_html.html", function(data) {
+        var rows = $(data).find("tr");
+        rows.each(function(i, row) {
+        var cells = $(row).find("td");
+        stores.push($(cells[0]).text().trim());
+        links.push($(cells[1]).find("a").attr("href"));
+        prices.push($(cells[2]).text().trim());
+        mobiles.push($(cells[1]).text().trim()+" "+$(cells[2]).text().trim()+" "+$(cells[0]).text().trim());
         });
-        </script>
-    <script>
+        });
+        
+        // Initialize autocomplete
+        $("#search-box").autocomplete({
+        source: mobiles,
+        minLength: 2,
+        //select: (event, ui) => { // Use arrow function here
+        select: function(event, ui) { // Use traditional function syntax here
+        var selectedIndex = mobiles.indexOf(ui.item.value);
+        displayStoreDetails(mobiles[selectedIndex], stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
+        $("#search-box").val(''); // Clear the input field
+                  // Close the autocomplete list after a short delay
+                  setTimeout(function() {
+        $("#search-box").autocomplete('close'); // Hide the autocomplete list
+    }, 100);
+        $(".contentContainer").focus();
+        return false; // Prevent the widget from inserting the value
+        }
+        });
+        
+        // Display store details on selection
+        function displayStoreDetails(mobileName, storeName, link, price) {
+        $("#store-details").html(`
+        <h2><a href="${link}">${mobileName}</a></h2>
+        <p>Price: ${price}</p>
+        <p>Store: ${storeName}</p>
+        `);
+        $(".contentContainer").empty().show();
+        }
+        
+        // Show/hide div container
+        $("#search-box").on("keyup", function() {
+        if ($(this).val().length) {
+        $(".contentContainer").empty();
+        $(".contentContainer").show();
+        } else {
+        //$("#store-details").html(""); // Clear previous selection
+        $(".contentContainer").empty();
+        $("#search-box").val(''); // Clear input field
+        }
+        });
+        });
+//<script>
         // Load popular_imagelist.html by default
 $(document).ready(function() {
     loadPage('assets/popular/popular.html');
@@ -181,7 +186,6 @@ $(document).ready(function() {
             });
 
             $('#infinixButton').click(function() {
-                $(".contentContainer").empty();
                 loadPage('assets/infinix/infinix.html');
             });
 
@@ -238,6 +242,7 @@ $(document).ready(function() {
 
         // Load the specified HTML file into the content container
         function loadPage(pageName) {
+            //$(".contentContainer").empty();
             $('.contentContainer').load(pageName);
         }
     </script>
