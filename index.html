@@ -7,6 +7,13 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
+                #store-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+
 input {
 width: 100%;
 box-sizing: border-box;
@@ -22,7 +29,7 @@ font-weight: bold;
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 20px;
+      margin-top: 10px;
     }
     .search-input {
       padding: 10px;
@@ -133,7 +140,6 @@ font-weight: bold;
         $("#search-box").autocomplete({
         source: mobiles,
         minLength: 2,
-        //select: (event, ui) => { // Use arrow function here
         select: function(event, ui) { // Use traditional function syntax here
         var selectedIndex = mobiles.indexOf(ui.item.value);
         displayStoreDetails(mobiles[selectedIndex], stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
@@ -154,7 +160,7 @@ font-weight: bold;
         <p>Price: ${price}</p>
         <p>Store: ${storeName}</p>
         `);
-        $(".contentContainer").empty().show();
+        //$(".contentContainer").empty().show();
         }
         
         // Show/hide div container
@@ -242,7 +248,7 @@ $(document).ready(function() {
 
         // Load the specified HTML file into the content container
         function loadPage(pageName) {
-            //$(".contentContainer").empty();
+            $("#store-details").empty();
             $('.contentContainer').load(pageName);
         }
     </script>
