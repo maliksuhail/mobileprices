@@ -7,6 +7,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
+        .ui-autocomplete {
+  background-color: white;
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+}
                 #store-details {
       display: flex;
       flex-direction: column;
@@ -150,9 +154,18 @@ font-weight: bold;
     }, 100);
         $(".contentContainer").focus();
         return false; // Prevent the widget from inserting the value
-        }
-        });
-        
+        },
+        open: function(event, ui) {
+    // Access the content element
+    var contentElement = ui.element.find(".ui-autocomplete-content");
+    
+    // Option 1: Hide the content element (removes the message and list items)
+    // contentElement.hide();
+
+    // Option 2: Modify the content element (removes only the message)
+    contentElement.empty(); // Remove existing content
+  }
+});
         // Display store details on selection
         function displayStoreDetails(mobileName, storeName, link, price) {
         $("#store-details").html(`
