@@ -1,34 +1,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {
-  background-color: black;
-}
-.scrollable-table {
-  overflow-x: auto;
-  white-space: nowrap; /* Applied to all screens  */
-}
+  body {
+    background-color: #eee;
+  }
 
-.scrollable-table td {
-  /* Set a fixed width for table cells */
-  width: 150px; /* Adjust this value as needed */
-}
+  .scrollable-table {
+    overflow-x: auto;
+    white-space: nowrap; /* Optional for some cases */
+    border: 1px solid #ddd;
+  }
+
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .scrollable-table td {
+      width: 120px; /* Adjust width as needed */
+    }
+  }
+
+  .scrollable-table th {
+    background-color: #ddd;
+    padding: 5px 10px;
+  }
+
+  .scrollable-table td {
+    padding: 5px;
+  }
 </style>
 
 <div class="scrollable-table">
-<table>
-  <tr>
-    <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
-    <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
-    <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
-  </tr>
-  <tr>
-    <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
-    <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
-    <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
-  </tr>
-  <tr>
-    <td><a href="#" class="button-link" id="tecnoButton">abc</a></td>
-    <td><a href="#" class="link" id="vivoButton">def</a></td>
-    <td><a href="#" class="button-link" id="oppoButton">ghi</a></td>
-  </tr>
-</table>
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Phone Case</td>
+        <td>Accessories</td>
+        <td>$15.99</td>
+        <td>In Stock</td>
+      </tr>
+      <tr>
+        <td>Wireless Headphones</td>
+        <td>Audio</td>
+        <td>$79.99</td>
+        <td>Low Stock</td>
+      </tr>
+      <tr>
+        <td>Smartwatch</td>
+        <td>Wearables</td>
+        <td>$249.99</td>
+        <td>Available</td>
+      </tr>
+      </tbody>
+  </table>
+</div>
