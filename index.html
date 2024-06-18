@@ -7,80 +7,78 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
-  .scrollable-table {
-    overflow-x: auto;
-    white-space: nowrap; /* Optional for some cases */
-    border: 1px solid #ddd;
-  }
-
-  /* Responsive styles for smaller screens */
-  @media only screen and (max-width: 600px) {
-    .scrollable-table td {
-      width: 120px; /* Adjust width as needed */
-    }
-  }
-
-  .scrollable-table td {
-    padding: 5px;
-    text-overflow: ellipsis; /* Apply ellipsis overflow for content */
-    overflow: hidden; /* Clip content if it overflows */
-    white-space: nowrap; /* Prevent wrapping */
-  }
-
+        .scrollable-table {
+          overflow-x: auto; /* Enable horizontal scrolling */
+          border: 1px solid #ddd;
+        }
+      
+        /* Responsive styles for smaller screens */
+        @media only screen and (max-width: 600px) {
+          .scrollable-table td {
+            width: 120px; /* Adjust width as needed */
+          }
+        }
+      
+        .scrollable-table table {
+          width: 100%; /* Set table width to 100% for horizontal scrolling */
+          border-collapse: collapse;
+        }
+      
+        .scrollable-table th,
+        .scrollable-table td {
+          padding: 8px;
+          text-align: center;
+        }
+      
+        .scrollable-table th {
+          background-color: #f2f2f2;
+        }
+      
         .ui-autocomplete {
-  background-color: white;
-  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-}
-                #store-details {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-
-input {
-width: 100%;
-box-sizing: border-box;
-padding: 10px; /* Adjust the padding as needed */
-margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
-}
+          background-color: white;
+          border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+        }
+      
+        #store-details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
+        }
+      
+        input {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 10px; /* Adjust the padding as needed */
+          margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
+        }
+      
         input::placeholder {
-color: #888;
-font-style: italic;
-font-weight: bold;
-}
+          color: #888;
+          font-style: italic;
+          font-weight: bold;
+        }
+      
         .search-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-
-    .contentContainer {
-      border: 1px solid #ccc;
-      border-top: 0;
-      padding: 10px;
-      overflow-y: auto;
-    }
-            h2, h1 {
-            padding-top: 15px;
-            width: 100%;
-            text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
         }
-        .contentContainer table {
-            padding-top: 15px;
-            width: 100%;
-            border-collapse: collapse;
+      
+        .contentContainer {
+          border: 1px solid #ccc;
+          border-top: 0;
+          padding: 10px;
         }
-        .contentContainer table th,
-        .contentContainer table td{
-            padding: 8px;
-            text-align: center;
+      
+        h2,
+        h1 {
+          padding-top: 15px;
+          width: 100%;
+          text-align: center;
         }
-        .contentContainer table th {
-            background-color: #f2f2f2;
-        }
-    </style>
+      </style>
 </head>
 <body>
     <div class="search-container">
