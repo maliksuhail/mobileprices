@@ -1,14 +1,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body{
-    background-color: white;
-  }
+body {
+  background-color: black;
+}
 .scrollable-table {
   overflow-x: auto;
   white-space: nowrap; /* Applied to all screens  */
 }
 
-/* Media query not needed for this fix */
+.scrollable-table td {
+  /* Set a fixed width for table cells */
+  width: 150px; /* Adjust this value as needed */
+}
 </style>
 
 <div class="scrollable-table">
@@ -20,13 +23,12 @@
   </tr>
   <tr>
     <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
-    <td><a href="#" class="button-width" id="vivoButton">Vivo</a></td>
+    <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
     <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
   </tr>
   <tr>
     <td><a href="#" class="button-link" id="tecnoButton">abc</a></td>
-    <td><a href="#" class="button-link" id="vivoButton">def</a></td>
+    <td><a href="#" class="link" id="vivoButton">def</a></td>
     <td><a href="#" class="button-link" id="oppoButton">ghi</a></td>
   </tr>
-  </table>
-
+</table>
