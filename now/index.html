@@ -1,238 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MobiTribe</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
-    <style>
-input {
-width: 100%;
-box-sizing: border-box;
-padding: 10px; /* Adjust the padding as needed */
-margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
-}
-        input::placeholder {
-color: #888;
-font-style: italic;
-font-weight: bold;
-}
-        .search-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-    .search-input {
-      padding: 10px;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    .contentContainer {
-      border: 1px solid #ccc;
-      border-top: 0;
-      padding: 10px;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-    .result-item {
-      padding: 5px;
-      cursor: pointer;
-    }
-            h2, h1 {
-            padding-top: 15px;
-            width: 100%;
-            text-align: center;
-        }
-        table {
-            padding-top: 15px;
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid white;
-        }
-        th, td {
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .button-link {
-            display: inline-block;
-            padding: 5px 10px;
-            background-color: #0074D9;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <tr>
-            <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
-            <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
-            <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
-            <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
-            <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
-            <!-- Add other buttons here -->
-        </tr>
-        <tr>
-            <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
-            <td><a href="#" class="button-link" id="xiaomiButton">Xiaomi</a></td>
-            <td><a href="#" class="button-link" id="realmeButton">Realme</a></td>
-            <td><a href="#" class="button-link" id="SparxButton">Sparx</a></td>
-            <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
-            <!-- Add other buttons here -->
-        </tr>
-        <tr>
-            <td><a href="#" class="button-link" id="appleButton">Iphone</a></td>            
-            <td><a href="#" class="button-link" id="lowtohighButton">All Low to High</a></td>
-            <td><a href="#" class="button-link" id="hightolowButton">All High to Low</a></td>
-            <td><a href="#" class="button-link" id="20kto35kButton">20k To 35k</a></td>
-            <td><a href="#" class="button-link" id="36kto50kButton">36k To 50k</a></td>
-        </tr>
-        <!-- Other rows... -->
-    </table>
-
-    <h1>Search Stores</h1>
-    <div class="search-container">
-      <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store...">
-      <div class="contentContainer">
-    </div>
-  </div>
-    <div id="store-details"></div>
-
-    <script>
-        $(document).ready(function() {
-          // Parse pricelist_html.html data (assuming simple format)
-          var stores = [];
-          var mobiles = [];
-          var prices = [];
-          var links = [];
-          $.get("pricelist_html.html", function(data) {
-            var rows = $(data).find("tr");
-            rows.each(function(i, row) {
-              var cells = $(row).find("td");
-              stores.push($(cells[0]).text().trim());
-              //mobiles.push($(cells[1]).text().trim()+" "+$(cells[0]).text().trim());
-              links.push($(cells[1]).find("a").attr("href"));
-              prices.push($(cells[2]).text().trim());
-              mobiles.push($(cells[1]).text().trim()+" "+$(cells[2]).text().trim()+" "+$(cells[0]).text().trim());
-            });
-          });
-      
-          // Initialize autocomplete
-          $("#search-box").autocomplete({
-            source: mobiles,
-            minLength: 2,
-            select: function(event, ui) {
-              var selectedIndex = mobiles.indexOf(ui.item.value);
-              displayStoreDetails(mobiles[selectedIndex],stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
-            }
-          });
-      
-          // Display store details on selection
-          function displayStoreDetails(mobileName,storeName, link, price) {
-            $("#store-details").html(`
-              <h2><a href="${link}">${mobileName}</a></h2>
-              <p>Price: ${price}</p>
-              Store: ${storeName}
-            `);
-            $(".contentContainer").empty.show();
-          }
-      
-          // Show/hide div container
-          $("#search-box").on("keyup", function() {
-            if ($(this).val().length) {
-              $(".contentContainer").empty.show();
-            } else {
-              $(".contentContainer").hide();
-              $("#store-details").html(""); // Clear previous selection
-            }
-          });
-        });
-        </script>
-    <script>
-        // Load popular_imagelist.html by default
-$(document).ready(function() {
-    //loadPage('assets/popular/popular.html');
-});
-
-        // Handle button clicks
-        $(document).ready(function() {
-            $('#popularButton').click(function() {
-                loadPage('assets/popular/popular.html');
-            });
-
-            $('#samsungButton').click(function() {
-                loadPage('assets/samsung/samsung.html');
-            });
-
-            $('#infinixButton').click(function() {
-                loadPage('assets/infinix/infinix.html');
-            });
-
-            $('#tecnoButton').click(function() {
-                loadPage('assets/tecno/tecno.html');
-            });
-
-            $('#vivoButton').click(function() {
-                loadPage('assets/vivo/vivo.html');
-            });
-
-            $('#oppoButton').click(function() {
-                loadPage('assets/oppo/oppo.html');
-            });
-
-            $('#xiaomiButton').click(function() {
-                loadPage('assets/xiaomi/xiaomi.html');
-            });
-
-            $('#realmeButton').click(function() {
-                loadPage('assets/realme/realme.html');
-            });
-
-            $('#sparxButton').click(function() {
-                loadPage('assets/sparx/sparx.html');
-            });
-
-            $('#itelButton').click(function() {
-                loadPage('assets/itel/itel.html');
-            });
-
-            $('#appleButton').click(function() {
-                loadPage('assets/apple/apple.html');
-            });
-
-            $('#lowtohighButton').click(function() {
-                loadPage('assets/lowtohigh/lowtohigh.html');
-            });
-
-            $('#hightolowButton').click(function() {
-                loadPage('assets/hightolow/hightolow.html');
-            });
-
-            $('#20kto35kButton').click(function() {
-                loadPage('assets/20kto35k/20kto35k.html');
-            });
-
-            $('#36kto50kButton').click(function() {
-                loadPage('assets/36kto50k/36kto50k.html');
-            });
-
-            // Add similar handlers for other buttons
-        });
-
-        // Load the specified HTML file into the content container
-        function loadPage(pageName) {
-            $('.contentContainer').load(pageName);
-        }
-    </script>
-</body>
-</html>
+<style>
+  @media only screen and (max-width: 600px) {
+  .scrollable-table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  }
+  .scrollable-table td {
+  display: inline-block;
+  }
+  }
+</style>
+  
+  <table class="scrollable-table">
+  <tr>
+  <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
+  <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
+  <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
+  </tr>
+  <tr>
+  <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
+  <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
+  <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
+  </tr>
+  <!-- Continue splitting other buttons into rows of three -->
+  </table>
+  
