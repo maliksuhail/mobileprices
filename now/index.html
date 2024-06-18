@@ -1,14 +1,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+  body{
+    background-color: black;
+  }
 .scrollable-table {
-overflow-x: auto;
+  overflow-x: auto;
+  white-space: nowrap; /* Applied to all screens  */
 }
-@media only screen and (max-width: 600px) {
-.scrollable-table {
-display: block;
-white-space: nowrap;
-}
-}
+
+/* Media query not needed for this fix */
 </style>
 
 <div class="scrollable-table">
@@ -17,17 +17,16 @@ white-space: nowrap;
     <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
     <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
     <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
-    </tr>
-    <tr>
+  </tr>
+  <tr>
     <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
-    <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
+    <td><a href="#" class="button-width" id="vivoButton">Vivo</a></td>
     <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
-    </tr>
-    <tr>
-      <td><a href="#" class="button-link" id="tecnoButton">abc</a></td>
-      <td><a href="#" class="button-link" id="vivoButton">def</a></td>
-      <td><a href="#" class="button-link" id="oppoButton">ghi</a></td>
-      </tr>
-  
-    <!-- Continue splitting other buttons into rows of three -->
-</table>
+  </tr>
+  <tr>
+    <td><a href="#" class="button-link" id="tecnoButton">abc</a></td>
+    <td><a href="#" class="button-link" id="vivoButton">def</a></td>
+    <td><a href="#" class="button-link" id="oppoButton">ghi</a></td>
+  </tr>
+  </table>
+</style>
