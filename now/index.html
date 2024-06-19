@@ -56,3 +56,18 @@
   </table>
   <button class="expand-button">Expand Table ({{ numRowsVisible }} rows visible)</button>
 </div>
+<script>
+  const tableContainer = document.querySelector('.scrollable-table');
+const expandButton = document.querySelector('.expand-button');
+const tableBody = document.querySelector('.scrollable-table tbody');
+const numRows = tableBody.querySelectorAll('tr').length;
+
+expandButton.textContent = `Expand Table (${numRows} rows visible)`;
+
+expandButton.addEventListener('click', () => {
+  tableContainer.classList.toggle('expanded');
+  const isExpanded = tableContainer.classList.contains('expanded');
+  expandButton.textContent = ` ${isExpanded ? 'Collapse' : 'Expand'} Table (${numRows} rows visible)`;
+});
+
+</script>
