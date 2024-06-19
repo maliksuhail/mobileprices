@@ -1,66 +1,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body {
-    background-color: #eee;
-  }
-
   .scrollable-table {
-    overflow-x: auto;
-    white-space: nowrap; /* Optional for some cases */
-    border: 1px solid #ddd;
-  }
+  overflow-x: auto;  /* Enable horizontal scrolling if needed */
+  position: relative; /* Required for the expand button positioning */
+}
 
-  /* Responsive styles for smaller screens */
-  @media only screen and (max-width: 600px) {
-    .scrollable-table td {
-      width: 120px; /* Adjust width as needed */
-    }
-  }
+.scrollable-table table {
+  width: 100%;  /* Ensure table fills container width */
+}
 
-  .scrollable-table td {
-    padding: 5px;
-    text-overflow: ellipsis; /* Apply ellipsis overflow for content */
-    overflow: hidden; /* Clip content if it overflows */
-    white-space: nowrap; /* Prevent wrapping */
-  }
+.scrollable-table tbody {
+  max-height: 100px;  /* Set initial height for showing limited rows */
+  overflow-y: hidden; /* Hide overflowing content */
+  transition: max-height 0.3s ease-in-out; /* Add smooth transition for expansion */
+}
+
+.scrollable-table.expanded tbody {
+  max-height: unset; /* Allow full height when expanded */
+}
+
+.expand-button {
+  position: absolute;  /* Position button below the table */
+  bottom: 0;  /* Align to bottom */
+  right: 0;  /* Align to right */
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Add smooth transition for button rotation */
+}
+
+.scrollable-table.expanded .expand-button {
+  transform: rotate(180deg); /* Rotate button icon on expansion */
+}
+
 </style>
-
 <div class="scrollable-table">
   <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
     <tbody>
       <tr>
         <td>Phone Case</td>
         <td>Accessories</td>
         <td>$15.99</td>
         <td>In Stock</td>
-        <td>Phone Case</td>
-        <td>Accessories</td>
-        <td>$15.99</td>
-        <td>In Stock</td>
       </tr>
-      <tr>
-        <td>Wireless Headphones</td>
-        <td>Audio</td>
-        <td>$79.99</td>
-        <td>Low Stock</td>
-        <td>Wireless Headphones</td>
-        <td>Audio</td>
-        <td>$79.99</td>
-        <td>Low Stock</td>
-      </tr>
-      <tr>
-        <td>Smartwatch</td>
-        <td>Wearables</td>
-        <td>$249.99</td>
-        <td>Available</td>
-        <td>Smartwatch</td>
-        <td>Wearables</td>
-        <td>$249.99</td>
-        <td>Available</td>
-      </tr>
-    </tbody>
+      </tbody>
   </table>
+  <button class="expand-button">Expand Table ({{ numRowsVisible }} rows visible)</button>
 </div>
-<br>
-<br>
-<h1>Hello how are you now?</h1>
