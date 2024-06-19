@@ -7,112 +7,102 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
-        .ui-autocomplete {
-  background-color: white;
-  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-}
-                #store-details {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
+  .scrollable-table {
+    overflow-x: auto;
+    white-space: nowrap; /* Optional for some cases */
+    border: 1px solid #ddd;
+  }
 
-input {
-width: 100%;
-box-sizing: border-box;
-padding: 10px; /* Adjust the padding as needed */
-margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
-}
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .scrollable-table td {
+      width: 120px; /* Adjust width as needed */
+    }
+  }
+
+  .scrollable-table td {
+    padding: 5px;
+    text-overflow: ellipsis; /* Apply ellipsis overflow for content */
+    overflow: hidden; /* Clip content if it overflows */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+        .ui-autocomplete {
+          background-color: white;
+          border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+        }
+      
+        #store-details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
+        }
+      
+        input {
+          width: 100%;
+          box-sizing: border-box;
+          padding: 10px; /* Adjust the padding as needed */
+          margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
+        }
+      
         input::placeholder {
-color: #888;
-font-style: italic;
-font-weight: bold;
-}
+          color: #888;
+          font-style: italic;
+          font-weight: bold;
+        }
+      
         .search-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-    .search-input {
-      padding: 10px;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    .contentContainer {
-      border: 1px solid #ccc;
-      border-top: 0;
-      padding: 10px;
-      max-height: 200px;
-      overflow-y: auto;
-    }
-    .result-item {
-      padding: 5px;
-      cursor: pointer;
-    }
-            h2, h1 {
-            padding-top: 15px;
-            width: 100%;
-            text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
         }
-        table {
-            padding-top: 15px;
-            width: 100%;
-            border-collapse: collapse;
+      
+        .contentContainer {
+          border: 1px solid #ccc;
+          border-top: 0;
+          padding: 10px;
         }
-        table, th, td {
-            border: 1px solid white;
+      
+        h2,
+        h1 {
+          padding-top: 15px;
+          width: 100%;
+          text-align: center;
         }
-        th, td {
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .button-link {
-            display: inline-block;
-            padding: 5px 10px;
-            background-color: #0074D9;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+      </style>
 </head>
 <body>
     <div class="search-container">
         <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
+    <div class="scrollable-table">
     <table>
+        <tbody>
         <tr>
             <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
             <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
             <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
             <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
-            <!-- Add other buttons here -->
-        </tr>
-        <tr>
             <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
             <td><a href="#" class="button-link" id="xiaomiButton">Xiaomi</a></td>
             <td><a href="#" class="button-link" id="realmeButton">Realme</a></td>
-            <td><a href="#" class="button-link" id="SparxButton">Sparx</a></td>
-            <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
-            <!-- Add other buttons here -->
         </tr>
         <tr>
+            <td><a href="#" class="button-link" id="SparxButton">Sparx</a></td>
+            <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
             <td><a href="#" class="button-link" id="appleButton">Iphone</a></td>            
             <td><a href="#" class="button-link" id="lowtohighButton">All Low to High</a></td>
             <td><a href="#" class="button-link" id="hightolowButton">All High to Low</a></td>
             <td><a href="#" class="button-link" id="20kto35kButton">20k To 35k</a></td>
             <td><a href="#" class="button-link" id="36kto50kButton">36k To 50k</a></td>
+            <td><a href="#" class="empty-link" id="emptyButton">empty</a></td>
         </tr>
         <!-- Other rows... -->
+    </tbody>
     </table>
+</div>
     <div class="contentContainer" tabindex="0">
     </div>
     <div id="store-details"></div>

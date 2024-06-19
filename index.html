@@ -7,25 +7,29 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
-  .scrollable-table {
-    overflow-x: auto;
-    white-space: nowrap; /* Optional for some cases */
-    border: 1px solid #ddd;
-  }
+.scrollable-table {
+overflow-x: auto;
+position: relative;
+}
 
-  /* Responsive styles for smaller screens */
-  @media only screen and (max-width: 600px) {
-    .scrollable-table td {
-      width: 120px; /* Adjust width as needed */
-    }
-  }
+.scrollable-table::after {
+content: '';
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+width: 40px; /* Width of the fade effect */
+background: linear-gradient(to right, transparent, #fff); /* Adjust color to match your design */
+}
 
-  .scrollable-table td {
-    padding: 5px;
-    text-overflow: ellipsis; /* Apply ellipsis overflow for content */
-    overflow: hidden; /* Clip content if it overflows */
-    white-space: nowrap; /* Prevent wrapping */
-  }
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+.scrollable-table::after {
+width: 40px; /* Adjust the width of the fade effect for smaller screens */
+background: linear-gradient(to right, transparent, #f0f0f0); /* Adjust color for better visibility on mobile */
+}
+}
+
         .ui-autocomplete {
           background-color: white;
           border: 1px solid #ccc; /* Optional: Add a border for better visibility */
