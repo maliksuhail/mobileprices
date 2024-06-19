@@ -7,23 +7,15 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
-.scrollable-table {
-overflow-x: auto;
-position: relative;
-display: block; /* Added to make the div behave like a block-level element */
+table{
+    width: 100%;
 }
 
-.scrollable-table table {
-table-layout: fixed; /* Added to enforce cell widths */
-}
-
-.scrollable-table td {
-width: 200px; /* Adjust width as needed */
-/*overflow: hidden;  Added to prevent content from spilling out */
-text-overflow: ellipsis; /* Optional, adds an ellipsis if the content is too long */
-white-space: nowrap; /* Optional, prevents text from wrapping */
-}
-
+        .hidden-row {
+        display: none;
+        }
+        </style>
+    <style>
         .ui-autocomplete {
           background-color: white;
           border: 1px solid #ccc; /* Optional: Add a border for better visibility */
@@ -74,37 +66,55 @@ white-space: nowrap; /* Optional, prevents text from wrapping */
     <div class="search-container">
         <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
-    <div class="scrollable-table">
     <table>
-        <tbody>
         <tr>
             <td><a href="#" class="button-link" id="popularButton">Popular</a></td>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
             <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
+        </tr>
+        <tr>
             <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
             <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
             <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
+        </tr>
+        <tr class="hidden-row">
             <td><a href="#" class="button-link" id="xiaomiButton">Xiaomi</a></td>
             <td><a href="#" class="button-link" id="realmeButton">Realme</a></td>
-        </tr>
-        <tr>
             <td><a href="#" class="button-link" id="SparxButton">Sparx</a></td>
+        </tr>
+        <tr class="hidden-row">
             <td><a href="#" class="button-link" id="itelButton">Itel</a></td>
             <td><a href="#" class="button-link" id="appleButton">Iphone</a></td>            
             <td><a href="#" class="button-link" id="lowtohighButton">All Low to High</a></td>
+        </tr>
+        <tr class="hidden-row">
             <td><a href="#" class="button-link" id="hightolowButton">All High to Low</a></td>
             <td><a href="#" class="button-link" id="20kto35kButton">20k To 35k</a></td>
             <td><a href="#" class="button-link" id="36kto50kButton">36k To 50k</a></td>
-            <td><a href="#" class="empty-link" id="emptyButton">empty</a></td>
         </tr>
         <!-- Other rows... -->
-    </tbody>
     </table>
-</div>
+    <button class="expand-btn">Expand</button>
+    <button class="collapse-btn" style="display:none;">Collapse</button>
     <div class="contentContainer" tabindex="0">
     </div>
     <div id="store-details"></div>
+    <script>
+    $(document).ready(function(){
+    $('.expand-btn').on('click', function(){
+    $('.hidden-row').slideDown();
+    $(this).hide();
+    $('.collapse-btn').show();
+    });
 
+    $('.collapse-btn, .button-link').on('click', function(){
+    $('.hidden-row').slideUp();
+    $('.collapse-btn').hide();
+    $('.expand-btn').show();
+    });
+
+    });
+    </script>
     <script>
         /*
         function emptyContentContainer() {
