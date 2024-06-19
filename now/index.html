@@ -1,73 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expandable Table</title>
 <style>
   .scrollable-table {
-  overflow-x: auto;  /* Enable horizontal scrolling if needed */
-  position: relative; /* Required for the expand button positioning */
-}
+    overflow-x: auto;
+    position: relative;
+  }
 
-.scrollable-table table {
-  width: 100%;  /* Ensure table fills container width */
-}
+  .scrollable-table table {
+    width: 100%;
+  }
 
-.scrollable-table tbody {
-  max-height: 100px;  /* Set initial height for showing limited rows */
-  overflow-y: hidden; /* Hide overflowing content */
-  transition: max-height 0.3s ease-in-out; /* Add smooth transition for expansion */
-}
+  .scrollable-table tbody {
+    max-height: 100px;
+    overflow-y: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
 
-.scrollable-table.expanded tbody {
-  max-height: unset; /* Allow full height when expanded */
-}
+  .scrollable-table.expanded tbody {
+    max-height: unset;
+  }
 
-.expand-button {
-  position: absolute;  /* Position button below the table */
-  bottom: 0;  /* Align to bottom */
-  right: 0;  /* Align to right */
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  background-color: #eee;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out; /* Add smooth transition for button rotation */
-}
+  .expand-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
 
-.scrollable-table.expanded .expand-button {
-  transform: rotate(180deg); /* Rotate button icon on expansion */
-}
-
+  .scrollable-table.expanded .expand-button {
+    transform: rotate(180deg);
+  }
 </style>
-<div class="scrollable-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Product</th>
-        <th>Category</th>
-        <th>Price</th>
-        <th>Stock</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Phone Case</td>
-        <td>Accessories</td>
-        <td>$15.99</td>
-        <td>In Stock</td>
-      </tr>
-      </tbody>
-  </table>
-  <button class="expand-button">Expand Table ({{ numRowsVisible }} rows visible)</button>
-</div>
-<script>
-  const tableContainer = document.querySelector('.scrollable-table');
-const expandButton = document.querySelector('.expand-button');
-const tableBody = document.querySelector('.scrollable-table tbody');
-const numRows = tableBody.querySelectorAll('tr').length;
+</head>
+<body>
+  <div class="scrollable-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Stock</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Phone Case</td>
+          <td>Accessories</td>
+          <td>$15.99</td>
+          <td>In Stock</td>
+        </tr>
+        </tbody>
+    </table>
+    <button class="expand-button">Expand Table ({{ numRowsVisible }} rows visible)</button>
+  </div>
 
-expandButton.textContent = `Expand Table (${numRows} rows visible)`;
+  <script>
+    const tableContainer = document.querySelector('.scrollable-table');
+    const expandButton = document.querySelector('.expand-button');
+    const tableBody = document.querySelector('.scrollable-table tbody');
+    const numRows = tableBody.querySelectorAll('tr').length;
 
-expandButton.addEventListener('click', () => {
-  tableContainer.classList.toggle('expanded');
-  const isExpanded = tableContainer.classList.contains('expanded');
-  expandButton.textContent = ` ${isExpanded ? 'Collapse' : 'Expand'} Table (${numRows} rows visible)`;
-});
+    expandButton.textContent = `Expand Table (${numRows} rows visible)`;
 
-</script>
+    expandButton.addEventListener('click', () => {
+      tableContainer.classList.toggle('expanded');
+      const isExpanded = tableContainer.classList.contains('expanded');
+      expandButton.textContent = ` ${isExpanded ? 'Collapse' : 'Expand'} Table (${numRows} rows visible)`;
+    });
+  </script>
+</body>
+</html>
