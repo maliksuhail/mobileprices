@@ -8,37 +8,42 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
 .scrollable-table {
-overflow-x: auto;
-/*position: relative;*/
+  overflow-x: auto;
+  position: relative;
+  /* Added: Disable table layout for fixed width cells */
+  table-layout: fixed;
 }
 
 .scrollable-table::after {
-content: '';
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-width: 40px; /* Width of the fade effect */
-background: rgba(255, 255, 255, 1); /* Start with full opacity white */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px; /* Width of the fade effect */
+  background: rgba(255, 255, 255, 1); /* Start with full opacity white */
 }
 
 /* Gradually reduce the opacity towards the left edge */
 .scrollable-table::after {
-background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
-.scrollable-table::after {
-width: 40px; /* Adjust the width of the fade effect for smaller screens */
-background: linear-gradient(to left, rgba(240, 240, 240, 0), rgba(240, 240, 240, 1)); /* Adjust color for better visibility on mobile */
-}
+  .scrollable-table::after {
+    width: 40px; /* Adjust the width of the fade effect for smaller screens */
+    background: linear-gradient(to left, rgba(240, 240, 240, 0), rgba(240, 240, 240, 1)); /* Adjust color for better visibility on mobile */
+  }
 }
 
+.scrollable-table th,
 .scrollable-table td {
-width: 200px; /* Adjust width as needed */
+  width: 120px; /* Adjust width as needed */
+  /* Added: Remove default padding and border for cleaner width calculation */
+  padding: 0;
+  border: 1px solid #ddd; /* Optional border */
 }
-
         .ui-autocomplete {
           background-color: white;
           border: 1px solid #ccc; /* Optional: Add a border for better visibility */
