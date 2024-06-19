@@ -3,109 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Expandable Table</title>
+<title>Expandable Table with Links</title>
 <style>
-  .scrollable-table {
-    overflow-x: auto;
-    position: relative;
-  }
-
-  .scrollable-table table {
-    width: 100%;
-  }
-
-  .scrollable-table tbody {
-    max-height: 100px;
-    overflow-y: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-
-  .scrollable-table.expanded tbody {
-    max-height: unset;
-  }
-
-  .expand-button {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
-    background-color: #eee;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .scrollable-table.expanded .expand-button {
-    transform: rotate(180deg);
-  }
+.hidden-row {
+display: none;
+}
 </style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.expand-btn').on('click', function(){
+$('.hidden-row').slideDown();
+$(this).hide();
+$('.collapse-btn').show();
+});
+
+$('.collapse-btn, .row-link').on('click', function(){
+$('.hidden-row').slideUp();
+$('.collapse-btn').hide();
+$('.expand-btn').show();
+});
+});
+</script>
 </head>
 <body>
-  <div class="scrollable-table">
-    <table>
-      <thead>
-        <tr>
-          <th>Product</th>
-          <th>Category</th>
-          <th>Price</th>
-          <th>Stock</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock</td>
-        </tr>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock row2</td>
-        </tr>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock row3</td>
-        </tr>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock row4</td>
-        </tr>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock row5</td>
-        </tr>
-        <tr>
-          <td>Phone Case</td>
-          <td>Accessories</td>
-          <td>$15.99</td>
-          <td>In Stock row6</td>
-        </tr>
-        </tbody>
-    </table>
-    <button class="expand-button">Expand Table ({{ numRowsVisible }} rows visible)</button>
-  </div>
 
-  <script>
-    const tableContainer = document.querySelector('.scrollable-table');
-    const expandButton = document.querySelector('.expand-button');
-    const tableBody = document.querySelector('.scrollable-table tbody');
-    const numRows = tableBody.querySelectorAll('tr').length;
+<table>
+<tr><td><a href="#" class="row-link">Row 1</a></td></tr>
+<tr><td><a href="#" class="row-link">Row 2</a></td></tr>
+<!-- Hidden Rows -->
+<tr class="hidden-row"><td><a href="#" class="row-link">Row 3</a></td></tr>
+<tr class="hidden-row"><td><a href="#" class="row-link">Row 4</a></td></tr>
+<!-- ... Add more rows as needed ... -->
+</table>
 
-    expandButton.textContent = `Expand Table (${numRows} rows visible)`;
+<button class="expand-btn">Expand</button>
+<button class="collapse-btn" style="display:none;">Collapse</button>
 
-    expandButton.addEventListener('click', () => {
-      tableContainer.classList.toggle('expanded');
-      const isExpanded = tableContainer.classList.contains('expanded');
-      expandButton.textContent = ` ${isExpanded ? 'Collapse' : 'Expand'} Table (${numRows} rows visible)`;
-    });
-  </script>
 </body>
 </html>
