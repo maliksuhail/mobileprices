@@ -47,6 +47,10 @@ Load Image List
 <input type="radio" name="listType" value="price">
 Load Price List
 </label>
+<label class="custom-radio">
+    <input type="radio" name="listType" value="change">
+    Detect Price Change
+    </label>
 </div>
 
 <div id="content"></div>
@@ -64,6 +68,8 @@ if (selectedValue === "image") {
 loadContent("assets/xiaomi/xiaomi_imagelist.html");
 } else if (selectedValue === "price") {
 loadContent("assets/xiaomi/xiaomi_pricelist.html");
+}else if (selectedValue === "change") {
+    loadContent("assets/xiaomi/xiaomi_price_change.html");
 }
 });
 
