@@ -66,6 +66,7 @@ table{
     <div class="search-container">
         <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
+    <h1 id="last-updated"></h1>
     <table>
         <tr>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
@@ -263,5 +264,26 @@ $(document).ready(function() {
             $('.contentContainer').load(pageName);
         }
     </script>
+    	<script>
+            // Get the last modified date of the file
+            $.ajax({
+                url: 'pricelist_html.html',
+                type: 'HEAD',
+                success: function(data, textStatus, request) {
+                    var lastModified = request.getResponseHeader('Last-Modified');
+                    var date = new Date(lastModified);
+    
+                    // Format the date as required
+                    var dayName = date.toLocaleString('en-US', { weekday: 'long' });
+                    var monthName = date.toLocaleString('en-US', { month: 'long' });
+                    var year = date.getFullYear();
+                    var day = date.getDate();
+    
+                    // Display the formatted date in a div
+                    var formattedDate = `Last Updated on ${dayName} ${monthName} ${year} ${day}`;
+                    $('#last-updated').html(formattedDate);
+                }
+            });
+        </script>
 </body>
 </html>
