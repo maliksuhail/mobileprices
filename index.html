@@ -71,7 +71,7 @@ table{
     <div class="search-container">
         <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
-    <h1 id="new last-updated"></h1>
+    <h1 id="last-updated"></h1>
     <table width="100%">
         <tr>
           <td width="50%" style="text-align: center;">
@@ -303,7 +303,7 @@ $(document).ready(function() {
                     var day = date.getDate();
     
                     // Display the formatted date in a div
-                    var formattedDate = `Last Updated on ${dayName} ${day} ${monthName} ${year}`;
+                    var formattedDate = `new Last Updated on ${dayName} ${day} ${monthName} ${year}`;
                     $('#last-updated').html(formattedDate);
                 }
             });
