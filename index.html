@@ -9,6 +9,7 @@
     <style>
 table{
     width: 100%;
+    background-color: #F7F7F7;
 }
 
         .hidden-row {
@@ -17,7 +18,7 @@ table{
         </style>
     <style>
         .ui-autocomplete {
-          background-color: white;
+          background-color: #F7F7F7;
           border: 1px solid #ccc; /* Optional: Add a border for better visibility */
         }
       
@@ -26,6 +27,7 @@ table{
           flex-direction: column;
           align-items: center;
           margin-top: 10px;
+          background-color: #F7F7F7;
         }
       
         input {
@@ -33,6 +35,7 @@ table{
           box-sizing: border-box;
           padding: 10px; /* Adjust the padding as needed */
           margin: 5px 5px 5px 5px; /* Top, Right, Bottom, Left */
+          background-color: #F7F7F7;
         }
       
         input::placeholder {
@@ -46,6 +49,7 @@ table{
           flex-direction: column;
           align-items: center;
           margin-top: 10px;
+          background-color: #F7F7F7;
         }
       
         .contentContainer {
@@ -59,6 +63,7 @@ table{
           padding-top: 15px;
           width: 100%;
           text-align: center;
+          background-color: #F7F7F7;
         }
       </style>
 </head>
@@ -67,6 +72,16 @@ table{
         <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
     <h1 id="last-updated"></h1>
+    <table width="100%">
+        <tr>
+          <td width="50%" style="text-align: center;">
+            <a id="monthlyButton" href="#" class="button-link" style="background-color: #F7F7F7; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Monthly Price Report</a>
+          </td>
+          <td width="50%" style="text-align: center;">
+            <a id="dailyButton" style="background-color: #F7F7F7; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Daily Price Report</a>
+          </td>
+        </tr>
+      </table>
     <table>
         <tr>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
@@ -191,7 +206,7 @@ table{
         // Load popular_imagelist.html by default
 $(document).ready(function() {
     loadPage('assets/popular/popular.html');
-});
+    });
 
         // Handle button clicks
         $(document).ready(function() {
@@ -253,6 +268,14 @@ $(document).ready(function() {
 
             $('#36kto50kButton').click(function() {
                 loadPage('assets/36kto50k/36kto50k.html');
+            });
+
+            $('#monthlyButton').click(function() {
+                loadPage('assets/monthly_report/monthly_report.html');
+            });
+
+            $('#dailyButton').click(function() {
+                loadPage('assets/daily_report/daily_report.html');
             });
 
             // Add similar handlers for other buttons
