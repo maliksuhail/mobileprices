@@ -77,13 +77,11 @@ table{
         <tr>
             <td><a id="monthlyButton" href="#" >Monthly Price Report</a></td>
             <td><a id="dailyButton" class="button-link">Daily Price Report</a></td>
-          </tr>
-        <tr>
             <td><a href="#" class="button-link" id="samsungButton">Samsung</a></td>
-            <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
-            <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
         </tr>
         <tr>
+            <td><a href="#" class="button-link" id="infinixButton">Infinix</a></td>
+            <td><a href="#" class="button-link" id="tecnoButton">Tecno</a></td>
             <td><a href="#" class="button-link" id="vivoButton">Vivo</a></td>
             <td><a href="#" class="button-link" id="oppoButton">Oppo</a></td>
         </tr>
@@ -298,7 +296,7 @@ $(document).ready(function() {
                     var day = date.getDate();
     
                     // Display the formatted date in a div
-                    var formattedDate = `ya Last Updated on ${dayName} ${day} ${monthName} ${year}`;
+                    var formattedDate = `zz Last Updated on ${dayName} ${day} ${monthName} ${year}`;
                     $('#last-updated').html(formattedDate);
                 }
             });
