@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Names Autocomplete</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<input type="text" id="mobile-names" placeholder="Search mobile names...">
+	<div id="mobile-names-list">
+		<div class="mobile-name">Apple iPhone</div>
+		<div class="mobile-name">Samsung Galaxy</div>
+		<div class="mobile-name">Google Pixel</div>
+		<div class="mobile-name">Huawei P30</div>
+		<div class="mobile-name">Apple iPhone 12</div>
+		<div class="mobile-name">Samsung Galaxy S22</div>
+	</div>
+
+	<script>
+// Initialize autocomplete
+$('#mobile-names').autocomplete({
+    source: $('#mobile-names-list .mobile-name').map(function() {
+        return $(this).text();
+    }).get(),
+    select: function(event, ui) {
+        $('#mobile-names').val(ui.item.value);
+        filterMobileNames(ui.item.value);
+        $("#mobile-names").val(''); // Clear the input field
+        setTimeout(function() {
+            $('#mobile-names').autocomplete('close');
+        }, 2000); // Close the autocomplete list after 2 seconds
+		$('#mobile-names').blur(); // Shift focus outside the input field
+        return false;
+    }
+});
+
+function filterMobileNames(selectedName) {
+    $('#mobile-names-list .mobile-name').hide();
+    $('#mobile-names-list .mobile-name:contains(' + selectedName + ')').show();
+}
+	</script>
+</body>
+</html>
