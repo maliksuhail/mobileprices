@@ -300,5 +300,38 @@ $(document).ready(function() {
                 }
             });
         </script>
+            <script>
+                $(document).ready(function() {
+                  // Create dropdown list
+                  var dropdown = $('<select>').appendTo('p:contains("These Mobiles Prices changed over Last")');
+                  dropdown.before('<br>'); // Insert line break before dropdown
+                  dropdown.css('margin', '0 auto'); // Center-align dropdown
+                  dropdown.css('display', 'block'); // Make dropdown a block element
+                  dropdown.append($('<option>').val('').text('Choose Brand'));
+                  ['Infinix', 'Samsung', 'Vivo', 'Tecno', 'Xiaomi', 'Realme', 'Apple'].forEach(function(brand) {
+                    dropdown.append($('<option>').val(brand).text(brand));
+                  });
+                
+                  // Bind change event to dropdown
+                  dropdown.change(function() {
+                    var selectedBrand = $(this).val();
+                    if (selectedBrand) {
+                      $('.container-name').hide().filter(function() {
+                        return $(this).find('.mobile-name h1').text().includes(selectedBrand);
+                      }).show();
+                      if ($('.container-name:visible').length === 0) {
+                        $('.container-name').hide();
+                        $('<div>').text('No Price change Detected').appendTo('body');
+                      } else {
+                        $('div:contains("No Price change Detected")').remove();
+                      }
+                    } else {
+                      $('.container-name').show();
+                      $('div:contains("No Price change Detected")').remove();
+                    }
+                  });
+                });
+                </script>
+        
 </body>
 </html>
