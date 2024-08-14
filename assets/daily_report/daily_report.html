@@ -74,32 +74,35 @@
     </body>
     </html>
     
-
-            <script>
-        // Initialize autocomplete
-        $('#mobile-names').autocomplete({
-            source: $('#mobile-names-list .container-name').map(function() {
-                return $(this).text().split("(")[0];
-            }).get().filter(function(value, index, self) {
-                return self.indexOf(value) === index;
-            }),
-            select: function(event, ui) {
-                $('#mobile-names').val(ui.item.value);
-                filterMobileNames(ui.item.value);
-                $("#mobile-names").val(''); // Clear the input field
-                setTimeout(function() {
-                    $('#mobile-names').autocomplete('close');
-                }, 200); // Close the autocomplete list after 2 milli seconds
-                $('#mobile-names').blur(); // Shift focus outside the input field
-                return false;
-            }
-        });
+    <script>
+        $(document).ready(function() {
+          // Create dropdown list
+          var dropdown = $('<select>').appendTo('p:contains("These Mobiles Prices changed over Last")');
+          dropdown.before('<br>'); // Insert line break before dropdown
+          dropdown.css('margin', '0 auto'); // Center-align dropdown
+          dropdown.css('display', 'block'); // Make dropdown a block element
+          dropdown.append($('<option>').val('').text('Choose Brand'));
+          ['Infinix', 'Samsung', 'Vivo', 'Tecno', 'Xiaomi', 'Realme', 'Apple'].forEach(function(brand) {
+            dropdown.append($('<option>').val(brand).text(brand));
+          });
         
-        function filterMobileNames(selectedName) {
-            //$('#container-name .mobile-name').hide();
-            $('#mobile-names-list .container-name').hide();
-            $('#mobile-names-list .container-name:contains(' + selectedName + ')').show();
-            //var name='Now'
-            //$('#container-name .price-name:contains(' + name + ')').show();
-        }
-            </script>
+          // Bind change event to dropdown
+          dropdown.change(function() {
+            var selectedBrand = $(this).val();
+            if (selectedBrand) {
+              $('.container-name').hide().filter(function() {
+                return $(this).find('.mobile-name h1').text().includes(selectedBrand);
+              }).show();
+              if ($('.container-name:visible').length === 0) {
+                $('.container-name').hide();
+                $('<div>').text('No Price change Detected').appendTo('body');
+              } else {
+                $('div:contains("No Price change Detected")').remove();
+              }
+            } else {
+              $('.container-name').show();
+              $('div:contains("No Price change Detected")').remove();
+            }
+          });
+        });
+        </script>
