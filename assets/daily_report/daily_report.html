@@ -9,45 +9,174 @@
     body {
     text-align: center;
     }
+    /* Style the select element */
+#brand-dropdown {
+  /* Remove default styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* Custom styling */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+
+  /* Center the select element */
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width */
+}
+
+/* Style the option elements */
+#brand-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the select element when focused */
+#brand-dropdown:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the select element when opened */
+#brand-dropdown::before {
+  content: "BC"; /* Down arrow icon */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the dropdown list */
+#brand-dropdown option:checked {
+  background-color: #f0f0f0;
+  color: #333;
+}
     </style>
     </head>
         <body>
         <h2>Daily Price Report</h2>
-        <p>These Mobiles Prices changed over Last 1</p>
-    
+        <p>These Mobiles Prices changed over Last 1 days</p>
+                <select id="brand-dropdown">
+            <option value="">Choose Brand</option>
+            <option value="Infinix">Infinix</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Tecno">Tecno</option>
+            <option value="Xiaomi">Xiaomi</option>
+            <option value="Realme">Realme</option>
+            <option value="Apple">Apple</option>
+          </select>
+          <div id="no-price-change" style="display: none;"></div>
+
+    <div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 35999.0 Price Before 1 Days: 39999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A24 4G (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 48999.0 Price Before 1 Days: 50999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A34 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 78999.0 Price Before 1 Days: 79999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A35 5G (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 104999.0 Price Before 1 Days: 104500.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A55 5G (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 128999.0 Price Before 1 Days: 129999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 273999.0 Price Before 1 Days: 275499.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y03 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 25999.0 Price Before 1 Days: 28299.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro Plus (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 52999.0 Price Before 1 Days: 51999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark Go 2024 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 22499.0 Price Before 1 Days: 22799.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C51 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 26999.0 Price Before 1 Days: 24999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C63 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 33999.0 Price Before 1 Days: 32999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 34499.0 Price Before 1 Days: 31999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12C (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 24999.0 Price Before 1 Days: 23999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 27299.0 Price Before 1 Days: 26999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A2 Plus (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 19999.0 Price Before 1 Days: 17999.0</h1></div>
+</div>
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (--GB ---GB)</h1></div>
+<div class="store-name">priceoye.pk</div>
+<div class="price-name"><h1>Price Now: 46999.0 Price Before 1 Days: 45999.0</h1></div>
+</div>
     </body>
     </html>
     
 
-    <script>
-        $(document).ready(function() {
-          // Create dropdown list
-          var dropdown = $('<select>').appendTo('p:contains("These Mobiles Prices changed over Last")');
-          dropdown.before('<br>'); // Insert line break before dropdown
-          dropdown.css('margin', '0 auto'); // Center-align dropdown
-          dropdown.css('display', 'block'); // Make dropdown a block element
-          dropdown.append($('<option>').val('').text('Choose Brand'));
-          ['Infinix', 'Samsung', 'Vivo', 'Tecno', 'Xiaomi', 'Realme', 'Apple'].forEach(function(brand) {
-            dropdown.append($('<option>').val(brand).text(brand));
-          });
-        
-          // Bind change event to dropdown
-          dropdown.change(function() {
-            var selectedBrand = $(this).val();
-            if (selectedBrand) {
-              $('.container-name').hide().filter(function() {
-                return $(this).find('.mobile-name h1').text().includes(selectedBrand);
-              }).show();
-              if ($('.container-name:visible').length === 0) {
-                $('.container-name').hide();
-                $('<div>').text('No Price change Detected').appendTo('body');
-              } else {
-                $('div:contains("No Price change Detected")').remove();
-              }
-            } else {
-              $('.container-name').show();
-              $('div:contains("No Price change Detected")').remove();
-            }
-          });
-        });
-        </script>
+<script>
+$(document).on('change', '#brand-dropdown', function() {
+var selectedBrand = $(this).val();
+if (selectedBrand) {
+$('.container-name').hide().filter(function() {
+return $(this).find('.mobile-name h1').text().includes(selectedBrand);
+}).show();
+if ($('.container-name:visible').length === 0) {
+$('.container-name').hide();
+$('#no-price-change').text('No Price change Detected').show();
+} else {
+$('#no-price-change').hide();
+}
+} else {
+$('.container-name').show();
+$('#no-price-change').hide();
+}
+});
+</script>

@@ -1,0 +1,19 @@
+<script>
+$(document).on('change', '#brand-dropdown', function() {
+var selectedBrand = $(this).val();
+if (selectedBrand) {
+$('.container-name').hide().filter(function() {
+return $(this).find('.mobile-name h1').text().includes(selectedBrand);
+}).show();
+if ($('.container-name:visible').length === 0) {
+$('.container-name').hide();
+$('#no-price-change').text('No Price change Detected').show();
+} else {
+$('#no-price-change').hide();
+}
+} else {
+$('.container-name').show();
+$('#no-price-change').hide();
+}
+});
+</script>

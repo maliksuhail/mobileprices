@@ -9,11 +9,74 @@
     body {
     text-align: center;
     }
+    /* Style the select element */
+#brand-dropdown {
+  /* Remove default styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* Custom styling */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+
+  /* Center the select element */
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width */
+}
+
+/* Style the option elements */
+#brand-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the select element when focused */
+#brand-dropdown:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the select element when opened */
+#brand-dropdown::before {
+  content: "BC"; /* Down arrow icon */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the dropdown list */
+#brand-dropdown option:checked {
+  background-color: #f0f0f0;
+  color: #333;
+}
     </style>
     </head>
         <body>
-        <h2>again Monthly Price Report</h2>
-        <p>These Mobiles Prices changed over Last 30</p>
+        <h2>Monthly Price Report</h2>
+        <p>These Mobiles Prices changed over Last 30 days</p>
+                <select id="brand-dropdown">
+            <option value="">Choose Brand</option>
+            <option value="Infinix">Infinix</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Tecno">Tecno</option>
+            <option value="Xiaomi">Xiaomi</option>
+            <option value="Realme">Realme</option>
+            <option value="Apple">Apple</option>
+          </select>
+          <div id="no-price-change" style="display: none;"></div>
+
     <div class="container-name">
 <div class="mobile-name"><h1>Infinix GT 20 Pro (--GB ---GB)</h1></div>
 <div class="store-name">priceoye.pk</div>
@@ -1003,3 +1066,22 @@
     </html>
     
 
+<script>
+$(document).on('change', '#brand-dropdown', function() {
+var selectedBrand = $(this).val();
+if (selectedBrand) {
+$('.container-name').hide().filter(function() {
+return $(this).find('.mobile-name h1').text().includes(selectedBrand);
+}).show();
+if ($('.container-name:visible').length === 0) {
+$('.container-name').hide();
+$('#no-price-change').text('No Price change Detected').show();
+} else {
+$('#no-price-change').hide();
+}
+} else {
+$('.container-name').show();
+$('#no-price-change').hide();
+}
+});
+</script>
