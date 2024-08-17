@@ -1,115 +1,119 @@
-Samsung Galaxy A34
-Samsung Galaxy A24 4G
 Tecno Spark Go
-Xiaomi Poco C65
-Infinix Zero 30 4G
-Xiaomi Redmi Note 13 Pro
-Sparx Neo 5 Pro
-Samsung Galaxy A14
-Samsung Galaxy Z Fold 5
-Realme C30
-Infinix Smart 8 Plus
-Samsung Galaxy A05
-Apple iPhone 15 Pro Max 1TB Storage Esim
-Samsung Galaxy Z Flip 5
-Xiaomi Redmi 10A
-Vivo Y100
-Infinix Hot 30i
-Vivo Y18
-Oppo Reno 11F 5G
-Tecno Spark 20C
-Xiaomi Redmi 12C
-Samsung Galaxy A35 5G
-Infinix Hot 40 Pro
-Infinix Note 40 Pro
-Infinix Note 40
-Samsung Galaxy S22 Ultra
-Tecno Camon 30 Premier 5G
-Honor X8b
-Honor X5 Plus
-Tecno Camon 30 Pro 5G
-Tecno Spark Go 2024
-Vivo V30e
-Samsung Galaxy A25
-Oppo Reno 11 5G
-Sparx Neo 5 Plus
-Apple iPhone 12
-Samsung Galaxy A13
-Realme C53
-Xiaomi Redmi A2 Plus
-Xiaomi Black Shark 5 pro
-Tecno Spark 20 Pro Plus
-Xiaomi Redmi Note 13 Pro Plus
-Tecno Spark 10 Pro
-Apple iPhone 15 Pro Max
-Vivo Y27s
-Tecno Spark 20 Pro
-Realme C51
-Sparx Note 20
-Samsung Galaxy A54 5G
-Tecno Spark 10
-Apple iPhone 15 Plus
-Infinix Smart 8 Pro
-Samsung Galaxy S24
-Tecno Spark 8C
-Xiaomi Redmi A3
-Samsung Galaxy S24 Ultra
-Infinix Smart 7 HD
-Sparx Neo 7 Plus
-Sparx Neo 7 Pro
-Oppo A78
-Realme 12 4G
-Xiaomi Redmi 13C
-Xiaomi Redmi Note 13
-Sparx Neo 6 Plus
-Samsung Galaxy A04
-Sparx Neo X
-Tecno Camon 30
-Apple iPhone 15 Pro
-Itel S24
-Oppo A58
-Sparx Edge 20 Pro
-Sparx Ultra 11
-Itel S23 4G
-Infinix Hot 12
-Infinix Hot 40
-Tecno Pop 7
-Xiaomi Redmi 13
-Xiaomi 14
-Itel P40 4G
-Infinix Hot 40i
-Samsung Galaxy Z Fold 4
 Realme Note 50
-Sparx Neo 8 Plus
-Xiaomi Redmi 12
-Vivo Y73
-Infinix Smart 8
-Apple iPhone 11
-Vivo V30 5G
-Samsung Galaxy Z Flip 4
-Samsung Galaxy A05s
-Oppo A38
-Oppo A60
-Apple iPhone 15
-Realme 12+ 5G
-Apple iPhone 13
-Samsung Galaxy A55 5G
-Realme C63
-Vivo Y03
-Infinix GT 20 Pro
-Infinix Smart 6
-Sparx Neo 7 Ultra
-Samsung A04s
-Infinix Note 30
-Samsung Galaxy A12
-Samsung Galaxy A15
-Samsung Galaxy S23 FE
-Vivo Y17s
-Tecno Spark 20c
-Tecno Spark 10C
-Apple iPhone 14 Pro Max
+Xiaomi Redmi A2 Plus
 Apple iPhone 14
+Samsung Galaxy A13
+Infinix Smart 7 HD
+Apple iPhone 14 Pro Max
+Apple iPhone 15
+Tecno Pop 7
+Xiaomi Poco C65
+Apple iPhone 11
+Samsung Galaxy A55 5G
+Samsung Galaxy A14
+Realme 12+ 5G
+Tecno Spark 10C
+Xiaomi Redmi 10A
+Itel S24
+Sparx Neo 5 Pro
 Tecno Spark 20
+Tecno Spark 8C
+Apple iPhone 15 Pro Max 1TB Storage Esim
+Xiaomi Redmi Note 13
+Apple iPhone 13
+Sparx Edge 20 Pro
+Vivo Y100
+Samsung Galaxy Z Fold 4
+Tecno Camon 30 Pro 5G
 Xiaomi Redmi A3x
+Samsung Galaxy A05
+Sparx Neo 7 Ultra
+Samsung Galaxy A04
+Infinix Smart 8
+Sparx Neo 8 Plus
+Sparx Neo 8 Pro
+Oppo A60
+Samsung Galaxy A34
+Sparx Neo 11
+Oppo A38
+Tecno Spark 20c
+Vivo Y03
+Vivo Y27s
+Samsung Galaxy A05s
+Infinix Note 40
+Vivo Y18
+Apple iPhone 12
+Xiaomi Redmi 12
+Infinix Note 30
+Realme 12 4G
+Xiaomi Redmi Note 13 Pro Plus
+Realme C51
+Realme C63
+Sparx Neo 7 Pro
+Tecno Spark Go 2024
+Tecno Camon 30
+Oppo Reno 11F 5G
+Samsung Galaxy A25
+Vivo V30 5G
+Tecno Spark 20 Pro Plus
+Infinix Hot 40i
+Vivo Y17s
+Samsung Galaxy S24
+Oppo Reno 11 5G
+Infinix Hot 30i
+Xiaomi 14
+Sparx Ultra 11
+Vivo V30e
 Honor X7b
+Xiaomi Redmi 13
+Samsung Galaxy S24 Ultra
+Itel P40 4G
+Samsung Galaxy Z Flip 4
+Oppo A58
+Sparx Neo 7 Plus
+Sparx Neo X
+Realme C53
+Infinix Hot 40 Pro
+Xiaomi Redmi Note 13 Pro
+Tecno Spark Go 2023
+Sparx Neo 5 Plus
+Samsung A04s
+Samsung Galaxy A54 5G
+Tecno Spark 20 Pro
+Xiaomi Redmi 13C
+Xiaomi Redmi A3
+Sparx Note 20
+Samsung Galaxy A12
+Infinix Hot 40
+Infinix GT 20 Pro
+Infinix Hot 12
+Samsung Galaxy A35 5G
+Samsung Galaxy Z Fold 5
+Tecno Camon 30 Premier 5G
+Apple iPhone 15 Plus
+Apple iPhone 15 Pro
+Itel S23 4G
+Infinix Zero 30 4G
+Apple iPhone 15 Pro Max
+Sparx Neo 6
+Vivo Y73
+Tecno Spark 10
+Samsung Galaxy A15
+Xiaomi Black Shark 5 pro
+Realme C30
+Samsung Galaxy S23 FE
+Infinix Smart 8 Pro
+Oppo A78
 Samsung A15
+Infinix Note 40 Pro
+Infinix Smart 8 Plus
+Honor X5 Plus
+Samsung Galaxy Z Flip 5
+Honor X8b
+Tecno Camon 19 Neo
+Samsung Galaxy S22 Ultra
+Sparx Neo 6 Plus
+Infinix Smart 6
+Samsung Galaxy A24 4G
+Tecno Spark 20C
+Tecno Spark 10 Pro
