@@ -1,0 +1,3123 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+                <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+    body {
+    text-align: center;
+    }
+    /* Style the select element */
+#brand-dropdown {
+  /* Remove default styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* Custom styling */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+
+  /* Center the select element */
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width */
+}
+
+/* Style the option elements */
+#brand-dropdown option {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the select element when focused */
+#brand-dropdown:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the select element when opened */
+#brand-dropdown::before {
+  content: "BC"; /* Down arrow icon */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the dropdown list */
+#brand-dropdown option:checked {
+  background-color: #f0f0f0;
+  color: #333;
+}
+    </style>
+    </head>
+        <body>
+          <input id="brand-input" placeholder="Type to search...">
+            <option value="">Choose Brand</option>
+            <option value="Infinix">Infinix</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Tecno">Tecno</option>
+            <option value="Xiaomi">Xiaomi</option>
+            <option value="Realme">Realme</option>
+            <option value="Apple">Apple</option>
+          </select>
+          <div id="no-price-change" style="display: none;"></div>
+
+    <div class="container-name">
+<div class="image-name"><img  alt='Infinix GT 20 Pro (12GB 256GB)' /></div>
+<div class="mobile-name"><h1>Infinix GT 20 Pro (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 104999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix GT 20 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 92599.0 Price Before 30 Days: 99999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix GT 20 Pro (12GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 99999.0 Price Before 30 Days: 99999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix HOT 20i (4GB RAM 64G Storage)' /></div>
+<div class="mobile-name"><h1>Infinix HOT 20i (4GB RAM 64G Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-11-play-pakistan-priceoye-j5p9q-270x270.webp" alt='Infinix Hot 11 Play (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 11 Play (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 26499.0 Price Before 30 Days: 26499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-12-pakistan-priceoye-tugnp-270x270.webp" alt='Infinix Hot 12 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 12 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23299.0 Price Before 30 Days: 30499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 12 X6817 (6GB Ram 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 12 X6817 (6GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-12i-pakistan-priceoye-9kegv-270x270.webp" alt='Infinix Hot 12i (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 12i (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34299.0 Price Before 30 Days: 34299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 12i (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-20i-pakistan-priceoye-dnk0o-270x270.webp" alt='Infinix Hot 20i (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 20i (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 24999.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-30-pakistan-priceoye-frdn5-270x270.webp" alt='Infinix Hot 30 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 30 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 30099.0 Price Before 30 Days: 30099.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30 (4GB RAM 128GB storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30 (8GB RAM 128GB storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 30 Play (8GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 30 Play (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 32999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30 Play (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30 Play (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23499.0 Price Before 30 Days: 23499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30 Play (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-hot-30i-pakistan-priceoye-xjs62-270x270.webp" alt='Infinix Hot 30i (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 30i (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 27299.0 Price Before 30 Days: 22549.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30i (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30i (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 29999.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 30i (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 40 (4G 8GB 256GB Starlit Black)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 40 (4G 8GB 256GB Starlit Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 36499.0 Price Before 30 Days: 38499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 (4G 8GB 256GB Starfall Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 37999.0 Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34399.0 Price Before 30 Days: 30999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 32999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 40 Pro (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 40 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 44999.0 Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 41199.0 Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 40 Pro 4G 8GB 256GB Starfall Green)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 40 Pro 4G 8GB 256GB Starfall Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 42299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 40 Pro 4G 8GB 256GB Starlit Black)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 40 Pro 4G 8GB 256GB Starlit Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 42299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Hot 40i (8GB 128GB)' /></div>
+<div class="mobile-name"><h1>Infinix Hot 40i (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 29499.0 Price Before 30 Days: 33499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40i (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 27799.0 Price Before 30 Days: 28499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40i (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 36999.0 Price Before 30 Days: 36999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40i (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 28499.0 Price Before 30 Days: 28499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40i (4G 8GB 128GB Starlit Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 29199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Hot 40i (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 31699.0 Price Before 30 Days: 31699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Note 12 X663 (6GB Ram 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Note 12 X663 (6GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 40999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Note 12 X670 (8GB Ram 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Note 12 X670 (8GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Note 30 (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Note 30 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 43799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 44999.0 Price Before 30 Days: 42499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 42999.0 Price Before 30 Days: 44999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 (4G 8GB 256GB Interstellar Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 44549.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 (4G 8GB 256GB Obsidian Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 44549.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-note-30-pro-pakistan-priceoye-zbnxl-270x270.webp" alt='Infinix Note 30 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Note 30 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 45999.0 Price Before 30 Days: 45999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 Pro (4G 8GB 256GB Magic Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 48199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 52499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 30 Pro (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 52999.0 Price Before 30 Days: 52999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Note 40 (4G 8GB 256GB Obsidian Black)' /></div>
+<div class="mobile-name"><h1>Infinix Note 40 (4G 8GB 256GB Obsidian Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 48799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 49999.0 Price Before 30 Days: 50999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 47999.0 Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Note 40 Pro (12GB 256GB)' /></div>
+<div class="mobile-name"><h1>Infinix Note 40 Pro (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 77499.0 Price Before 30 Days: 73999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 Pro (4G 12GB 256GB Obsidian Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 68499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 Pro (4G 12GB 256GB Vintage Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 68499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 Pro (4G 12GB 256GB Titan Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 68499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Note 40 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 74999.0 Price Before 30 Days: 72999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix SMART 7 (3GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix SMART 7 (3GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-smart-6-pakistan-priceoye-4pst2-270x270.webp" alt='Infinix Smart 6 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 6 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 20849.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-smart-6-hd-pakistan-priceoye-xd283-270x270.webp" alt='Infinix Smart 6 HD (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 6 HD (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 19499.0 Price Before 30 Days: 19499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Smart 6 X657B (3GB Ram 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 6 X657B (3GB Ram 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Smart 7 (4G 4GB 64GB Peacock Blue) -' /></div>
+<div class="mobile-name"><h1>Infinix Smart 7 (4G 4GB 64GB Peacock Blue) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 7 (4G 4GB 64GB Polar Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 7 (4G 4GB 64GB Coastal Green) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Smart 7 HD (4G 2GB 64GB Ink Black) -' /></div>
+<div class="mobile-name"><h1>Infinix Smart 7 HD (4G 2GB 64GB Ink Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 19299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 7 HD (4G 2GB 64GB Silk Blue) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 19299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 7 HD (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 18299.0 Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Smart 8 (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 8 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 21999.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 (3GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 (4G 4GB 64GB Timber Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22799.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Infinix Smart 8 Plus (4G 4GB 64GB Galaxy White)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 8 Plus (4G 4GB 64GB Galaxy White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23399.0 Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Plus (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 26999.0 Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Plus (4G 4GB 64GB Timber Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Plus (4G 4GB 64GB Shiny Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-smart-8-pro-pakistan-priceoye-angzz-270x270.webp" alt='Infinix Smart 8 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Smart 8 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 25299.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Pro (4G 4GB 128GB Galaxy White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25279.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Smart 8 Pro (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24999.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-zero-30-4g-pakistan-priceoye-9eekd-270x270.webp" alt='Infinix Zero 30 4G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Zero 30 4G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 64999.0 Price Before 30 Days: 64999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Zero 30 4G (4G 8GB 256GB Misty Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 58999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Zero 30 4G (8GB 256GB 4G)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 59999.0 Price Before 30 Days: 61999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Infinix Zero 30 4G (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 59999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/infinix-zero-30-5g-pakistan-priceoye-76pw8-270x270.webp" alt='Infinix Zero 30 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Infinix Zero 30 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 94499.0 Price Before 30 Days: 94499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-a04-pakistan-priceoye-ykzl2-270x270.webp" alt='Samsung Galaxy A04 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A04 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 18999.0 Price Before 30 Days: 19999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04 (3GB 32GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 19999.0 Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04 (4G 4GB 64GB Copper)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 24899.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04 (4G 3GB 32GB Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 17999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A04E (3GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A04E (3GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 35699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A04s (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A04s (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 43499.0 Price Before 30 Days: 43499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04s (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 39999.0 Price Before 30 Days: 38499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 39999.0 Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A04s (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A05 (4G 6GB 128GB Black)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A05 (4G 6GB 128GB Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23100.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 28999.0 Price Before 30 Days: 28999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 34499.0 Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 34999.0 Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 29499.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 24999.0 Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A05s (6GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A05s (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 44499.0 Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (4G 6GB 128GB Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (4G 4GB 128GB Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 40500.0 Price Before 30 Days: 38500.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 44999.0 Price Before 30 Days: 42499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A05s (4G 4GB 128GB Light Violet)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-a12-pakistan-priceoye-vtssr-270x270.webp" alt='Samsung Galaxy A12 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A12 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 24999.0 Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-a13-pakistan-priceoye-f5zsh-270x270.webp" alt='Samsung Galaxy A13 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A13 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 31999.0 Price Before 30 Days: 30999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-a14-pakistan-priceoye-dl6gq-270x270.webp" alt='Samsung Galaxy A14 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A14 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 36999.0 Price Before 30 Days: 37999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A15 (4G 8GB 256GB Yellow)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A15 (4G 8GB 256GB Yellow)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (4G 6GB 128GB Blue Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 47999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (4G 8GB 256GB Light Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (4G 8GB 256GB Blue Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 56999.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 49999.0 Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 48999.0 Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 57999.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (4G 6GB 128GB Light Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 47999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A15 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 46999.0 Price Before 30 Days: 50399.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A24 4G (8GB 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A24 4G (8GB 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 78499.0 Price Before 30 Days: 78499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A24 4G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 47999.0 Price Before 30 Days: 59999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A24 4G (6GB 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 71999.0 Price Before 30 Days: 71999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A24 4G (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 67999.0 Price Before 30 Days: 65999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A25 (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A25 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 82999.0 Price Before 30 Days: 98499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A25 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 88999.0 Price Before 30 Days: 92599.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A25 (5G 8GB 256GB Light Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: 84999.0 Price Before 30 Days: 92999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A25 (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 93499.0 Price Before 30 Days: 98499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A34 (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A34 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 83999.0 Price Before 30 Days: 116999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A34 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 78999.0 Price Before 30 Days: 89999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A34 (5G 8GB 256GB Awesome Lime)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 82999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A34 (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 114999.0 Price Before 30 Days: 116999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A34 (8GB RAM 128GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 84999.0 Price Before 30 Days: 85999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A35 5G (8GB RAM 256GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A35 5G (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 116999.0 Price Before 30 Days: 119999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A35 5G (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 114999.0 Price Before 30 Days: 119999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A35 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 104999.0 Price Before 30 Days: 109999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-a53-pakistan-priceoye-wviys-270x270.webp" alt='Samsung Galaxy A53 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A53 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 92999.0 Price Before 30 Days: 92999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A54 5G (8GB RAM 128GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A54 5G (8GB RAM 128GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 124999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A54 5G (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 111999.0 Price Before 30 Days: 140999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A54 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 103999.0 Price Before 30 Days: 107999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A54 5G (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 140999.0 Price Before 30 Days: 140999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A54 5G (5G 8GB 256GB Awesome Graphite) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 103099.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy A55 5G (8GB RAM 256GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy A55 5G (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 152999.0 Price Before 30 Days: 139999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A55 5G (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 134999.0 Price Before 30 Days: 139999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A55 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 128999.0 Price Before 30 Days: 132999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy A55 5G (5G 8GB 256GB Awesome Navy)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 134999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-s22-ultra-pakistan-priceoye-w6bkl-270x270.webp" alt='Samsung Galaxy S22 Ultra (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S22 Ultra (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 289999.0 Price Before 30 Days: 194999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S22 Ultra (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 289999.0 Price Before 30 Days: 319999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-s23-fe-pakistan-priceoye-b1ed7-270x270.webp" alt='Samsung Galaxy S23 FE (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S23 FE (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 191999.0 Price Before 30 Days: 199999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S23 FE (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 194999.0 Price Before 30 Days: 199999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S23 FE (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 184999.0 Price Before 30 Days: 182499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S23 FE (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 204999.0 Price Before 30 Days: 204999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy S23 Ultra (12GB RAM 1TB Storage Non PTA)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S23 Ultra (12GB RAM 1TB Storage Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 354999.0 Price Before 30 Days: 354999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S23 Ultra (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 551999.0 Price Before 30 Days: 551999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy S23 Ultra Dual Sim (5G 12GB 512GB Green) - Non PTA' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S23 Ultra Dual Sim (5G 12GB 512GB Green) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 244999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S23 Ultra Dual Sim (5G 12GB 256GB Green) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 222999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy S24 (8GB RAM 256GB Storage Dual Sim Non PTA)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S24 (8GB RAM 256GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 194999.0 Price Before 30 Days: 194999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 272999.0 Price Before 30 Days: 269999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 289999.0 Price Before 30 Days: 289999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy S24 Ultra (12GB RAM 512GB Storage Non PTA)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB RAM 512GB Storage Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 304999.0 Price Before 30 Days: 304999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB-1TB) (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 444999.0 Price Before 30 Days: 501999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 464999.0 Price Before 30 Days: 469999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (5G 12GB 256GB Titanium Violet) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 257499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (5G 12GB 256GB Titanium Black) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 256999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 429999.0 Price Before 30 Days: 434999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB-256GB) (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 399999.0 Price Before 30 Days: 404999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (12GB RAM 256GB Storage Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 269999.0 Price Before 30 Days: 261999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 434999.0 Price Before 30 Days: 439999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy S24 Ultra Single Sim (5G 12GB 256GB Titanium Violet) - Non PTA' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy S24 Ultra Single Sim (5G 12GB 256GB Titanium Violet) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 248999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-z-flip-4-pakistan-priceoye-fsy4p-270x270.webp" alt='Samsung Galaxy Z Flip 4 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy Z Flip 4 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 245999.0 Price Before 30 Days: 239999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy Z Flip 5 (8GB RAM 512GB Storage)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy Z Flip 5 (8GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 384999.0 Price Before 30 Days: 399999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy Z Flip 5 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 346899.0 Price Before 30 Days: 346899.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy Z Flip 5 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 354999.0 Price Before 30 Days: 368999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-z-fold-4-pakistan-priceoye-lt5w4-270x270.webp" alt='Samsung Galaxy Z Fold 4 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy Z Fold 4 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 349999.0 Price Before 30 Days: 331999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/samsung-galaxy-z-fold-5-pakistan-priceoye-v7du0-270x270.webp" alt='Samsung Galaxy Z Fold 5 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy Z Fold 5 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 589399.0 Price Before 30 Days: 589399.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy Z Fold 5 (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 594999.0 Price Before 30 Days: 594999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Samsung Galaxy Z Fold 5 (12GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 344999.0 Price Before 30 Days: 319999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Samsung Galaxy Z Fold 5 Single Sim (5G 12GB 256GB Cream) - Non PTA' /></div>
+<div class="mobile-name"><h1>Samsung Galaxy Z Fold 5 Single Sim (5G 12GB 256GB Cream) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 295499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo V27e (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo V27e (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 91999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo V29 5G' /></div>
+<div class="mobile-name"><h1>Vivo V29 5G</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 159999.0 Price Before 30 Days: 159999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo V29e (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Vivo V29e (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 81999.0 Price Before 30 Days: 81999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo V29e (8GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 88499.0 Price Before 30 Days: 88499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo V29e (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 71499.0 Price Before 30 Days: 71499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo V30 (12GB RAM 256GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Vivo V30 (12GB RAM 256GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 135999.0 Price Before 30 Days: 135999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-v30-5g-pakistan-priceoye-dkji5-270x270.webp" alt='Vivo V30 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo V30 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 120999.0 Price Before 30 Days: 129999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo V30 5G (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 126999.0 Price Before 30 Days: 126999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-v30e-pakistan-priceoye-e9bd7-270x270.webp" alt='Vivo V30e (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo V30e (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 88999.0 Price Before 30 Days: 89999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y02T (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo Y02T (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 23299.0 Price Before 30 Days: 23299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y02T (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 28999.0 Price Before 30 Days: 28999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-y02t-pakistan-priceoye-i77vm-270x270.webp" alt='Vivo Y02t (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y02t (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22499.0 Price Before 30 Days: 22499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y03 (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo Y03 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 28499.0 Price Before 30 Days: 24699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y03 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 23799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y03 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 25999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y100 (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y100 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 62999.0 Price Before 30 Days: 61999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y100 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 52999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y100 (8GB RAM 128GB Storage 4G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 58499.0 Price Before 30 Days: 51499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y100 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 54999.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y16 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y16 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 30499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y16 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 37999.0 Price Before 30 Days: 37999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-y17s-pakistan-priceoye-t1n48-270x270.webp" alt='Vivo Y17s (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y17s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34999.0 Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y17s (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 33999.0 Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y17s (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 38499.0 Price Before 30 Days: 38499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y17s (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 34999.0 Price Before 30 Days: 30999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y17s (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 39999.0 Price Before 30 Days: 36499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-y18-pakistan-priceoye-3w1pt-270x270.webp" alt='Vivo Y18 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y18 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34999.0 Price Before 30 Days: 33499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y21T (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo Y21T (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 67999.0 Price Before 30 Days: 67999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y21T (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 48499.0 Price Before 30 Days: 48499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y22 (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo Y22 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 51499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y22 (4G 4GB 64GB Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 35890.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y22 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 54999.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y22 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 45999.0 Price Before 30 Days: 45999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y27 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y27 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 46799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y27 (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 47999.0 Price Before 30 Days: 47999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/vivo-y27s-pakistan-priceoye-t57d7-270x270.webp" alt='Vivo Y27s (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y27s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 42999.0 Price Before 30 Days: 44999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y27s (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 44999.0 Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y27s (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 45499.0 Price Before 30 Days: 45499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y36 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Vivo Y36 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 48899.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y36 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 53499.0 Price Before 30 Days: 53499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y36 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 56999.0 Price Before 30 Days: 56999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y36 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 52999.0 Price Before 30 Days: 52999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Vivo Y73 (8GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Vivo Y73 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 80999.0 Price Before 30 Days: 80999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Vivo Y73 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 65999.0 Price Before 30 Days: 63499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A16e (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Oppo A16e (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A18 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Oppo A18 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A38 (4G 6GB 128GB Glowing Gold)' /></div>
+<div class="mobile-name"><h1>Oppo A38 (4G 6GB 128GB Glowing Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 39499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A38 (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 42999.0 Price Before 30 Days: 36499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A38 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 41999.0 Price Before 30 Days: 44999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/oppo-a54-pakistan-priceoye-yb9dx-270x270.webp" alt='Oppo A54 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Oppo A54 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 46999.0 Price Before 30 Days: 46999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A58 (8GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Oppo A58 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 48499.0 Price Before 30 Days: 43999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A58 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 44999.0 Price Before 30 Days: 43999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A58 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 47499.0 Price Before 30 Days: 48999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A58 (4G 8GB 128GB Dazzling Green) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 43999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A58 (4G 8GB 128GB Glowing Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 43999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/oppo-a60-pakistan-priceoye-bjfbn-270x270.webp" alt='Oppo A60 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Oppo A60 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 53199.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A60 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 54999.0 Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A77 (4GB RAM 128GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Oppo A77 (4GB RAM 128GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A78 (4G 8GB 256GB Aqua Green) -' /></div>
+<div class="mobile-name"><h1>Oppo A78 (4G 8GB 256GB Aqua Green) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A78 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 59999.0 Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A78 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 62999.0 Price Before 30 Days: 64999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo A78 (4G 8GB 256GB Mist Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo A96 (8GB Ram128GB Storage)' /></div>
+<div class="mobile-name"><h1>Oppo A96 (8GB Ram128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 77999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo F21 Pro (8GB Ram 128GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Oppo F21 Pro (8GB Ram 128GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 139999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo F21 Pro (8GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 89999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo Reno 11 5G (12GB 256GB)' /></div>
+<div class="mobile-name"><h1>Oppo Reno 11 5G (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 124999.0 Price Before 30 Days: 121999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo Reno 11 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 120999.0 Price Before 30 Days: 124999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Oppo Reno 11F 5G (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Oppo Reno 11F 5G (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 82999.0 Price Before 30 Days: 79999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo Reno 11F 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 79999.0 Price Before 30 Days: 79999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo Reno 11F 5G (5G 8GB 256GB Ocean Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 78999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo Reno 11F 5G (5G 8GB 256GB Palm Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 78999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Oppo Reno 11F 5G (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 84999.0 Price Before 30 Days: 84999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-18-premier-pakistan-priceoye-murer-270x270.webp" alt='Tecno Camon 18 Premier (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 18 Premier (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 74999.0 Price Before 30 Days: 74999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-18p-pakistan-priceoye-hjuas-270x270.webp" alt='Tecno Camon 18P (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 18P (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 45499.0 Price Before 30 Days: 45499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-18t-pakistan-priceoye-5k0li-270x270.webp" alt='Tecno Camon 18T (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 18T (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 41999.0 Price Before 30 Days: 41999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Camon 19 Neo (6GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 19 Neo (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 19 Neo (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 32999.0 Price Before 30 Days: 36999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-19-pro-pakistan-priceoye-0tvot-270x270.webp" alt='Tecno Camon 19 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 19 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 49999.0 Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-19-pro-mondrian-pakistan-priceoye-s55le-270x270.webp" alt='Tecno Camon 19 Pro Mondrian (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 19 Pro Mondrian (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 64999.0 Price Before 30 Days: 64999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-20-pakistan-priceoye-bqon7-270x270.webp" alt='Tecno Camon 20 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 20 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 41999.0 Price Before 30 Days: 41999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 20 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 44499.0 Price Before 30 Days: 44499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-20-premier-5g-pakistan-priceoye-igmbs-270x270.webp" alt='Tecno Camon 20 Premier (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 20 Premier (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 124999.0 Price Before 30 Days: 124999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-20-pro-pakistan-priceoye-ykax8-270x270.webp" alt='Tecno Camon 20 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 20 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 43999.0 Price Before 30 Days: 43999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Camon 30 (4G 12GB 256GB Uyuni Salt White)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 30 (4G 12GB 256GB Uyuni Salt White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (4G 8GB 256GB Iceland Basaltic Dark)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 57999.0 Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (4G 8GB 256GB Uyuni Salt White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 49999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 57999.0 Price Before 30 Days: 49299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (4G 12GB 256GB Iceland Basaltic Dark)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 62999.0 Price Before 30 Days: 57999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (4G 12GB 256GB Sahara Sand Brown)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 55999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Camon 30 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 51999.0 Price Before 30 Days: 51999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-30-premier-5g-pakistan-priceoye-sdeym-270x270.webp" alt='Tecno Camon 30 Premier 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 30 Premier 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 149999.0 Price Before 30 Days: 158999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-camon-30-pro-5g-pakistan-priceoye-jescn-270x270.webp" alt='Tecno Camon 30 Pro 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Camon 30 Pro 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 93999.0 Price Before 30 Days: 99999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-pop-5-lte-pakistan-priceoye-p1eln-270x270.webp" alt='Tecno POP 5 LTE (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno POP 5 LTE (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 17299.0 Price Before 30 Days: 17299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno POVA 5 Pro (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Tecno POVA 5 Pro (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 46999.0 Price Before 30 Days: 46999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Phantom V Flip (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Phantom V Flip (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 199999.0 Price Before 30 Days: 199999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Phantom V Flip (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 184999.0 Price Before 30 Days: 184999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Phantom V Fold (12GB RAM 512GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Tecno Phantom V Fold (12GB RAM 512GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 329999.0 Price Before 30 Days: 329999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Phantom V Fold (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 321999.0 Price Before 30 Days: 321999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Phantom V Fold (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 312999.0 Price Before 30 Days: 312999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-pop-5-pakistan-priceoye-egll5-270x270.webp" alt='Tecno Pop 5 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Pop 5 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 17299.0 Price Before 30 Days: 17299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Pop 5 (2GB Ram 32GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 23499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Pop 7 (4G 2GB 64GB Capri Blue) -' /></div>
+<div class="mobile-name"><h1>Tecno Pop 7 (4G 2GB 64GB Capri Blue) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Pop 7 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 18099.0 Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Pop 7 (4G 2GB 64GB Endless Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 17999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Pova 5 Pro (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Pova 5 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 51999.0 Price Before 30 Days: 51999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Pova 5 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 42999.0 Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Pova Neo (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Pova Neo (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 34499.0 Price Before 30 Days: 34499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Pova Neo (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 30199.0 Price Before 30 Days: 30199.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Pova Neo 2 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Pova Neo 2 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 36499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-10-pro-pakistan-priceoye-lte1d-270x270.webp" alt='Tecno Spark 10' /></div>
+<div class="mobile-name"><h1>Tecno Spark 10</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 31999.0 Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 10 (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 10 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 31999.0 Price Before 30 Days: 31999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 10 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 26499.0 Price Before 30 Days: 26699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-10-pro-pakistan-priceoye-lte1d-270x270.webp" alt='Tecno Spark 10 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 10 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 26999.0 Price Before 30 Days: 27499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 10 Pro (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 36999.0 Price Before 30 Days: 36999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 10 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 39499.0 Price Before 30 Days: 39499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 10C (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 10C (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24799.0 Price Before 30 Days: 24799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 10C (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 24999.0 Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20 (4G 8GB 256GB Neon Gold)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20 (4G 8GB 256GB Neon Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 32799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (4G 8GB 256GB Gravity Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 32799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 30299.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (4G 8GB 256GB Cyber White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 32799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 34999.0 Price Before 30 Days: 34499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 32999.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 31799.0 Price Before 30 Days: 31799.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-20-pro-pakistan-priceoye-sxsk8-270x270.webp" alt='Tecno Spark 20 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 38099.0 Price Before 30 Days: 38999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro (4G 8GB 256GB Moonlit Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 40999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro (4G 8GB 256GB Sunset Blush)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 40999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20 Pro Plus (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20 Pro Plus (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 59999.0 Price Before 30 Days: 54999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro Plus (4G 8GB 256GB Lunar Frost)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 51999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro Plus (4G 8GB 256GB Temporal Orbits)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 51999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20 Pro Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 54999.0 Price Before 30 Days: 51999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20C (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20C (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24799.0 Price Before 30 Days: 24799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 20C (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 25699.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20C 4G 4GB 128GB Alpenglow Gold)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20C 4G 4GB 128GB Alpenglow Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20C 4G 4GB 128GB Gravity Black)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20C 4G 4GB 128GB Gravity Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20C 4G 4GB 128GB Magic Skin)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20C 4G 4GB 128GB Magic Skin)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 26299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20C 4G 4GB 128GB Mystery White)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20C 4G 4GB 128GB Mystery White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 26299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 20c (4GB 128GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 20c (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27999.0 Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-8-pro-pakistan-priceoye-1lho9-270x270.webp" alt='Tecno Spark 8 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 8 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 38199.0 Price Before 30 Days: 38199.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-8c-pakistan-priceoye-ekxdg-270x270.webp" alt='Tecno Spark 8C (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 8C (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21999.0 Price Before 30 Days: 28499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark 9T (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Spark 9T (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 29999.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark 9T (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 27999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark Go (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Tecno Spark Go (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 21799.0 Price Before 30 Days: 21799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark Go (4GB 64GB 2024))</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 24999.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/tecno-spark-go-2023-pakistan-priceoye-ma0qf-270x270.webp" alt='Tecno Spark Go 2023 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Tecno Spark Go 2023 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21599.0 Price Before 30 Days: 23799.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Tecno Spark Go 2024 (4G 4GB 64GB Gravity Black)' /></div>
+<div class="mobile-name"><h1>Tecno Spark Go 2024 (4G 4GB 64GB Gravity Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark Go 2024 (4G 4GB 64GB Alpenglow Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Tecno Spark Go 2024 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22499.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme 12 4G (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Realme 12 4G (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 59999.0 Price Before 30 Days: 59999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme 12 4G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 54999.0 Price Before 30 Days: 59999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/realme-12-plus-pakistan-priceoye-16ibw-270x270.webp" alt='Realme 12+ 5G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme 12+ 5G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 69999.0 Price Before 30 Days: 74999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme 9 Pro Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme 9 Pro Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 95999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme 9 Pro plus (8GB RAM 128GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Realme 9 Pro plus (8GB RAM 128GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 58999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C11 2021 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme C11 2021 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 18299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C21 (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Realme C21 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 41999.0 Price Before 30 Days: 41999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C21 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 33499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C21 (3GB RAM 32GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 33999.0 Price Before 30 Days: 33999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C21Y (4GB Ram 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Realme C21Y (4GB Ram 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 34999.0 Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C21Y (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 33299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C25Y (4GB 64GB)' /></div>
+<div class="mobile-name"><h1>Realme C25Y (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 39999.0 Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C25Y (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 29999.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C25s (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme C25s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 29499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/realme-c30-pakistan-priceoye-kb9ai-270x270.webp" alt='Realme C30 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme C30 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22999.0 Price Before 30 Days: 16499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C30 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 23999.0 Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C33 (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Realme C33 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 47999.0 Price Before 30 Days: 47999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C33 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 30499.0 Price Before 30 Days: 30499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C33 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C33 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C35 (4GB 128GB)' /></div>
+<div class="mobile-name"><h1>Realme C35 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 45999.0 Price Before 30 Days: 45999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C51 (4GB 128GB)' /></div>
+<div class="mobile-name"><h1>Realme C51 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27199.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C51 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 27999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C51 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 25999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C51 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 24999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C51 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 24999.0 Price Before 30 Days: 26499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C53 (6GB 128GB)' /></div>
+<div class="mobile-name"><h1>Realme C53 (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 39999.0 Price Before 30 Days: 32999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C53 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 33499.0 Price Before 30 Days: 32999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C53 (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 32999.0 Price Before 30 Days: 32999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C63 (8GB 128GB)' /></div>
+<div class="mobile-name"><h1>Realme C63 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 38999.0 Price Before 30 Days: 38499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C63 (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 39999.0 Price Before 30 Days: 36499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C63 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34499.0 Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme C67 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme C67 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 38499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme C67 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 39999.0 Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme Narzo 50 (4GB 64GB)' /></div>
+<div class="mobile-name"><h1>Realme Narzo 50 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 41999.0 Price Before 30 Days: 41999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme Narzo 50A Prime (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Realme Narzo 50A Prime (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 22499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Realme Note 50 (4GB 128GB)' /></div>
+<div class="mobile-name"><h1>Realme Note 50 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 25999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme Note 50 (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 23499.0 Price Before 30 Days: 23499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme Note 50 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23699.0 Price Before 30 Days: 23499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Realme Note 50 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 23499.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi 13T (12GB 256GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi 13T (12GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 169999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi 13T (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 160999.0 Price Before 30 Days: 160999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi 13T (12GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 168499.0 Price Before 30 Days: 168499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi 13T Pro (12GB RAM 512GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi 13T Pro (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 231999.0 Price Before 30 Days: 231999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi 13T Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 229999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-14-pakistan-priceoye-0fxdp-270x270.webp" alt='Xiaomi 14 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi 14 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 289999.0 Price Before 30 Days: 319999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi 14 (12GB 512GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 349999.0 Price Before 30 Days: 326999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi 14 (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 337999.0 Price Before 30 Days: 337999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-14-ultra-pakistan-priceoye-avlj6-270x270.webp" alt='Xiaomi 14 Ultra (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi 14 Ultra (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 369599.0 Price Before 30 Days: 369599.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Black Shark 5 pro (5G 12GB 256GB Black) - Non PTA' /></div>
+<div class="mobile-name"><h1>Xiaomi Black Shark 5 pro (5G 12GB 256GB Black) - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: 252999.0 Price Before 30 Days: 257999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-poco-c65-pakistan-priceoye-wajnr-270x270.webp" alt='Xiaomi Poco C65 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Poco C65 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 35999.0 Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Poco C65 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 41999.0 Price Before 30 Days: 43499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Poco M6 Pro (12GB RAM 512GB 5G)' /></div>
+<div class="mobile-name"><h1>Xiaomi Poco M6 Pro (12GB RAM 512GB 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 86499.0 Price Before 30 Days: 86499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Poco X5 Pro (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi Poco X5 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 107499.0 Price Before 30 Days: 107499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Poco X6 Pro (12GB RAM 512GB Storage 5GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Poco X6 Pro (12GB RAM 512GB Storage 5GB)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 134999.0 Price Before 30 Days: 134999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-redmi-10a-pakistan-priceoye-7dgwb-270x270.webp" alt='Xiaomi Redmi 10A (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi 10A (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21799.0 Price Before 30 Days: 25499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 10A (3GB Ram 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 23199.0 Price Before 30 Days: 23199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 10A (4GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 27699.0 Price Before 30 Days: 27699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi 12 (4G 8GB 128GB Polar Silver)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (4G 8GB 128GB Polar Silver)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34499.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 35999.0 Price Before 30 Days: 34799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 32499.0 Price Before 30 Days: 32699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (4G 8GB 128GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 37999.0 Price Before 30 Days: 37699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 36999.0 Price Before 30 Days: 35999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 12 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 37999.0 Price Before 30 Days: 38999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-redmi-12c-pakistan-priceoye-unkr8-270x270.webp" alt='Xiaomi Redmi 12C (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi 12C (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 23999.0 Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi 13 (8GB 256GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi 13 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: Not Available Price Before 30 Days: 41999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 42999.0 Price Before 30 Days: 39499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 38999.0 Price Before 30 Days: 37999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi 13C (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 27999.0 Price Before 30 Days: 27699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (6GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 30999.0 Price Before 30 Days: 30799.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 27299.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 28999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi 13C (6GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 30199.0 Price Before 30 Days: 29999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-redmi-a1-pakistan-priceoye-xlhoy-270x270.webp" alt='Xiaomi Redmi A1+ (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi A1+ (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 17999.0 Price Before 30 Days: 17999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi A2 Plus (3GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi A2 Plus (3GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 19699.0 Price Before 30 Days: 19699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A2 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 19999.0 Price Before 30 Days: 17999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi A3 (4GB Ram 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4GB Ram 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24899.0 Price Before 30 Days: 24749.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22299.0 Price Before 30 Days: 19999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4G 4GB 128GB Olive Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 23799.0 Price Before 30 Days: 24999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 22499.0 Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4G 4GB 64GB Lake Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 20899.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4G 4GB 128GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23199.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3 (4G 4GB 128GB Lake Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23199.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi A3x (4G 3GB 64GB Midnight Black)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi A3x (4G 3GB 64GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3x (4G 3GB 64GB Midnight Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3x (4G 3GB 64GB Midnight White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi A3x (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 19499.0 Price Before 30 Days: 18199.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-redmi-note-12-pakistan-priceoye-0izxw-270x270.webp" alt='Xiaomi Redmi Note 12 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 41299.0 Price Before 30 Days: 41299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12 (4G 8GB 128GB Ice Blue) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12 (4G 8GB 128GB Onyx Gray) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 42999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 45999.0 Price Before 30 Days: 45999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi Note 12 Pro (8GB RAM 256GB Storage)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 88999.0 Price Before 30 Days: 88999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-pakistan-priceoye-t48e5-270x270.webp" alt='Xiaomi Redmi Note 12S (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 12S (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 74999.0 Price Before 30 Days: 74999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/xiaomi-redmi-note-13-pakistan-priceoye-kbzfb-270x270.webp" alt='Xiaomi Redmi Note 13 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 46999.0 Price Before 30 Days: 47499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (4G 8GB 256GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 51499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 51999.0 Price Before 30 Days: 52499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 54499.0 Price Before 30 Days: 54499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 (8GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 49499.0 Price Before 30 Days: 49499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi Note 13 Pro (12GB 512GB)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (12GB 512GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 81499.0 Price Before 30 Days: 80999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (8GB 256GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 69999.0 Price Before 30 Days: 69999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (12GB RAM 512GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 84999.0 Price Before 30 Days: 83999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (4G 12GB 512GB Lavender Purple)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 81999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (4G 8GB 256GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 67499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (4G 8GB 256GB Forest Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 67499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 63999.0 Price Before 30 Days: 64499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro (8GB RAM 256GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 74999.0 Price Before 30 Days: 69499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Xiaomi Redmi Note 13 Pro Plus (12GB RAM 512GB Storage 5G)' /></div>
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro Plus (12GB RAM 512GB Storage 5G)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 139999.0 Price Before 30 Days: 139999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro Plus (5G 12GB 512GB Moonlight White)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 132999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 130999.0 Price Before 30 Days: 139999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Xiaomi Redmi Note 13 Pro Plus (5G 12GB 512GB Midnight Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 132999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple Iphone 13 (4GB Ram 128GB Storage Mercantile)' /></div>
+<div class="mobile-name"><h1>Apple Iphone 13 (4GB Ram 128GB Storage Mercantile)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 244999.0 Price Before 30 Days: 244999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple MagSafe Duo Charger' /></div>
+<div class="mobile-name"><h1>Apple MagSafe Duo Charger</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 39999.0 Price Before 30 Days: 39999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPad 10th Generation 10.9 256GB Wifi - Pink' /></div>
+<div class="mobile-name"><h1>Apple iPad 10th Generation 10.9 256GB Wifi - Pink</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 161999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 11 (128GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 11 (128GB)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 164999.0 Price Before 30 Days: 169999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 11 (4G, 128GB ,White) Esim - PTA Approved with Warranty</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 193999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 11 (128GB PTA Approved)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 164999.0 Price Before 30 Days: 167999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 11 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 153999.0 Price Before 30 Days: 171999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 11 (4G, 128GB ,Black) Esim - PTA Approved with Official Warranty</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 193999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 11 Pro Max (4G, 512GB, Gold) Esim - PTA Approved' /></div>
+<div class="mobile-name"><h1>Apple iPhone 11 Pro Max (4G, 512GB, Gold) Esim - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 219999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 11 Pro Max (4G, 256GB, Silver) Esim - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 208999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 12 (5G 128GB White) Esim - PTA Approved' /></div>
+<div class="mobile-name"><h1>Apple iPhone 12 (5G 128GB White) Esim - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 186999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 12 (128GB PTA Approved)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 194999.0 Price Before 30 Days: 194999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 12 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 185999.0 Price Before 30 Days: 199999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-13-pakistan-priceoye-whjtp-270x270.webp" alt='Apple iPhone 13 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 13 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 235999.0 Price Before 30 Days: 247999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-14-pakistan-priceoye-3j7db-270x270.webp" alt='Apple iPhone 14 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 14 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 278999.0 Price Before 30 Days: 291999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-14-plus-pakistan-priceoye-460nq-270x270.webp" alt='Apple iPhone 14 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 14 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 420999.0 Price Before 30 Days: 420999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 14 Plus (5G 128GB Midnight) US - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 171999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-14-pro-pakistan-priceoye-1qdxc-270x270.webp" alt='Apple iPhone 14 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 14 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 505999.0 Price Before 30 Days: 505999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-14-pro-max-pakistan-priceoye-4hr9p-270x270.webp" alt='Apple iPhone 14 Pro Max (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 14 Pro Max (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 499999.0 Price Before 30 Days: 499999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 14 Pro Max (5G 128GB Space Black) US - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: 299999.0 Price Before 30 Days: 314999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 (128GB Storage Single Plus Esim)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 (128GB Storage Single Plus Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 329999.0 Price Before 30 Days: 344999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 (256GB Storage Single Plus Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 366999.0 Price Before 30 Days: 381999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 (256GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 264999.0 Price Before 30 Days: 259999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-15-plus-pakistan-priceoye-s9ma3-270x270.webp" alt='Apple iPhone 15' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 214999.0 Price Before 30 Days: 214999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 (128GB Storage Dual SIM Non PTA)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 (128GB Storage Dual SIM Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 229999.0 Price Before 30 Days: 214999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 321999.0 Price Before 30 Days: 340050.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Dual Sim (5G 128GB Black) CH - Non PTA' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Dual Sim (5G 128GB Black) CH - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 210999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Dual Sim (5G 128GB Pink) CH - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 210999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Dual Sim (5G 128GB Blue) CH - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 210999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-15-plus-pakistan-priceoye-s9ma3-270x270.webp" alt='Apple iPhone 15 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 399999.0 Price Before 30 Days: 377100.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro (512GB Storage Esim)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (512GB Storage Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 532999.0 Price Before 30 Days: 541999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (256GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 314999.0 Price Before 30 Days: 314999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (128GB Storage Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 409999.0 Price Before 30 Days: 409999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (512GBGB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 455999.0 Price Before 30 Days: 455999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (256GB Storage Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 448999.0 Price Before 30 Days: 448999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (128GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 294999.0 Price Before 30 Days: 294999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (5G 256GB Natural Titanium) VN - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 311999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (5G 256GB Blue Titanium) ZP - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: 313999.0 Price Before 30 Days: 353999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 404999.0 Price Before 30 Days: 447750.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro 1TB Storage Dual Sim Non PTA' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro 1TB Storage Dual Sim Non PTA</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 504999.0 Price Before 30 Days: 504999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro Dual Sim (5G 128GB Black Titanium) CH - Non PTA' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Dual Sim (5G 128GB Black Titanium) CH - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 263999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Dual Sim (5G 256GB Black Titanium) CH - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 301499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro Max (512GB Storage Dual Sim Non PTA)' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (512GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 447999.0 Price Before 30 Days: 447999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 472999.0 Price Before 30 Days: 483350.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (512GB Storage Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 578999.0 Price Before 30 Days: 578999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (256GB Storage Esim)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 484999.0 Price Before 30 Days: 484999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 512GB Natural Titanium) - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 574999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 256GB Natural Titanium) ZP - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: 339999.0 Price Before 30 Days: 452999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 512GB Blue Titanium) CA - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 376999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (256GB Storage Dual Sim Non PTA)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 347999.0 Price Before 30 Days: 341899.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 256GB Natural Titanium) US - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 314999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 512GB Natural Titanium) CA - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 386999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max (5G 256GB Natural Titanium) VN - Non PTA</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 333999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/apple-iphone-15-pro-max-pakistan-priceoye-l58e8-270x270.webp" alt='Apple iPhone 15 Pro Max' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 341899.0 Price Before 30 Days: 341899.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro Max 1TB Storage Dual Sim Non PTA' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max 1TB Storage Dual Sim Non PTA</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 534999.0 Price Before 30 Days: 534999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone 15 Pro Max 1TB Storage Esim' /></div>
+<div class="mobile-name"><h1>Apple iPhone 15 Pro Max 1TB Storage Esim</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 629999.0 Price Before 30 Days: 654999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iPhone XS (4G, 256GB, Gold) Esim - PTA Approved' /></div>
+<div class="mobile-name"><h1>Apple iPhone XS (4G, 256GB, Gold) Esim - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 120999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Apple iPhone XS (4G, 256GB, Space Gray) Esim - PTA Approved</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 121999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Apple iphone XS Max (512GB Storage without Accessories)' /></div>
+<div class="mobile-name"><h1>Apple iphone XS Max (512GB Storage without Accessories)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 157999.0 Price Before 30 Days: 157999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-edge-20-pro-pakistan-priceoye-xtwij-270x270.webp" alt='Sparx Edge 20 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Edge 20 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 47840.0 Price Before 30 Days: 47999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 11 (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 11 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 26999.0 Price Before 30 Days: 26999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 11 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 20850.0 Price Before 30 Days: 23549.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 5 (2GB 32GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 5 (2GB 32GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 21499.0 Price Before 30 Days: 21499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 5 (2GB RAM 32G Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 22499.0 Price Before 30 Days: 22499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-5-plus-pakistan-priceoye-6c7bp-270x270.webp" alt='Sparx Neo 5 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 5 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 18150.0 Price Before 30 Days: 18299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-5-pro-pakistan-priceoye-z79k6-270x270.webp" alt='Sparx Neo 5 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 5 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 17100.0 Price Before 30 Days: 16999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 6 (3GB RAM 32GB Storage)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 6 (3GB RAM 32GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24499.0 Price Before 30 Days: 24499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 6 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 15350.0 Price Before 30 Days: 15499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 6 (3GB 32GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 24499.0 Price Before 30 Days: 24499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-6-plus-pakistan-priceoye-ahz9s-270x270.webp" alt='Sparx Neo 6 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 6 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 17275.0 Price Before 30 Days: 17399.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 7 (3GB 64GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 7 (3GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 24499.0 Price Before 30 Days: 24499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-7-plus-pakistan-priceoye-acfm0-270x270.webp" alt='Sparx Neo 7 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 7 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 19840.0 Price Before 30 Days: 19099.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 7 Plus (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 24499.0 Price Before 30 Days: 24499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 7 Plus (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 22999.0 Price Before 30 Days: 28499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-7-pro-pakistan-priceoye-vhp9p-270x270.webp" alt='Sparx Neo 7 Pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 7 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 18350.0 Price Before 30 Days: 21149.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 7 Pro (4GB 64GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27499.0 Price Before 30 Days: 27499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 7 Pro (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 25999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-7-ultra-pakistan-priceoye-k0vtg-270x270.webp" alt='Sparx Neo 7 Ultra (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 7 Ultra (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 25240.0 Price Before 30 Days: 23549.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-8-pakistan-priceoye-kkkb0-270x270.webp" alt='Sparx Neo 8 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 8 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 24299.0 Price Before 30 Days: 24299.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 8 (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 30499.0 Price Before 30 Days: 30499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 8 Plus (4GB RAM 64GB Storage)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 8 Plus (4GB RAM 64GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 25999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 8 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21210.0 Price Before 30 Days: 20549.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Neo 8 Pro (4GB RAM 128GB Storage)' /></div>
+<div class="mobile-name"><h1>Sparx Neo 8 Pro (4GB RAM 128GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 26499.0 Price Before 30 Days: 26499.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Neo 8 Pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21670.0 Price Before 30 Days: 21849.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-neo-x-pakistan-priceoye-2nxm9-270x270.webp" alt='Sparx Neo X (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Neo X (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21670.0 Price Before 30 Days: 21999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-note-20-pakistan-priceoye-7vo5i-270x270.webp" alt='Sparx Note 20 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx Note 20 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 34850.0 Price Before 30 Days: 34999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx S7 (2GB RAM 32GB Storage)' /></div>
+<div class="mobile-name"><h1>Sparx S7 (2GB RAM 32GB Storage)</h1></div>
+<div class="store-price-name">mega.pk: Price Now: 15499.0 Price Before 30 Days: 15499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Sparx Ultra 11 (8GB 128GB)' /></div>
+<div class="mobile-name"><h1>Sparx Ultra 11 (8GB 128GB)</h1></div>
+<div class="store-price-name">shophive.pk: Price Now: 27999.0 Price Before 30 Days: 27999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Sparx Ultra 11 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 27070.0 Price Before 30 Days: 27299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/sparx-ultra-8-pro-pakistan-priceoye-wov7e-270x270.webp" alt='Sparx ultra 8 pro (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Sparx ultra 8 pro (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 33993.0 Price Before 30 Days: 33993.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Itel A26 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel A26 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 16399.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/itel-a49-play-pakistan-priceoye-xdujl-270x270.webp" alt='Itel A49 Play (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel A49 Play (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 16399.0 Price Before 30 Days: 16399.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/itel-a60s-pakistan-priceoye-cp6qx-270x270.webp" alt='Itel A60s (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel A60s (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 21849.0 Price Before 30 Days: 21849.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel A60s (4G 4GB 128GB Glacier Green)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel A60s (4G 4GB 128GB Sunshine Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 18999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Itel P40 (4G 4GB 128GB Dreamy Blue)' /></div>
+<div class="mobile-name"><h1>Itel P40 (4G 4GB 128GB Dreamy Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel P40 (4G 4GB 128GB Force Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel P40 (4G 4GB 128GB Luxurious Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/itel-p40-4g-pakistan-priceoye-dwma5-270x270.webp" alt='Itel P40 4G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel P40 4G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22499.0 Price Before 30 Days: 20199.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Itel P55 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel P55 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: Not Available Price Before 30 Days: 22999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel P55 (4G 8GB 128GB Moonlit Black)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel P55 (4G 8GB 128GB Brilliant Gold)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel P55 (4G 8GB 128GB Aurora Blue)</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img  alt='Itel S23 (4G 8GB 256GB Starry Black) -' /></div>
+<div class="mobile-name"><h1>Itel S23 (4G 8GB 256GB Starry Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 23699.0</div>
+</div>
+
+<div class="container-name">
+<div class="mobile-name"><h1>Itel S23 (4G 8GB 128GB Starry Black) -</h1></div>
+<div class="store-price-name">homeshopping.pk: Price Now: Not Available Price Before 30 Days: 20699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/itel-s23-4g-pakistan-priceoye-164i0-270x270.webp" alt='Itel S23 4G (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel S23 4G (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 20499.0 Price Before 30 Days: 19999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/itel-s24-pakistan-priceoye-sabyj-270x270.webp" alt='Itel S24 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Itel S24 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 26599.0 Price Before 30 Days: 29499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-90-pakistan-priceoye-9ap3a-270x270.webp" alt='Honor 90 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor 90 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 151899.0 Price Before 30 Days: 151899.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-90-lite-pakistan-priceoye-zla4p-270x270.webp" alt='Honor 90 Lite (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor 90 Lite (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 85799.0 Price Before 30 Days: 85799.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x5-pakistan-priceoye-kplfc-270x270.webp" alt='Honor X5 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X5 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 15499.0 Price Before 30 Days: 15499.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x5-plus-pakistan-priceoye-l7nr5-270x270.webp" alt='Honor X5 Plus (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X5 Plus (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22999.0 Price Before 30 Days: 23799.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x6-pakistan-priceoye-n8cr6-270x270.webp" alt='Honor X6 (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X6 (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 22299.0 Price Before 30 Days: 22299.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x6a-pakistan-priceoye-s4ohc-270x270.webp" alt='Honor X6a (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X6a (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 25999.0 Price Before 30 Days: 25999.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x7b-pakistan-priceoye-157qz-270x270.webp" alt='Honor X7b (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X7b (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 56999.0 Price Before 30 Days: 55699.0</div>
+</div>
+
+<div class="container-name">
+<div class="image-name"><img src="https://images.priceoye.pk/honor-x8b-pakistan-priceoye-odxv1-270x270.webp" alt='Honor X8b (--GB ---GB)' /></div>
+<div class="mobile-name"><h1>Honor X8b (--GB ---GB)</h1></div>
+<div class="store-price-name">priceoye.pk: Price Now: 75799.0 Price Before 30 Days: 73299.0</div>
+</div>
+
+    </body>
+    </html>
+    
+
+    <script>
+      $(function() {
+      // Extract unique mobile names
+      var items = [];
+      var uniqueMobiles = new Set();
+      $('.container-name').each(function() {
+      var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
+      if (!uniqueMobiles.has(mobileName)) {
+      uniqueMobiles.add(mobileName);
+      items.push(mobileName);
+      }
+      });
+      
+      // Initialize autocomplete
+      $("#brand-input").autocomplete({
+      source: items,
+      select: function(event, ui) {
+      var selectedItem = ui.item.value;
+      if (selectedItem) {
+      $('.container-name').hide().filter(function() {
+      var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
+      return mobileName === selectedItem;
+      }).show();
+      if ($('.container-name:visible').length === 0) {
+      $('.container-name').hide();
+      $('#no-price-change').text('No Price change Detected').show();
+      } else {
+      $('#no-price-change').hide();
+      }
+      } else {
+      $('.container-name').show();
+      $('#no-price-change').hide();
+      }
+      }
+      });
+      });
+      </script>
