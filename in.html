@@ -8,7 +8,6 @@
 body {
 text-align: center;
 }
-/* Style the input element */
 #brand-input {
 background-color: #fff;
 border: 1px solid #ddd;
@@ -19,42 +18,29 @@ color: #333;
 margin: 0 auto;
 display: block;
 width: 100%;
-max-width: 300px; /* Adjust the maximum width */
+max-width: 300px;
 }
 </style>
 </head>
 <body>
 <input id="brand-input" placeholder="Type to search...">
 <div id="no-price-change" style="display: none;"></div>
-
-<div class="container-name">
-<div class="image-name"><img alt='Infinix GT 20 Pro (12GB RAM 256GB Storage 5G)' /></div>
-<div class="mobile-name"><h1>Infinix GT 20 Pro (12GB RAM 256GB Storage 5G)</h1></div>
-<div class="store-price-name">mega.pk: Price Now: 99999.0 Price Before 30 Days: 99999.0</div>
-</div>
-
-<div class="container-name">
-<div class="mobile-name"><h1>Infinix GT 20 Pro (--GB ---GB)</h1></div>
-<div class="store-price-name">priceoye.pk: Price Now: 92599.0 Price Before 30 Days: 99999.0</div>
-</div>
-
-<div class="container-name">
-<div class="mobile-name"><h1>Infinix GT 20 Pro (12GB 256GB)</h1></div>
-<div class="store-price-name">shophive.pk: Price Now: 104999.0 Price Before 30 Days: 104999.0</div>
-</div>
-
-<div class="container-name">
-<div class="image-name"><img alt='Infinix HOT 20i (4GB RAM 64G Storage)' /></div>
-<div class="mobile-name"><h1>Infinix HOT 20i (4GB RAM 64G Storage)</h1></div>
-<div class="store-price-name">mega.pk: Price Now: Not Available Price Before 30 Days: 33999.0</div>
-</div>
+<div id="data-container"></div> <!-- Container to load data dynamically -->
 </body>
 </html>
 <script>
 $(function() {
-// Extract unique mobile names
 var items = [];
 var uniqueMobiles = new Set();
+
+// Initialize autocomplete
+$("#brand-input").autocomplete({
+source: function(request, response) {
+// Fetch data dynamically when user starts typing
+$.get('testing.html', function(data) {
+$('#data-container').html(data);
+
+// Extract unique mobile names
 $('.container-name').each(function() {
 var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
 if (!uniqueMobiles.has(mobileName)) {
@@ -63,9 +49,9 @@ items.push(mobileName);
 }
 });
 
-// Initialize autocomplete
-$("#brand-input").autocomplete({
-source: items,
+response($.ui.autocomplete.filter(items, request.term));
+});
+},
 select: function(event, ui) {
 var selectedItem = ui.item.value;
 if (selectedItem) {
@@ -83,10 +69,14 @@ $('#no-price-change').hide();
 $('.container-name').show();
 $('#no-price-change').hide();
 }
+
+// Close the autocomplete list after a short delay, shift focus out of the input element, and clear the input field
+setTimeout(function() {
+$("#brand-input").autocomplete("close");
+$("#brand-input").blur(); // Shift focus out of the input element
+$("#brand-input").val(''); // Clear the input field
+}, 500); // Adjust the delay time as needed (500 milliseconds in this example)
 }
 });
 });
 </script>
-```
-
-This code removes the store names from the item list and ensures that only unique mobile names are included in the autocomplete suggestions. Let me know if this works for you or if you need any further adjustments! .
