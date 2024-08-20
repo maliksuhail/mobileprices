@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MobiTribe</title>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <style>
 table{
     width: 100%;
@@ -70,9 +69,8 @@ table{
 </head>
 <body>
     <div class="search-container">
-        <input id="search-box" placeholder="Type to search...">
+        <input type="text" id="search-box" class="search-input" placeholder="Search by Model, Price or Store..." onfocus="emptyContentContainer()">
     </div>
-    <div id="no-price-change" style="display: none;"></div>
     <h1 id="last-updated"></h1>
     <table>
         <tr>
@@ -109,68 +107,97 @@ table{
     <div class="contentContainer" tabindex="0">
     </div>
     <div id="store-details"></div>
-
     <script>
-         //Clear the contentContainer div when the input field is clicked
-$("#search-box").on("focus", function() {
-//$(".contentContainer").empty();
-//});
-        $(function() {
-        var items = [];
-        var uniqueMobiles = new Set();
+    $(document).ready(function(){
+    $('.expand-btn').on('click', function(){
+    $('.hidden-row').slideDown();
+    $(this).hide();
+    $('.collapse-btn').show();
+    });
+
+    $('.collapse-btn, .button-link').on('click', function(){
+    $('.hidden-row').slideUp();
+    $('.collapse-btn').hide();
+    $('.expand-btn').show();
+    });
+
+    });
+    </script>
+    <script>
+        /*
+        function emptyContentContainer() {
+  $(".contentContainer").empty();
+}
+  */
+        $(document).ready(function() {
+        // Parse pricelist_html.html data (assuming simple format)
+        var stores = [];
+        var mobiles = [];
+        var prices = [];
+        var links = [];
+        $.get("pricelist_html.html", function(data) {
+        var rows = $(data).find("tr");
+        rows.each(function(i, row) {
+        var cells = $(row).find("td");
+        stores.push($(cells[0]).text().trim());
+        links.push($(cells[1]).find("a").attr("href"));
+        prices.push($(cells[2]).text().trim());
+        mobiles.push($(cells[1]).text().trim()+" "+$(cells[2]).text().trim()+" "+$(cells[0]).text().trim());
+        });
+        });
         
         // Initialize autocomplete
         $("#search-box").autocomplete({
-        source: function(request, response) {
-        // Fetch data dynamically when user starts typing
-        $.get('testing.html', function(data) {
-        $('.contentContainer').html(data);
-        
-        // Extract unique mobile names
-        $('.container-name').each(function() {
-        var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
-        if (!uniqueMobiles.has(mobileName)) {
-        uniqueMobiles.add(mobileName);
-        items.push(mobileName);
-        }
-        });
-        
-        response($.ui.autocomplete.filter(items, request.term));
-        });
-        },
-        select: function(event, ui) {
-        var selectedItem = ui.item.value;
-        if (selectedItem) {
-        $('.container-name').hide().filter(function() {
-        var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
-        return mobileName === selectedItem;
-        }).show();
-        if ($('.container-name:visible').length === 0) {
-        $('.container-name').hide();
-        //$('#no-price-change').text('No Price change Detected').show();
-        } else {
-        //$('#no-price-change').hide();
-        }
-        } else {
-        $('.container-name').show();
-        //$('#no-price-change').hide();
-        }
-        
-        // Close the autocomplete list after a short delay, shift focus out of the input element, and clear the input field
-        setTimeout(function() {
-        $("#search-box").autocomplete("close");
-        $("#search-box").blur(); // Shift focus out of the input element
+        source: mobiles,
+        minLength: 2,
+        select: function(event, ui) { // Use traditional function syntax here
+        var selectedIndex = mobiles.indexOf(ui.item.value);
+        displayStoreDetails(mobiles[selectedIndex], stores[selectedIndex], links[selectedIndex], prices[selectedIndex]);
         $("#search-box").val(''); // Clear the input field
-        }, 500); // Adjust the delay time as needed (500 milliseconds in this example)
+                  // Close the autocomplete list after a short delay
+                  setTimeout(function() {
+        $("#search-box").autocomplete('close'); // Hide the autocomplete list
+    }, 100);
+        $(".contentContainer").focus();
+        return false; // Prevent the widget from inserting the value
+        },
+        open: function(event, ui) {
+    // Access the content element
+    var contentElement = ui.element.find(".ui-autocomplete-content");
+    
+    // Option 1: Hide the content element (removes the message and list items)
+     //contentElement.hide();
+
+    // Option 2: Modify the content element (removes only the message)
+    contentElement.empty(); // Remove existing content
+  }
+});
+        // Display store details on selection
+        function displayStoreDetails(mobileName, storeName, link, price) {
+        $("#store-details").html(`
+        <h2><a href="${link}">${mobileName}</a></h2>
+        <p>Price: ${price}</p>
+        <p>Store: ${storeName}</p>
+        `);
+        //$(".contentContainer").empty().show();
+        }
+        
+        // Show/hide div container
+        $("#search-box").on("keyup", function() {
+        if ($(this).val().length) {
+        $(".contentContainer").empty();
+        $(".contentContainer").show();
+        } else {
+        //$("#store-details").html(""); // Clear previous selection
+        $(".contentContainer").empty();
+        $("#search-box").val(''); // Clear input field
         }
         });
         });
-        </script>
-        
-<script>
+//<script>
         // Load popular_imagelist.html by default
 $(document).ready(function() {
-    //loadPage('assets/popular/popular.html');
+    loadPage('assets/popular/popular.html');
     });
 
         // Handle button clicks
@@ -272,7 +299,6 @@ $(document).ready(function() {
                     $('#last-updated').html(formattedDate);
                 }
             });
-        });
         </script>
 </body>
 </html>

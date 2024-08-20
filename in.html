@@ -1,87 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoComplete Example</title>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<style>
-body {
-text-align: center;
-}
-#search-box {
-background-color: #fff;
-border: 1px solid #ddd;
-border-radius: 5px;
-padding: 10px;
-font-size: 16px;
-color: #333;
-margin: 0 auto;
-display: block;
-width: 100%;
-max-width: 300px;
-}
-</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
-<div class="search-container"></div>
-<input id="search-box" placeholder="Type to search...">
-<div id="no-price-change" style="display: none;"></div>
-<div class="contentContainer" tabindex="0">data is present already</div>
-</body>
-</html>
+<input id="autocomplete" type="text" placeholder="Type mobile name...">
+<div id="content"></div>
+
 <script>
 $(document).ready(function() {
-// Clear the contentContainer div when the input field is clicked
-//$("#search-box").on("focus", function() {
-//$(".contentContainer").empty();
-//});
+console.log("jQuery is loaded");
 
-// Load the content first
-//$('.contentContainer').load('assets/popular/popular.html', function() {
-var items = [];
-var uniqueMobiles = new Set();
+// Load popular.html by default
+$("#content").load("assets/popular/popular.html");
 
-// Extract unique mobile names from the loaded content
-$('.container-name').each(function() {
-var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
-if (!uniqueMobiles.has(mobileName)) {
-uniqueMobiles.add(mobileName);
-items.push(mobileName);
+// Fetch mobile names from testing.html
+$.get("testing.html", function(data) {
+var mobileNames = [];
+$(data).find(".mobile-name h1").each(function() {
+var mobileName = $(this).text().split("(")[0].trim();
+if (mobileNames.indexOf(mobileName) === -1) {
+mobileNames.push(mobileName);
 }
 });
 
-// Initialize autocomplete
-$("#search-box").autocomplete({
-source: function(request, response) {
-// Filter items based on the input
-response($.ui.autocomplete.filter(items, request.term));
-},
+// Implement autocomplete
+$("#autocomplete").autocomplete({
+source: mobileNames,
 select: function(event, ui) {
-var selectedItem = ui.item.value;
-if (selectedItem) {
-$('.container-name').hide().filter(function() {
-var mobileName = $(this).find('.mobile-name h1').text().split('(')[0].trim();
-return mobileName === selectedItem;
-}).show();
-if ($('.container-name:visible').length === 0) {
-$('.container-name').hide();
-//$('#no-price-change').text('No Price change Detected').show();
-} else {
-//$('#no-price-change').hide();
-}
-} else {
-$('.container-name').show();
-//$('#no-price-change').hide();
-}
-
-// Close the autocomplete list after a short delay, shift focus out of the input element, and clear the input field
-setTimeout(function() {
-$("#search-box").autocomplete("close");
-$("#search-box").blur(); // Shift focus out of the input element
-$("#search-box").val(''); // Clear the input field
-}, 500); // Adjust the delay time as needed (500 milliseconds in this example)
+var selectedMobile = ui.item.value;
+console.log("Selected Mobile: " + selectedMobile);
+$("#content").empty(); // Clear the content div
+console.log("Content cleared");
+$(data).find(".container-name").each(function() {
+var mobileNameText = $(this).find(".mobile-name h1").text();
+console.log("Mobile Name Text: " + mobileNameText);
+if (mobileNameText.includes(selectedMobile)) {
+var containerDiv = $(".container-name").clone();
+$("#content").append(containerDiv);
 }
 });
+}
+});
+}).fail(function() {
+console.log("Failed to load testing.html");
 });
 });
 </script>
+</body>
+</html>
