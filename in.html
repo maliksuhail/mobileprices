@@ -3,52 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AutoComplete Example</title>
+<title>Autocomplete Example</title>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style>
+#content .container-name {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px 0;
+}
+</style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
-<input id="autocomplete" type="text" placeholder="Type mobile name...">
+<input type="text" id="search" placeholder="Search for mobile names...">
 <div id="content"></div>
 
 <script>
 $(document).ready(function() {
-console.log("jQuery is loaded");
-
 // Load popular.html by default
 $("#content").load("assets/popular/popular.html");
 
-// Fetch mobile names from testing.html
+// Load testing.html for autocomplete
 $.get("testing.html", function(data) {
+// Extract mobile names
 var mobileNames = [];
 $(data).find(".mobile-name h1").each(function() {
-var mobileName = $(this).text().split("(")[0].trim();
-if (mobileNames.indexOf(mobileName) === -1) {
-mobileNames.push(mobileName);
+var name = $(this).text().split("(")[0].trim();
+if (!mobileNames.includes(name)) {
+mobileNames.push(name);
 }
 });
 
 // Implement autocomplete
-$("#autocomplete").autocomplete({
+$("#search").autocomplete({
 source: mobileNames,
 select: function(event, ui) {
-var selectedMobile = ui.item.value;
-console.log("Selected Mobile: " + selectedMobile);
-$("#content").empty(); // Clear the content div
-console.log("Content cleared");
-$(data).find(".container-name").each(function() {
-var mobileNameText = $(this).find(".mobile-name h1").text();
-console.log("Mobile Name Text: " + mobileNameText);
-if (mobileNameText.includes(selectedMobile)) {
-var containerDiv = $(".container-name").clone();
-$("#content").append(containerDiv);
+var selectedName = ui.item.value;
+var results = $(data).find(".container-name").filter(function() {
+//return $(this).find(".mobile-name h1").text().includes(selectedName);
+return selectedName;
+});
+$("#content").empty().html(results);
 }
 });
-}
-});
-}).fail(function() {
-console.log("Failed to load testing.html");
 });
 });
 </script>
