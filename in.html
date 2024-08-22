@@ -1,54 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Autocomplete Example</title>
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <style>
-#content .container-name {
-border: 1px solid #ccc;
-padding: 10px;
-margin: 10px 0;
+body {
+  text-align: center;
+}
+
+.container-name {
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 </style>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 </head>
 <body>
-<input type="text" id="search" placeholder="Search for mobile names...">
+<h2>Daily Price Change Report</h2>
+<input type="text" id="search" placeholder="Search Mobile Name">
+<br><br>
 <div id="content"></div>
 
 <script>
 $(document).ready(function() {
-// Load popular.html by default
-$("#content").load("assets/popular/popular.html");
+  // Load popular.html content into the #content div
+  $("#content").load("assets/popular/popular.html");
+  // Autocomplete functionality
+  $("#search").autocomplete({
+    source: ["Infinix Hot 30", "Infinix Hot 40", "Infinix Note 30"],
+    minLength: 2
+  });
+  // Filter functionality on search change
+  $("#search").on("keyup change", function() {
+    var searchTerm = $(this).val().toLowerCase();
+    var filteredResults = $("#content").empty();
 
-// Load testing.html for autocomplete
-$.get("testing.html", function(data) {
-// Extract mobile names
-var mobileNames = [];
-$(data).find(".mobile-name h1").each(function() {
-var name = $(this).text().split("(")[0].trim();
-if (!mobileNames.includes(name)) {
-mobileNames.push(name);
-}
-});
-
-// Implement autocomplete
-$("#search").autocomplete({
-source: mobileNames,
-select: function(event, ui) {
-var selectedName = ui.item.value;
-var results = $(data).find(".container-name").filter(function() {
-//return $(this).find(".mobile-name h1").text().includes(selectedName);
-return selectedName;
-});
-$("#content").empty().html(results);
-}
-});
-});
+    // Iterate through each container-name div and filter based on search term
+    $(".container-name").each(function() {
+      var mobileName = $(this).find("h1").text().toLowerCase();
+      if (mobileName.indexOf(searchTerm) !== -1) {
+        $(this).appendTo(filteredResults);
+      }
+    });
+  });
 });
 </script>
+
 </body>
 </html>
