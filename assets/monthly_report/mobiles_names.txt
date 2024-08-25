@@ -1,113 +1,138 @@
-Xiaomi Redmi 13
-Xiaomi Redmi Note 13 Pro
-Infinix Note 40
-Apple iPhone 15 Pro
-Oppo Reno 11 5G
-Infinix Hot 30i
-Realme C53
-Infinix Note 40 Pro
-Samsung Galaxy A35 5G
-Infinix Note 40 Pro Plus
-Samsung Galaxy S24 Ultra
-Vivo Y18
-Sparx Neo 7 Ultra
-Xiaomi 14
-Xiaomi Redmi A3
-Infinix Smart 7 HD
-Xiaomi Redmi A3x
-Apple iPhone 15 Plus
-Apple iPhone 15
-Sparx Neo 11
-Honor X5 Plus
-Tecno Spark 20C
-Oppo A38
-Tecno Spark Go
-Xiaomi Redmi Note 13 Pro Plus
-Apple iPhone 14
-Tecno Camon 30 Premier 5G
-Vivo V30e
-Xiaomi Redmi A2 Plus
-Samsung Galaxy A55 5G
-Infinix Smart 8 Plus
-Tecno Pop 7
-Sparx Neo 5 Plus
-Samsung Galaxy A04
-Sparx Neo 5 Pro
-Xiaomi Redmi 12
-Itel S23 4G
-Sparx Neo 6
-Sparx ultra 8 pro
-Honor X7b
-Sparx Neo 7 Pro
-Samsung Galaxy A13
-Itel S24
-Apple iPhone 13
-Apple iPhone 15 Pro Max 1TB Storage Esim
-Tecno Spark 10C
-Oppo Reno 11F 5G
-Xiaomi Poco C65
-Tecno Spark 20 Pro
-Samsung Galaxy A05s
-Realme C51
-Infinix Note 30
-Infinix Hot 40i
 Realme Note 50
-Sparx Edge 20 Pro
-Sparx Note 20
-Itel P40 4G
-Vivo Y100
+Apple iPhone 15
 Samsung Galaxy S23 Ultra
-Apple iPhone 15 Pro Max
-Apple iPhone 12
-Tecno Phantom V Fold
-Sparx Neo 6 Plus
-Sparx Neo X
-Samsung Galaxy A12
-Sparx Ultra 11
-Samsung Galaxy A25
-Vivo Y03
-Tecno Camon 30
-Vivo V30 5G
-Apple iPhone 11
-Sparx Neo 8 Pro
-Tecno Spark Go 2023
-Xiaomi Redmi 10A
-Tecno Camon 30 Pro
-Samsung Galaxy A54 5G
-Oppo A78
+Tecno Spark 20c
+Sparx Neo 11
+Xiaomi 13T
+Tecno Spark 20 Pro
+Xiaomi Redmi Note 13 Pro Plus
+Infinix Hot 30i
+Sparx Neo 6
 Tecno Camon 19 Neo
-Samsung Galaxy A24 4G
-Sparx Neo 7 Plus
-Samsung Galaxy S23 FE
-Tecno Spark Go 2024
-Xiaomi Redmi Note 13
-Tecno Spark 10
-Oppo A58
-Infinix Smart 8 Pro
-Infinix Smart 8
-Tecno Spark 20
+Samsung Galaxy A14
+Oppo A38
+Itel A26
+Samsung Galaxy Z Flip 5
+Xiaomi 14
+Infinix Note 40
+Vivo Y02T
+Samsung Galaxy A05s
+Samsung Galaxy A13
+Infinix Hot 30 Play
+Realme C25Y
+Infinix Hot 40i
+Tecno Spark 10C
+Sparx Neo 5 Plus
+Xiaomi Redmi 13C
+Apple iPhone 11
+Apple iPhone 11 Pro Max
+Tecno Camon 20
+Sparx Ultra 11
+Itel A60s
+Samsung Galaxy A04s
+Oppo Reno 11 5G
+Tecno Spark 10 Pro
 Samsung Galaxy A05
+Oppo A18
+Tecno POP 5 LTE
+Oppo Reno 11F 5G
+Sparx Note 20
+Sparx Neo 8 Plus
+Realme Narzo 50A Prime
+Xiaomi Poco X6 Pro
+Tecno Spark Go
+Xiaomi Redmi A1+
+Samsung Galaxy A25
+Apple iPhone 15 Plus
+Infinix Note 30
+Sparx Neo 6 Plus
+Tecno Spark 20
+Samsung Galaxy S23 FE
+Infinix Hot 40
+Realme C51
+Vivo Y22
+Xiaomi Redmi 10A
+Xiaomi Redmi 12
+Vivo Y36
+Samsung Galaxy A15
+Vivo Y17s
+Apple iPhone 15 Pro Max 1TB Storage Esim
+Infinix Note 40 Pro
+Oppo A78
+Vivo V30 5G
+Oppo A58
+Samsung Galaxy Z Flip 4
+Samsung Galaxy A54 5G
+Tecno Pop 7
+Infinix Smart 8 Pro
+Infinix Note 30 Pro
+Vivo Y16
+Tecno Pova Neo 2
+Infinix Smart 7 HD
+Samsung Galaxy A24 4G
+Apple iPhone 14 Plus
+Tecno Spark 20C 4G 4GB 128GB Gravity Black)
+Xiaomi Poco X5 Pro
+Xiaomi 13T Pro
+Xiaomi Redmi A3
+Samsung Galaxy A34
+Infinix Smart 8 Plus
+Apple iPhone XS
+Apple iPhone 15 Pro
+Samsung Galaxy S24
+Sparx Neo 8 Pro
+Vivo V30
+Infinix Hot 40 Pro
+Xiaomi Redmi Note 12
+Samsung Galaxy A04
+Sparx Neo 7 Plus
+Xiaomi Redmi Note 13
+Sparx Neo 7 Ultra
+Xiaomi Redmi Note 13 Pro
+Samsung Galaxy A12
+Apple iPhone 13
+Apple iPhone 15 Pro Max
+Xiaomi Poco C65
+Realme C67
+Infinix Hot 20i
+Vivo Y21T
+Tecno POVA 5 Pro
+Infinix Smart 6 HD
+Samsung Galaxy S24 Ultra
+Infinix Hot 11 Play
+Samsung Galaxy Z Fold 4
+Samsung Galaxy Z Fold 5
+Tecno Spark Go 2024
+Tecno Pova 5 Pro
+Vivo Y03
+Realme C53
+Samsung Galaxy A53 5G
+Xiaomi Redmi A2 Plus
+Vivo Y73
+Infinix Zero 30 4G
+Tecno Spark 10
+Apple iPhone 14
+Sparx Edge 20 Pro
+Infinix Smart 8
+Realme C25s
+Xiaomi Poco M6 Pro
 Samsung Galaxy S22 Ultra
 Tecno Spark 8C
-Infinix Hot 40
+Itel S23 4G
+Realme C30
+Sparx Neo 7 Pro
+Infinix Hot 40 Pro 4G 8GB 256GB Starlit Black)
+Vivo V29e
+Tecno Phantom V Fold
+Oppo A16e
+Xiaomi Redmi Note 12 Pro
+Xiaomi Black Shark 5 pro
 Vivo Y27s
-Tecno Camon 30 Pro 5G
-Samsung Galaxy A34
-Vivo Y73
-Infinix GT 20 Pro
-Sparx Neo 8 Plus
-Infinix Hot 40 Pro
-Realme 12 4G
-Tecno Spark 10 Pro
-Tecno Spark 20c
-Samsung Galaxy Z Flip 4
-Xiaomi Redmi 13C
-Samsung Galaxy S24
-Samsung Galaxy A15
-Xiaomi Redmi Note 12
-Honor X8b
-Infinix Smart 6
-Oppo A60
-Realme C63
+Tecno Spark 20C
+Sparx Neo X
+Realme C11 2021
+Itel A49 Play
+Infinix Zero 30 5G
+Apple iPhone 12
+Tecno Spark 20C 4G 4GB 128GB Magic Skin)
 Tecno Spark 20 Pro Plus
-Realme 12+ 5G
